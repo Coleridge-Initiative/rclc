@@ -1,0 +1,1291 @@
+@base <https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary> .
+
+@prefix cito:	<http://purl.org/spar/cito/> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+
+:dataset-3c575fa6e18c6d130c4f
+  rdf:type :Dataset ;
+  foaf:page "https://wwwn.cdc.gov/nchs/nhanes/nhanes1/default.aspx"^^xsd:anyURI ;
+  dct:publisher "Centers for Disease Control and Prevention" ;
+  dct:title "National Health and Nutrition Examination Survey 1971-1974" ;
+  dct:alternative "NHANES I" ;
+.
+
+:dataset-265b411623409ff9de3b
+  rdf:type :Dataset ;
+  foaf:page "https://wwwn.cdc.gov/nchs/nhanes/nhanes2/default.aspx"^^xsd:anyURI ;
+  dct:publisher "Centers for Disease Control and Prevention" ;
+  dct:title "National Health and Nutrition Examination Survey 1976-1980" ;
+  dct:alternative "NHANES II" ;
+.
+
+:dataset-54ba00ce9ce7a8f91c75
+  rdf:type :Dataset ;
+  foaf:page "https://wwwn.cdc.gov/nchs/nhanes/nhanes1/default.aspx"^^xsd:anyURI ;
+  dct:publisher "Centers for Disease Control and Prevention" ;
+  dct:title "National Health and Nutrition Examination Survey 1988-1994" ;
+  dct:alternative "NHANES III" ;
+.
+
+:dataset-3c87692e90a2461f83a5
+  rdf:type :Dataset ;
+  foaf:page "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12726"^^xsd:anyURI ;
+  dct:publisher "Harvard Dataverse" ;
+  dct:title "Established Populations for Epidemiologic Studies of the Elderly" ;
+  dct:alternative "EPESE" ;
+.
+
+:dataset-2cea7e830ce94a923473
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/tasks/banking-supervision/individual-aspects/lending-business/credit-register-of-loans-of-1-5-million-or-more-622624"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Credit register of loans of €1.5 million or more" ;
+  dct:alternative "MiMiK" ;
+.
+
+:dataset-515a08e38c69762ff789
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/service/reporting-systems/banking-supervision"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Prudential information system" ;
+  dct:alternative "BAKIS" ;
+.
+
+:dataset-fde9bad4eebfaf01b9a2
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/interest-rates-and-yields-793418"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Interest rates and yields" ;
+.
+
+:dataset-a755ac27b9721267c39b
+  rdf:type :Dataset ;
+  foaf:page "https://www.rand.org/well-being/social-and-behavioral-policy/centers/aging/dataprod.html"^^xsd:anyURI ;
+  dct:publisher "RAND Center for the Study of Aging" ;
+  dct:title "Health and Retirement Study" ;
+  dct:alternative "HRS" ;
+.
+
+:dataset-0b739bd83bc73c8ea4e1
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/bundesbank/research/rdsc/research-data/microdatabase-direct-investment-midi-mikrodatenbank-direktinvestitionen--618076"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Microdatabase Direct investment" ;
+  dct:alternative "MiDi" ;
+.
+
+:dataset-564259cedfd998549ae9
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/service/reporting-systems/banking-statistics-form-centre/external-position-report-618128"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "External position report" ;
+.
+
+:dataset-ac5c4e48d877709b0d3f
+  rdf:type :Dataset ;
+  foaf:page "https://www.ecb.europa.eu/stats/money/mfi/general/html/statrep.en.html"^^xsd:anyURI ;
+  dct:publisher "European Central Bank" ;
+  dct:title "MFI statistical report" ;
+.
+
+:dataset-3fe843e490beb7a18b26
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/banks/banks-profit-and-loss-accounts/banks-profit-and-loss-accounts-793892"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Banks' profit and loss accounts" ;
+.
+
+:dataset-f0cbc5bf6734ac24dde6
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/service/reporting-systems/banking-statistics/securities-holdings-statistics-620174"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Securities holdings statistics" ;
+.
+
+:dataset-448ac11e0b84f73e9d52
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/interest-rates-on-deposits-and-loans"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Interest rates on deposits and loans" ;
+  dct:alternative "Zinsstatistik" ;
+.
+
+:dataset-1c4bd6e13d3c15e578fa
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/service/reporting-systems/banking-statistics/monthly-balance-sheet-statistics-620110"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Monthly balance sheet statistics" ;
+.
+
+:dataset-65f1bd30090f004fb1ba
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/statistics/external-sector/balance-of-payments/balance-of-payments-776588"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Balance of payments" ;
+.
+
+:dataset-2b4bcbd0e00931b60b49
+  rdf:type :Dataset ;
+  foaf:page "https://www.bundesbank.de/en/bundesbank/research/rdsc/research-data/statistics-on-international-trade-in-services-sits--618084"^^xsd:anyURI ;
+  dct:publisher "Deutsche Bundesbank" ;
+  dct:title "Statistics on International Trade in Services" ;
+  dct:alternative "SITS" ;
+.
+
+:dataset-a58edecf666ec74fdbaf
+  rdf:type :Dataset ;
+  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Media/Media-Solutions/Consumer"^^xsd:anyURI ;
+  dct:publisher "IRI" ;
+  dct:title "IRI Consumer Network" ;
+.
+
+:dataset-11a95bfc951f7d23206a
+  rdf:type :Dataset ;
+  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Retail"^^xsd:anyURI ;
+  dct:publisher "IRI" ;
+  dct:title "IRI Infoscan" ;
+.
+
+:publication-ea02695293f2279e9bba
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1059548/"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol Community Health" ;
+  dct:title "Gender and race differences in the correlation between body mass and education in the 1971-1975 NHANES I" ;
+  dct:identifier "10.1136/jech.46.3.191" ;
+  :openAccess "https://europepmc.org/articles/PMC1059548?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c575fa6e18c6d130c4f ;
+.
+
+:publication-94cff4e79b01232f619a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ahajournals.org/doi/abs/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
+  dct:publisher "Hypertension" ;
+  dct:title "Risk factors for hypertension in a national cohort study" ;
+  dct:identifier "10.1161/01.HYP.18.5.598" ;
+  :openAccess "https://www.ahajournals.org/doi/pdf/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c575fa6e18c6d130c4f ;
+.
+
+:publication-495e5ec74b93d8e505ba
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3048868"^^xsd:anyURI ;
+  dct:publisher "Public Library of Science (PLoS)" ;
+  dct:title "Direct measurement of perchlorate exposure biomarkers in a highly exposed population: a pilot study" ;
+  dct:identifier "10.1371/journal.pone.0017015" ;
+  :openAccess "http://europepmc.org/articles/PMC3048868?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c575fa6e18c6d130c4f ;
+.
+
+:publication-3653807bbe5d16b8a1ae
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3547948"^^xsd:anyURI ;
+  dct:publisher "Public Library of Science (PLoS)" ;
+  dct:title "Major cardiovascular risk factors in Latin America: A comparison with the United States" ;
+  dct:identifier "10.1371/journal.pone.0054056" ;
+  :openAccess "http://europepmc.org/articles/PMC3547948?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c575fa6e18c6d130c4f ;
+.
+
+:publication-66d2b5c25fe142757535
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/59/1/S34/645395"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "The Black/White Disability Gap: Persistent Inequality in Later Life?" ;
+  dct:identifier "10.1093/geronb/59.1.S34" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/59/1/S34/9908998/S34.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-5b0e954aadde1d1c6bdc
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/59/4/S238/579030"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Trajectories of Impairment, Social Support, and Depressive Symptoms in Later Life" ;
+  dct:identifier "10.1093/geronb/59.4.S238" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/59/4/S238/9909004/S238.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-08784e2b55dc9077cef1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/biomedgerontology/article/53A/4/M251/592682"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series A" ;
+  dct:title "Physical activity, physical function, and the risk of breast cancer in a prospective study among elderly women" ;
+  dct:identifier "10.1093/gerona/53A.4.M251" ;
+  :openAccess "https://academic.oup.com/biomedgerontology/article-pdf/53A/4/M251/1598714/53A-4-M251.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-9e9d38a548c73ff7c123
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3783096/"^^xsd:anyURI ;
+  dct:publisher "American Journal of Epidemiology" ;
+  dct:title "Prediction of severe, persistent activity-of-daily-living disability in older adults" ;
+  dct:identifier "10.1093/aje/kwt097" ;
+  :openAccess "https://europepmc.org/articles/PMC3783096?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-7781d5b717be8053c543
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC28199/"^^xsd:anyURI ;
+  dct:publisher "British Medical Journal" ;
+  dct:title "Population-based study of social and productive activities as predictors of survival among elderly Americans" ;
+  dct:identifier "10.1136/bmj.319.7208.478" ;
+  :openAccess "https://europepmc.org/articles/PMC28199?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-3fb7045adc59d1b94853
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/58/5/S264/611334"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "A Half Century of Longitudinal Methods in Social Gerontology: Evidence of Change in the Journal" ;
+  dct:identifier "10.1093/geronb/58.5.S264" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/58/5/S264/1681374/S264.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b, :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-90b66575e1001516cc39
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/122192"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "The credit quality channel: Modeling contagion in the interbank market" ;
+  dct:identifier "bbk-132" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/122192/1/83979701X.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-f864820c2ac96be88d5d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2023843"^^xsd:anyURI ;
+  dct:publisher "Journal of Banking and Finance" ;
+  dct:title "The role of interbank relationships and liquidity needs" ;
+  dct:identifier "10.2139/ssrn.2023843" ;
+  :openAccess "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2640935_code536749.pdf?abstractid=2023843&mirid=1&type=2"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-77341feef066eda2cc8b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/144318"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Sector concentration in loan portfolios and economic capital" ;
+  dct:identifier "bbk-126" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/144318/1/wp105.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-6ce4737b8922be687971
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19752"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Does diversification improve the performance of German banks? Evidence from individual bank loan portfolios" ;
+  dct:identifier "bbk-143" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19752/1/200605dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-45f7a43ab9013c1bb268
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/27670"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Real estate markets and bank distress" ;
+  dct:identifier "bbk-166" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27670/1/200818dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-124fe58428d9f8dd2cca
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19732"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "How will Basel II affect bank lending to emerging markets? An analysis based on German bank level data" ;
+  dct:identifier "bbk-173" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19732/1/200405dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-3d7ae8b0e0262c2ade9f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/27669"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Stress testing of real credit portfolios" ;
+  dct:identifier "bbk-174" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27669/1/200817dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-580e00d36a93eda22462
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/45281"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Relationship lending: empirical evidence for Germany" ;
+  dct:identifier "bbk-180" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/45281/1/65664401X.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-515a08e38c69762ff789, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-a06617b7d13931b9c31b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19741"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "German bank lending to industrial and non-industrial countries: driven by fundamentals or different treatment?" ;
+  dct:identifier "bbk-187" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19741/1/200508dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
+.
+
+:publication-8a8e195667113279e03d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/110959"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Do exposures to sagging real estate, subprime or conduits abroad lead to contraction and flight to quality in bank lending at home?" ;
+  dct:identifier "bbk-188" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/110959/1/827483279.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-515a08e38c69762ff789, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-6ae996028f3f5a8057a9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19774"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Creditor concentration: an empirical investigation" ;
+  dct:identifier "bbk-189" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19774/1/200715dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-515a08e38c69762ff789, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-b3712b3852b3c38fdeb7
+  rdf:type :ResearchPublication ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2785275"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Industries and the bank lending effects of bank credit demand and monetary policy in Germany" ;
+  dct:identifier "bbk-72" ;
+  :openAccess "https://papers.ssrn.com/sol3/Delivery.cfm/19677.pdf?abstractid=2785275&mirid=1&type=2"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-a49a8c31de22a986c972
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/142700"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Banks' Interest Rate Risk and Search for Yield: A Theoretical Rationale and Some Empirical Evidence" ;
+  dct:identifier "bbk-181" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/142700/1/862557410.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789, :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-923c76216efe1c988693
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/168589"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Do all new brooms sweep clean? Evidence for outside bank appointments" ;
+  dct:identifier "bbk-160" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/168589/1/898458471.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-4a1efef4224086709b52
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/28393"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Determinants for using visible reserves in German banks: an empirical study" ;
+  dct:identifier "bbk-92" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/28393/1/610028421.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-3328cf18ae2772bed00b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/93086"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Earnings baths by bank CEOs during turnovers" ;
+  dct:identifier "bbk-94" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/93086/1/779710983.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-cedd33c81ecbd3f55393
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/100036"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Quantifying the components of the banks' net interest margin" ;
+  dct:identifier "bbk-116" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/100036/1/791674517.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789, :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-f7fd7d5153e72237d353
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/40693"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Banks' exposure to interest rate risk, their earnings from term transformation, and the dynamics of the term structure" ;
+  dct:identifier "bbk-176" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/40693/1/635916479.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-19843e3fc8699d2586e8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19765"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "How do banks adjust their capital ratios? Evidence from Germany" ;
+  dct:identifier "bbk-178" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19765/1/200706dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-f45c2734c942ab11ea19
+  rdf:type :ResearchPublication ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2793911"^^xsd:anyURI ;
+  dct:publisher "Applied Economics" ;
+  dct:title "Banks' regulatory buffers, liquidity networks and monetary policy transmission" ;
+  dct:identifier "10.1080/00036840802360245" ;
+  :openAccess "https://papers.ssrn.com/sol3/Delivery.cfm/3871.pdf?abstractid=2793911&mirid=1&type=2"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
+.
+
+:publication-36aa35e46df1b18e4c0b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/145929"^^xsd:anyURI ;
+  dct:publisher "ZBW - Deutsche Zentralbibliothek für Wirtschaftswissenschaften, Leibniz-Informationszentrum Wirtschaft Kiel und Hamburg" ;
+  dct:title "Transfer pricing as tax avoidance under different legislative schemes" ;
+  dct:identifier "bbk-152" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/145929/1/VfS_2016_pid_7072.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1, :dataset-2b4bcbd0e00931b60b49 ;
+.
+
+:publication-78235e5d74d5d35c5e50
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/27745"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Does lowering dividend tax rates increase dividends repatriated?: evidence of intra-firm cross-border dividend repatriation policies by German Multinational Enterprises" ;
+  dct:identifier "bbk-88" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27745/1/607702656.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1, :dataset-2b4bcbd0e00931b60b49 ;
+.
+
+:publication-9a1bc922c162220c009c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2505177/"^^xsd:anyURI ;
+  dct:publisher "J Gerontol B Psychol Sci Soc Sci" ;
+  dct:title "The Impact of Childhood and Adult SES on Physical, Mental, and Cognitive Well-Being in Later Life" ;
+  dct:identifier "10.1093/geronb/60.2.S93" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2505177/pdf/nihms47838.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-680fada44754afd3435b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/60/5/P242/585462"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Disparities Among Older Adults in Measures of Cognitive Function by Race or Ethnicity" ;
+  dct:identifier "10.1093/geronb/60.5.P242" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/60/5/P242/1573699/P242.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-c5ddfe3f5fe6dd132d71
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/59/5/P233/669092"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Honeymoons and Joint Lunches: Effects of Retirement and Spouse's Employment on Depressive Symptoms" ;
+  dct:identifier "10.1093/geronb/59.5.P233" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/59/5/P233/1942550/P233.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-37767f31df988f031e44
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/58/6/S338/597438"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Trends in Scores on Tests of Cognitive Ability in the Elderly U.S. Population, 1993-2000" ;
+  dct:identifier "10.1093/geronb/58.6.S338" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/58/6/S338/1621944/S338.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-1707b7e80fa77065b689
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/60/1/S21/617656"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "The Significance of Nonmarital Cohabitation: Marital Status and Mental Health Benefits among Middle-Aged and Older Adults" ;
+  dct:identifier "10.1093/geronb/60.1.S21" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/60/1/S21/1705482/S21.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-8800b2ce7e67cc48e99b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/57/4/S199/593437"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Who Expects to Continue Working After Age 62? The Retirement Plans of Couples" ;
+  dct:identifier "10.1093/geronb/57.4.S199" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/57/4/S199/1602842/000124SS.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-1c5d3b8b20d2bf29a09f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/62/4/S209/516053"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Baseline health, socioeconomic status, and 10-year mortality among older middle-aged Americans: Findings from the Health and Retirement Study, 1992-2002" ;
+  dct:identifier "10.1093/geronb/62.4.S209" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/62/4/S209/1383923/S209.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-cb5e7f8a0fc0fbd7e735
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/61/1/S24/550479"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Crediting Care or Marriage? Reforming Social Security Family Benefits" ;
+  dct:identifier "10.1093/geronb/61.1.S24" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/61/1/S24/1460581/S24.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-d0a6de399ee7eeba4d4b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/59/1/S25/645393"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Disability and Home Care Dynamics among Older Unmarried Americans" ;
+  dct:identifier "10.1093/geronb/59.1.S25" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/59/1/S25/9908997/S25.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-74cd66496bbab79c305c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/61/5/S248/604069"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Parent care and the stress process: Findings from panel data" ;
+  dct:identifier "10.1093/geronb/61.5.S248" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/61/5/S248/9909060/S248.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-5d73020c3906ec689592
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/60/3/S160/559405"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Widow(er) Poverty and Out-of-Pocket Medical Expenditures Near the End of Life" ;
+  dct:identifier "10.1093/geronb/60.3.S160" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/60/3/S160/1489943/S160.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-1d2616746fac08621215
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19761"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Efficient, profitable and safe banking: an oxymoron? Evidence from a panel VAR approach" ;
+  dct:identifier "bbk-167" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19761/1/200702dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-cc20d19e6ea78965f5a6
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/26004"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "Intercompany Loans and Profit Shifting – Evidence from Company-Level Data" ;
+  dct:identifier "bbk-114" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/26004/1/538093242.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-211ae7a232fc07f18951
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/123697"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Cyclicality of SME lending and government involvement in banks" ;
+  dct:identifier "bbk-85" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/123697/1/841217971.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-f1f36ad498fc78dc9c39
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19778"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Analyzing the interest rate risk of banks using time series of accounting-based data: evidence from Germany" ;
+  dct:identifier "bbk-129" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19778/1/200801dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-ca1cf3894a99837daf77
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/6b2236xm"^^xsd:anyURI ;
+  dct:publisher "UC San Diego: Department of Economics, UCSD" ;
+  dct:title "Margins of multinational labor substitution" ;
+  dct:identifier "bbk-83" ;
+  :openAccess "https://escholarship.org/content/qt6b2236xm/qt6b2236xm.pdf?t=li5b08"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-e2194e545123492c0159
+  rdf:type :ResearchPublication ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2785346"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "The cross-section of firms over the business cycle: new facts and a DSGE exploration" ;
+  dct:identifier "bbk-73" ;
+  :openAccess "http://www.cesifo-group.de/DocDL/cesifo1_wp2810.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-2fe9557047bfe68c413c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1201047/"^^xsd:anyURI ;
+  dct:publisher "J Gerontol B Psychol Sci Soc Sci." ;
+  dct:title "At Risk on the Cusp of Old Age: Living Arrangements and Functional Status Among Black, White and Hispanic Adults" ;
+  dct:identifier "10.1093/geronb/54B.3.S136" ;
+  :openAccess "https://europepmc.org/articles/PMC1201047?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-3799ed99e7f7b52caa62
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2885453/"^^xsd:anyURI ;
+  dct:publisher "Gerontologist" ;
+  dct:title "Racial/ethnic differences in the relationship between the use of health care services and functional disability: The Health and Retirement Study (1992-2004)" ;
+  dct:identifier "10.1093/geront/48.5.659" ;
+  :openAccess "https://europepmc.org/articles/PMC2885453?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-467ad438700782dfdb9e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/gerontologist/article/36/3/311/705045"^^xsd:anyURI ;
+  dct:publisher "National Bureau of Economic Research" ;
+  dct:title "Race Differences in Labor Force Attachment and Disability Status" ;
+  dct:identifier "10.1093/geront/36.3.311" ;
+  :openAccess "https://academic.oup.com/gerontologist/article-pdf/36/3/311/2081257/36-3-311.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-7a14cd2bc0a6a8f45758
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/51B/2/S53/546654"^^xsd:anyURI ;
+  dct:publisher "National Bureau of Economic Research" ;
+  dct:title "Worker Adaptation and Employer Accommodation Following the Onset of a Health Impairment" ;
+  dct:identifier "10.1093/geronb/51B.2.S53" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/51B/2/S53/1452112/51B-2-S53.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-86d1f309c5dce33d4fff
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/65861"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Diversification and determinants of international credit portfolios: Evidence from German banks" ;
+  dct:identifier "bbk-65" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/65861/1/729177734.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-564259cedfd998549ae9 ;
+.
+
+:publication-dcd9db491e097cb516ed
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/94017"^^xsd:anyURI ;
+  dct:publisher "Sonderforschungsbereich/Transregio 15 Governance and the Efficiency of Economic Systems München" ;
+  dct:title "FDI and Domestic Investment: An Industry-Level View" ;
+  dct:identifier "bbk-70" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/94017/1/sfb-tr15-dp212.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-9e6088b0bbc9ed44bf5c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19597"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Determinants of German FDI: New Evidence from Micro-Data" ;
+  dct:identifier "bbk-111" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19597/1/200309dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-bdd3d646205b36f58c59
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19715"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "The impact of thin-capitalization rules on multinationals' financing and investment decisions" ;
+  dct:identifier "bbk-118" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19715/1/200803dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-a6560395a1ccefbc25cf
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/24083"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Tax incentives and the location of FDI: evidence from a panel of German multinationals" ;
+  dct:identifier "bbk-119" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/24083/1/dp0476.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-6ef0e9b68ec626f691cc
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/26621"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "The price of liquidity: bank characteristics and market conditions" ;
+  dct:identifier "bbk-130" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/26621/1/595167675.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-4815eb6dd8c2a4a6c526
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/121462"^^xsd:anyURI ;
+  dct:publisher "ZBW - Deutsche Zentralbibliothek für Wirtschaftswissenschaften, Leibniz-Informationszentrum Wirtschaft Kiel und Hamburg" ;
+  dct:title "The organization of knowledge in multinational firms" ;
+  dct:identifier "bbk-140" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/121462/1/837897491.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-2579a5d29a0b5047edcf
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/113740"^^xsd:anyURI ;
+  dct:publisher "Center for Economic Studies and Ifo Institute (CESifo) Munich" ;
+  dct:title "At Your Service! The Role of Tax Havens in International Trade with Services" ;
+  dct:identifier "bbk-144" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/113740/1/cesifo_wp5414.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-ad532ef27da421912bea
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19730"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Does capital regulation matter for bank behaviour? Evidence for German savings banks" ;
+  dct:identifier "bbk-148" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19730/1/200403dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-af55cc3ad9f66692eac4
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19626"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Trade balances of the central and east European EU member states and the role of foreign direct investment" ;
+  dct:identifier "bbk-150" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19626/1/200541dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-c486d386eda297bbad72
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/27688"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Why do savings banks transform sight deposits into illiquid assets less intensively than the regulation allows?" ;
+  dct:identifier "bbk-151" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27688/1/593866134.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-e4ad1ede2768895db8fe
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19631"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Going multinational: What are the effects on home market performance?" ;
+  dct:identifier "bbk-153" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19631/1/200603dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-aeab89af303061a4fd3a
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/94181"^^xsd:anyURI ;
+  dct:publisher "Sonderforschungsbereich/Transregio 15 Governance and the Efficiency of Economic Systems München" ;
+  dct:title "Who is afraid of political risk? Multinational firms and their choice of capital structure" ;
+  dct:identifier "bbk-158" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/94181/1/sfb-tr15-dp213.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-5dea91e34e5feb066e07
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19762"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Slippery slopes of stress: ordered failure events in German banking" ;
+  dct:identifier "bbk-159" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19762/1/200703dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-91b83030059c8cbd09f7
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/82625"^^xsd:anyURI ;
+  dct:publisher "ZBW - Deutsche Zentralbibliothek für Wirtschaftswissenschaften, Leibniz-Informationszentrum Wirtschaft Kiel und Hamburg" ;
+  dct:title "Bank risk taking and competition: Evidence from regional banking markets" ;
+  dct:identifier "bbk-161" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/82625/1/768057302.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-11fbd3c6896c5b46605f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19742"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Accounting for distress in bank mergers" ;
+  dct:identifier "bbk-163" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19742/1/200509dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-f48c79da58d57628db66
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19745"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Evaluating the German bank merger wave" ;
+  dct:identifier "bbk-164" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19745/1/200512dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-7dc3a1d8a930f805d24e
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19734"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Measurement matters: Input price proxies and bank efficiency in Germany" ;
+  dct:identifier "bbk-165" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19734/1/200501dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-75d038b28d36e6a3e119
+  rdf:type :ResearchPublication ;
+  foaf:page "https://ideas.repec.org/p/zbw/bubdp1/200920.html"^^xsd:anyURI ;
+  dct:publisher "European University Institute" ;
+  dct:title "Export-Supporting FDI" ;
+  dct:identifier "bbk-170" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27746/1/607703962.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-3c1de2886a51ad1e99c7
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19784"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Which interest rate scenario is the worst one for a bank? Evidence from a tracking bank approach for German savings and cooperative banks" ;
+  dct:identifier "bbk-177" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19784/1/200807dkp_b_.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-ed18321e610580647932
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19516"^^xsd:anyURI ;
+  dct:publisher "Ifo Institute - Leibniz Institute for Economic Research at the University of Munich Munich" ;
+  dct:title "Location Choice and Employment Decisions: A Comparison of German and Swedish Multinationals" ;
+  dct:identifier "bbk-186" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19516/1/200508dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-1b7ae8763688b3cdc988
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/17807"^^xsd:anyURI ;
+  dct:publisher "Center for Economic Studies and Ifo Institute (CESifo) Munich" ;
+  dct:title "Taxes and the financial structure of German inward FDI" ;
+  dct:identifier "bbk-194" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/17807/1/kap1252.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-7f029199e339aadf96ce
+  rdf:type :ResearchPublication ;
+  foaf:page "https://ideas.repec.org/p/zbw/bubdp1/7555.html"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Foreign (in)direct investment and corporate taxation" ;
+  dct:identifier "bbk-205" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/27640/1/200815dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-bef4c8113333a0662495
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/26088"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "Profit shifting in the EU: Evidence from Germany" ;
+  dct:identifier "bbk-206" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/26088/1/53834122X.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-0d1356c01c65252f03ac
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19469"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Does co-financing by multilateral development banks increase \"risky\" direct investment in emerging markets'" ;
+  dct:identifier "bbk-209" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19469/1/200402dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-015215104a1f5c471d36
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19468"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Foreign Bank Entry into Emerging Economies: An Empirical Assessment of the Determinants and Risks Predicated on German FDI Data" ;
+  dct:identifier "bbk-210" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19468/1/200401dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-3c8203044724dc614f4e
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/19599"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Determinants of German Foreign Direct Investment in Latin American and Asian Emerging Markets in the 1990s" ;
+  dct:identifier "bbk-211" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/19599/1/200311dkp.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-115ab850f5600beb1c80
+  rdf:type :ResearchPublication ;
+  foaf:page "https://academic.oup.com/psychsocgerontology/article/56/5/S275/634259"^^xsd:anyURI ;
+  dct:publisher "The Journals of Gerontology: Series B" ;
+  dct:title "Duration or disadvantage? Exploring nativity, ethnicity, and health in midlife" ;
+  dct:identifier "10.1093/geronb/56.5.S275" ;
+  :openAccess "https://academic.oup.com/psychsocgerontology/article-pdf/56/5/S275/9908895/S275.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a755ac27b9721267c39b ;
+.
+
+:publication-cc8bbb439b654574e22c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/24539"^^xsd:anyURI ;
+  dct:publisher "Mannheim: Zentrum für Europäische Wirtschaftsforschung (ZEW)" ;
+  dct:title "Transfer Pricing of Intrafirm Sales as a Profit Shifting Channel - Evidence from German Firm Data" ;
+  dct:identifier "bbk-63" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/24539/1/dp06084.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-ed2df93ed2b21b5bce42
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/26501"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "Thin-capitalization rules and company responses: Experience from German legislation" ;
+  dct:identifier "bbk-59" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/26501/1/589227882.PDF"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-5eb0977b23796de3b1d5
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/173384"^^xsd:anyURI ;
+  dct:publisher "Mannheim: Zentrum für Europäische Wirtschaftsforschung (ZEW)" ;
+  dct:title "Tax Influence on Financial Structures of M&As" ;
+  dct:identifier "bbk-54" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/173384/1/1011812800.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
+.
+
+:publication-071934405555c381b716
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/43886"^^xsd:anyURI ;
+  dct:publisher "Cologne: University of Cologne, Centre for Financial Research (CFR)" ;
+  dct:title "Are there disadvantaged clienteles in mutual funds?" ;
+  dct:identifier "bbk-48" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/43886/1/643972641.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-f0cbc5bf6734ac24dde6 ;
+.
+
+:publication-5b324b02617ef00e9c17
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/45175"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Portfolio holdings in the euro area - home bias and the role of international, domestic and sector-specific factors" ;
+  dct:identifier "bbk-47" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/45175/1/656569743.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-f0cbc5bf6734ac24dde6 ;
+.
+
+:publication-4470d9e24928ce6b892c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/144767"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "International Banking and Cross-Border Effects of Regulation: Lessons from Germany" ;
+  dct:identifier "bbk-18" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/144767/1/865278954.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-564259cedfd998549ae9, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-9ba91ab5597d1b0348cd
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/172529"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Why do banks bear interest rate risk?" ;
+  dct:identifier "bbk-15" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/172529/1/1009636758.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ac5c4e48d877709b0d3f ;
+.
+
+:publication-fbfe2f52bf7b3743d61a
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/142127"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Interbank Intermediation" ;
+  dct:identifier "bbk-14" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/142127/1/860809498.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-ae8d8ed62e85e2782f0c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/168339"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "The Financial Market Effects of the ECB's Asset Purchase Programs" ;
+  dct:identifier "bbk-10" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/168339/1/896811379.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-286dd6e4e86eaeb0972a
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/178501"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "A Comprehensive View on Risk Reporting: Evidence From Supervisory Data" ;
+  dct:identifier "bbk-9" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/178501/1/1020158581.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-f0cbc5bf6734ac24dde6, :dataset-3fe843e490beb7a18b26, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-c400d9e45ca0368cdc13
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/162789"^^xsd:anyURI ;
+  dct:publisher "Frankfurt a. M.: Deutsche Bundesbank" ;
+  dct:title "Banks' Trading after the Lehman Crisis - The Role of Unconventional Monetary Policy" ;
+  dct:identifier "bbk-8" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/162789/1/893144622.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-f0cbc5bf6734ac24dde6, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-5322c3a9d95a8dda1f1b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/146749"^^xsd:anyURI ;
+  dct:publisher "Kiel, Hamburg: ZBW - Deutsche Zentralbibliothek für Wirtschaftswissenschaften, Leibniz-Informationszentrum Wirtschaft" ;
+  dct:title "Cross-border transmission of emergency liquidity" ;
+  dct:identifier "bbk-23" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/146749/1/869246402.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-448ac11e0b84f73e9d52, :dataset-1c4bd6e13d3c15e578fa ;
+.
+
+:publication-4d09d41657982247b8e8
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.econstor.eu/handle/10419/178649"^^xsd:anyURI ;
+  dct:publisher "Munich: Center for Economic Studies and Ifo Institute (CESifo)" ;
+  dct:title "Cheap Talk? Financial Sanctions and Non-Financial Activity" ;
+  dct:identifier "bbk-4" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/178649/1/1021624152.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-65f1bd30090f004fb1ba ;
+.
+
+:publication-139c4619390ea75b0462
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/194508"^^xsd:anyURI ;
+  dct:publisher "Wine Economics and Policy" ;
+  dct:title "Wine consumption and sales strategies: The evolution of Mass Retail Trading in Italy" ;
+  dct:identifier "10.1016/j.wep.2015.12.001" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/194508/1/1-s2.0-S2212977415000332-main.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-1bbf332aa8524baf77cf
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/25212"^^xsd:anyURI ;
+  dct:publisher "Agribusiness" ;
+  dct:title "Retail oligopoly power, dairy compact, and Boston milk prices" ;
+  dct:identifier "10.1002/agr.20058" ;
+  :openAccess "https://ageconsearch.umn.edu/record/25212/files/rr040083.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-20331961a2835bfe9208
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/7cm5p858"^^xsd:anyURI ;
+  dct:publisher "Econometrica" ;
+  dct:title "Measuring Market Power in the Ready‐to‐Eat Cereal Industry" ;
+  dct:identifier "10.1111/1468-0262.00194" ;
+  :openAccess "https://escholarship.org/content/qt7cm5p858/qt7cm5p858.pdf?t=lnqh3r"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-2919a7f141f1ceacd570
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4427330"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Relationships between Diet, Alcohol Preference, and Heart Disease and Type 2 Diabetes among Americans" ;
+  dct:identifier "10.1371/journal.pone.0124351" ;
+  :openAccess "http://europepmc.org/articles/PMC4427330?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
+.
+
+:publication-2f4f1ecfbb1ca0af267d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/149024"^^xsd:anyURI ;
+  dct:publisher "Journal of Industrial Economics" ;
+  dct:title "PRICE COMPETITION IN U.S. BREWING*" ;
+  dct:identifier "10.1111/j.1467-6451.2008.00330.x" ;
+  :openAccess "https://ageconsearch.umn.edu/record/149024/files/rr90.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-3a382bb8effd68c9a013
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC6522848/"^^xsd:anyURI ;
+  dct:publisher "Preventive Medicine Reports" ;
+  dct:title "Sugar-sweetened beverage prices: Variations by beverage, food store, and neighborhood characteristics, 2017" ;
+  dct:identifier "10.1016/j.pmedr.2019.100883" ;
+  :openAccess "https://europepmc.org/articles/PMC6522848?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-406b3b5b47d15fe28817
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5574185/"^^xsd:anyURI ;
+  dct:publisher "Appetite" ;
+  dct:title "Deal or no deal? The prevalence and nutritional quality of price promotions among U.S. food and beverage purchases" ;
+  dct:identifier "10.1016/j.appet.2017.07.006" ;
+  :openAccess "https://europepmc.org/articles/PMC5574185?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf, :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-408d82342fdc431c2899
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10.1093/erae/jbu033"^^xsd:anyURI ;
+  dct:publisher "European Review of Agricultural Economics" ;
+  dct:title "Simulating welfare effects of the European nutrition and health claims’ regulation: the Italian yogurt market" ;
+  dct:identifier "10.1093/erae/jbu033" ;
+  :openAccess "https://academic.oup.com/erae/article-pdf/42/3/499/7003763/jbu033.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-571f215c4d4f29c1977d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/43788"^^xsd:anyURI ;
+  dct:publisher "Journal of Agricultural and Applied Economics" ;
+  dct:title "Firm-Level Competition in Price and Variety" ;
+  dct:identifier "10.1017/s1074070800022574" ;
+  :openAccess "https://ageconsearch.umn.edu/record/43788/files/Richards%20JAAE%20December%202006.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-5eeefd66b276846f9913
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/19726"^^xsd:anyURI ;
+  dct:publisher "Journal of Agricultural & Food Industrial Organization" ;
+  dct:title "Market Conduct in the U.S. Ready-to-Eat Cereal Industry" ;
+  dct:identifier "10.2202/1542-0485.1075" ;
+  :openAccess "https://ageconsearch.umn.edu/record/19726/files/sp02re01.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-60a74b11ed45e09ec09d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/25158"^^xsd:anyURI ;
+  dct:publisher "Agricultural Economics" ;
+  dct:title "Strategic pricing in a differentiated product oligopoly model: fluid milk in Boston" ;
+  dct:identifier "10.1111/j.1574-0862.2006.00136.x" ;
+  :openAccess "https://ageconsearch.umn.edu/record/25158/files/rr050086.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-718958707acda3cc1665
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC6404774/"^^xsd:anyURI ;
+  dct:publisher "American Journal of Agricultural Economics" ;
+  dct:title "Scanner Data-Based Panel Price Indexes." ;
+  dct:identifier "10.1093/ajae/aay032" ;
+  :openAccess "https://europepmc.org/articles/PMC6404774?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-a11ff7b2ad7f8a0e7416
+  rdf:type :ResearchPublication ;
+  foaf:page "https://ideas.repec.org/a/tpr/restat/v97y2015i1p166-180.html"^^xsd:anyURI ;
+  dct:publisher "Review of Economics and Statistics" ;
+  dct:title "Variety Pass-Through: An Examination of the Ready-to-Eat Breakfast Cereal Market" ;
+  dct:identifier "10.1162/rest_a_00447" ;
+  :openAccess "http://hevra.haifa.ac.il/econ/wp_files/wp201004.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-a1d5337484acf3c5cf02
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/204951"^^xsd:anyURI ;
+  dct:publisher "Agricultural Economics" ;
+  dct:title "Modeling price transmission between farm and retail prices: a soft switches approach" ;
+  dct:identifier "10.1111/agec.12222" ;
+  :openAccess "https://ageconsearch.umn.edu/record/204951/files/Farm%20to%20retail%20cheese%20price%20transmission_r.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
+.
+
+:publication-c2c77d78aa95b1e38f47
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5573644/"^^xsd:anyURI ;
+  dct:publisher "Journal of the Academy of Nutrition and Dietetics" ;
+  dct:title "No Fat, No Sugar, No Salt . . . No Problem? Prevalence of “Low-Content” Nutrient Claims and Their Associations with the Nutritional Profile of Food and Beverage Purchases in the United States" ;
+  dct:identifier "10.1016/j.jand.2017.01.011" ;
+  :openAccess "https://europepmc.org/articles/PMC5573644?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf, :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-da9ef68c5e7a09255209
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.nber.org/papers/w14434"^^xsd:anyURI ;
+  dct:publisher "Review of Economics and Statistics" ;
+  dct:title "Identification With Imperfect Instruments" ;
+  dct:identifier "10.1162/rest_a_00171" ;
+  :openAccess "https://www.nber.org/papers/w14434.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-dca54974ff51a5f7f8ab
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1016/j.aaspro.2016.02.014"^^xsd:anyURI ;
+  dct:publisher "Agriculture and Agricultural Science Procedia" ;
+  dct:title "Consumer Response to Quality Differentiation Strategies in Wine PDOs" ;
+  dct:identifier "10.1016/j.aaspro.2016.02.014" ;
+  :openAccess "https://www.sciencedirect.com/science/article/pii/S2210784316300146/pdf?md5=34b1252b54bd3535bc0b54b192c6cc4a&pid=1-s2.0-S2210784316300146-main.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-deae8f422bc1dfa16aef
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/205424"^^xsd:anyURI ;
+  dct:publisher "Agricultural Economics" ;
+  dct:title "Does a nutritious diet cost more in food deserts?" ;
+  dct:identifier "10.1111/agec.12444" ;
+  :openAccess "https://ageconsearch.umn.edu/record/205424/files/Food%20Deserts%202015%20AAEAUpdated.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-eec3ec68c233e65b9fd7
+  rdf:type :ResearchPublication ;
+  foaf:page "https://ageconsearch.umn.edu/record/34602"^^xsd:anyURI ;
+  dct:publisher "Review of Agricultural Economics" ;
+  dct:title "Sales Responses to Recalls for Listeria monocytogenes: Evidence from Branded Ready‐to‐Eat Meats" ;
+  dct:identifier "10.1111/j.1467-9353.2006.00317.x" ;
+  :openAccess "https://ageconsearch.umn.edu/record/34602/files/sp04th01.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-f9f1710dee6ac89e40e0
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.nber.org/papers/w8425"^^xsd:anyURI ;
+  dct:publisher "Review of Economics and Statistics" ;
+  dct:title "New Products, Quality Changes, and Welfare Measures Computed from Estimated Demand Systems" ;
+  dct:identifier "10.1162/003465303765299792" ;
+  :openAccess "https://www.nber.org/papers/w8425.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
