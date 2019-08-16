@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import hashlib
+import json
 import rdflib
 import sys
 import unicodedata
@@ -61,6 +62,17 @@ def scrub_unicode (text):
     return x
 
 
+def write_jsonld (filename, graph, vocab="vocab.json"):
+    """
+    serialize the given graph a JSON-LD output
+    """
+    with open(vocab, "r") as f:
+        context = json.load(f)
+
+    with open(filename, "wb") as f:
+        f.write(graph.serialize(format="json-ld", context=context, indent=2))
+
+
 if __name__ == "__main__":
     # load the graph
     filename = sys.argv[1]
@@ -69,3 +81,7 @@ if __name__ == "__main__":
     # enumerate all of the relations
     for subj, pred, obj in graph:
         print(subj, pred, obj)
+
+    # serialize the graph as JSON-LD
+    filename = "tmp.jsonld"
+    write_jsonld(filename, graph)
