@@ -3318,3 +3318,643 @@
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
+:publication-3ee072b66b578762a14e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3073380"^^xsd:anyURI ;
+  dct:publisher "J Neurol Neurosurg Psychiatry" ;
+  dct:title "Periodontitis is associated with cognitive impairment among older adults: Analysis of NHANES-III" ;
+  dct:identifier "10.1136/jnnp.2009.174029" ;
+  :openAccess "http://europepmc.org/articles/PMC3073380?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ec5acabf6ee3f1a41b9e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2632256"^^xsd:anyURI ;
+  dct:publisher "Schizophr Bull" ;
+  dct:title "Health status of individuals with serious mental illness" ;
+  dct:identifier "10.1093/schbul/sbj048" ;
+  :openAccess "http://europepmc.org/articles/PMC2632256?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-9992086f7b87677ec558
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2916052"^^xsd:anyURI ;
+  dct:publisher "Public Health Nutr" ;
+  dct:title "Trends and correlates in meat consumption patterns in the US adult population" ;
+  dct:identifier "10.1017/S1368980010000224" ;
+  :openAccess "http://europepmc.org/articles/PMC2916052?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e8e2c273690a2b11d2e2
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3066843"^^xsd:anyURI ;
+  dct:publisher "Public Health Nutr" ;
+  dct:title "Association between vitamin B12-containing supplement consumption and prevalence of biochemically defined B12 deficiency in adults in NHANES III (Third National Health and Nutrition Examination Survey)" ;
+  dct:identifier "10.1017/S1368980009990279" ;
+  :openAccess "http://europepmc.org/articles/PMC3066843?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6be3e3f8f2d73f277a4e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2750884"^^xsd:anyURI ;
+  dct:publisher "Cancer Epidemiol Biomarkers Prev" ;
+  dct:title "Effect of population trends in body mass index on prostate cancer incidence and mortality in the United States" ;
+  dct:identifier "10.1158/1055-9965.EPI-08-0784" ;
+  :openAccess "http://europepmc.org/articles/PMC2750884?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-883ed79e33e38b43e1c4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3856722"^^xsd:anyURI ;
+  dct:publisher "Public Health Nutr" ;
+  dct:title "A cost-effectiveness analysis of folic acid fortification policy in the United States" ;
+  dct:identifier "10.1017/S1368980008002565" ;
+  :openAccess "http://europepmc.org/articles/PMC3856722?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c9293e6384060465d4b2
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2727193"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Frequency of leisure-time physical activity and serum 25-hydroxyvitamin D levels in the US population: Results from the Third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1093/aje/kwn163" ;
+  :openAccess "http://europepmc.org/articles/PMC2727193?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3de8bfe86d3b6cbab2f4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3150736"^^xsd:anyURI ;
+  dct:publisher "Hepatology" ;
+  dct:title "Risk factors and comorbidities in primary biliary cirrhosis: A controlled interview-based study of 1032 patients" ;
+  dct:identifier "10.1002/hep.20907" ;
+  :openAccess "http://europepmc.org/articles/PMC3150736?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-0d5ea58277553e8bf6d1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5624257"^^xsd:anyURI ;
+  dct:publisher "Can Geriatr J" ;
+  dct:title "Health care and health status and outcomes for patients with type 2 diabetes" ;
+  dct:identifier "10.5770/cgj.20.285" ;
+  :openAccess "http://europepmc.org/articles/PMC5624257?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8f3c276a3409bd00825b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1731578"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol Community Health" ;
+  dct:title "Excess type 2 diabetes in African-American women and men aged 40-74 and socioeconomic status: evidence from the Third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1136/jech.54.11.839" ;
+  :openAccess "/articles/PMC1731578/pdf/v054p00839.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-789eaef21eaa9e7a3919
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3447083"^^xsd:anyURI ;
+  dct:publisher "Arch Intern Med" ;
+  dct:title "Demographic differences and trends of Vitamin D insufficiency in the US population, 1988-2004" ;
+  dct:identifier "10.1001/archinternmed.2008.604" ;
+  :openAccess "http://europepmc.org/articles/PMC3447083?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-9607eef292d68efafcbb
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3447082"^^xsd:anyURI ;
+  dct:publisher "Arch Intern Med" ;
+  dct:title "Association between Serum 25-Hydroxyvitamin D level and upper respiratory tract infection in the third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1001/archinternmed.2008.560" ;
+  :openAccess "http://europepmc.org/articles/PMC3447082?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-dc1a1ef8add380c817b9
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1570396"^^xsd:anyURI ;
+  dct:publisher "Med Sci Sports Exerc" ;
+  dct:title "Physical activity in individuals at risk for diabetes: Diabetes prevention program" ;
+  dct:identifier "10.1249/01.mss.0000218138.91812.f9" ;
+  :openAccess "http://europepmc.org/articles/PMC1570396?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8989b96a4732b99c8b09
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2655034"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Socioeconomic and race/ethnic patterns in persistent infection burden among U.S. adults" ;
+  dct:identifier "10.1093/gerona/gln012" ;
+  :openAccess "http://europepmc.org/articles/PMC2655034?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b462d43d1cce1d7cb7fe
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2744491"^^xsd:anyURI ;
+  dct:publisher "Cancer Epidemiol Biomarkers Prev" ;
+  dct:title "A prospective study of total and ionized serum calcium and fatal prostate cancer" ;
+  dct:identifier "10.1158/1055-9965.EPI-08-0915" ;
+  :openAccess "http://europepmc.org/articles/PMC2744491?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a8ef048a9b7acaded325
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2610345"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Gender-ethnic disparity in BMI and waist circumference distribution shifts in US adults" ;
+  dct:identifier "10.1038/oby.2008.492" ;
+  :openAccess "http://europepmc.org/articles/PMC2610345?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-9592c697dd9a4acb2b38
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2659514"^^xsd:anyURI ;
+  dct:publisher "J Bone Miner Res" ;
+  dct:title "Estimates of the proportion of older white women who would be recommended for pharmacologic treatment by the new U.S. National Osteoporosis foundation guidelines" ;
+  dct:identifier "10.1359/JBMR.081203" ;
+  :openAccess "http://europepmc.org/articles/PMC2659514?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d3ed1259250bf0b0e6fb
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2628695"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Full accounting of diabetes and pre-diabetes in the U.S. population in 1988-1994 and 2005-2006" ;
+  dct:identifier "10.2337/dc08-1296" ;
+  :openAccess "http://europepmc.org/articles/PMC2628695?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-0c74a3f93e1774523d70
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2638878"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Prevalence in the United States of selected candidate gene variants" ;
+  dct:identifier "10.1093/aje/kwn286" ;
+  :openAccess "http://europepmc.org/articles/PMC2638878?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-783f1cfdf7f90aa13c5a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2645667"^^xsd:anyURI ;
+  dct:publisher "Eur J Clin Nutr" ;
+  dct:title "Low serum selenium is associated with anemia among older adults in the United States" ;
+  dct:identifier "10.1038/sj.ejcn.1602889" ;
+  :openAccess "http://europepmc.org/articles/PMC2645667?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-502d060a60d46d7524b8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1551996"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Volatile organic compounds and pulmonary function in the Third National Health and Nutrition Examination Survey, 1988-1994" ;
+  dct:identifier "10.1289/ehp.9019" ;
+  :openAccess "http://europepmc.org/articles/PMC1551996?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-983a12a537775a3970c1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1466782"^^xsd:anyURI ;
+  dct:publisher "Ann Fam Med" ;
+  dct:title "Changes in age at diagnosis of type 2 diabetes mellitus in the United States, 1988 to 2000" ;
+  dct:identifier "10.1370/afm.214" ;
+  :openAccess "http://europepmc.org/articles/PMC1466782?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-261c02217d5d34312c89
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC193602"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "Effectiveness of diabetes mellitus screening recommendations" ;
+  dct:identifier "10.1073/pnas.1733839100" ;
+  :openAccess "http://europepmc.org/articles/PMC193602?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b041457c08183eb97a60
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1740336"^^xsd:anyURI ;
+  dct:publisher "Occup Environ Med" ;
+  dct:title "Prevalence and risk factors of work related asthma by industry among United States workers: Data from the Third National Health and Nutrition Examination Survey (1988-94)" ;
+  dct:identifier "10.1136/oem.59.8.505" ;
+  :openAccess "/articles/PMC1740336/pdf/v059p00505.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-30befa86bae30d7ffccf
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3499900"^^xsd:anyURI ;
+  dct:publisher "J Int AIDS Soc" ;
+  dct:title "Peripheral blood count abnormalities among patients with hepatitis C in the United States" ;
+  dct:identifier "10.7448/IAS.15.5.18439" ;
+  :openAccess "http://europepmc.org/articles/PMC3499900?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-2b902cb217497033d322
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3153995"^^xsd:anyURI ;
+  dct:publisher "J Bone Miner Res" ;
+  dct:title "Estimates of the proportion of older white men who would be recommended for pharmacologic treatment by the new US National Osteoporosis Foundation guidelines" ;
+  dct:identifier "10.1002/jbmr.55" ;
+  :openAccess "http://europepmc.org/articles/PMC3153995?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-abeea80b25e9cabfebd6
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2827508"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Prevalence of diabetes and high risk for diabetes using A1C criteria in the U.S. population in 1988-2006" ;
+  dct:identifier "10.2337/dc09-1524" ;
+  :openAccess "http://europepmc.org/articles/PMC2827508?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-878b94ab53c0d40ace95
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2838679"^^xsd:anyURI ;
+  dct:publisher "Eur Heart J" ;
+  dct:title "Normal weight obesity: A risk factor for cardiometabolic dysregulation and cardiovascular mortality" ;
+  dct:identifier "10.1093/eurheartj/ehp487" ;
+  :openAccess "http://europepmc.org/articles/PMC2838679?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d14045dc081c85ab8585
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2809278"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Are hemoglobin levels elevated in type 1 diabetes?" ;
+  dct:identifier "10.2337/dc09-0713" ;
+  :openAccess "http://europepmc.org/articles/PMC2809278?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ea0adf7c21745e1b407d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2822283"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Red cell distribution width and mortality in older adults: A meta-analysis" ;
+  dct:identifier "10.1093/gerona/glp163" ;
+  :openAccess "http://europepmc.org/articles/PMC2822283?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-6b8a27c29d7853dfa7e4
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2797985"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Many Americans have pre-diabetes and should be considered for metformin therapy" ;
+  dct:identifier "10.2337/dc09-0341" ;
+  :openAccess "http://europepmc.org/articles/PMC2797985?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-82ebc3ee632413c6f359
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2765221"^^xsd:anyURI ;
+  dct:publisher "Epidemiology" ;
+  dct:title "Socioeconomic differentials in immune response" ;
+  dct:identifier "10.1097/EDE.0b013e3181bb5302" ;
+  :openAccess "http://europepmc.org/articles/PMC2765221?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3ca83849d5bd77b466d3
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3153395"^^xsd:anyURI ;
+  dct:publisher "J Bone Miner Res" ;
+  dct:title "Hyponatremia-induced osteoporosis" ;
+  dct:identifier "10.1359/jbmr.090827" ;
+  :openAccess "http://europepmc.org/articles/PMC3153395?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-352b979aee2b8324dbbd
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2747662"^^xsd:anyURI ;
+  dct:publisher "Arthritis Rheum" ;
+  dct:title "Determinants of self-reported health status in a population-based sample of persons with radiographic knee osteoarthritis" ;
+  dct:identifier "10.1002/art.24839" ;
+  :openAccess "http://europepmc.org/articles/PMC2747662?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-61d18a1d6d271c93c9c3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3312738"^^xsd:anyURI ;
+  dct:publisher "J Bone Miner Res" ;
+  dct:title "Prevalence and trends in low femur bone density among older US adults: NHANES 2005-2006 compared with NHANES III" ;
+  dct:identifier "10.1359/jbmr.090706" ;
+  :openAccess "http://europepmc.org/articles/PMC3312738?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8164f1cd4741deaa97ac
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3057108"^^xsd:anyURI ;
+  dct:publisher "J Intern Med" ;
+  dct:title "Vitamin D deficiency and frailty in older Americans" ;
+  dct:identifier "10.1111/j.1365-2796.2010.02248.x" ;
+  :openAccess "http://europepmc.org/articles/PMC3057108?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-58acf3ed70a9223d5d2a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2733041"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Estimating nutrient intake from a food frequency questionnaire: Incorporating the elements of race and geographic region" ;
+  dct:identifier "10.1093/aje/kwp098" ;
+  :openAccess "http://europepmc.org/articles/PMC2733041?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b1ea5ee3887356b5d60f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2713636"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "GHb level and subsequent mortality among adults in the U.S." ;
+  dct:identifier "10.2337/dc09-0117" ;
+  :openAccess "http://europepmc.org/articles/PMC2713636?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-84deeba0cb956d098fe5
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3156672"^^xsd:anyURI ;
+  dct:publisher "Public Health Nutr" ;
+  dct:title "Neighbourhood ethnic composition and diet among Mexican-Americans" ;
+  dct:identifier "10.1017/S1368980009005047" ;
+  :openAccess "http://europepmc.org/articles/PMC3156672?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-7c30e135ead7c7be3477
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2963497"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Racial/ethnic differences in association of fasting glucose-associated genomic loci with fasting glucose, HOMA-B and impaired fasting glucose in U.S. adult population" ;
+  dct:identifier "10.2337/dc10-0898" ;
+  :openAccess "http://europepmc.org/articles/PMC2963497?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e033beccbb854b4bcd7f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3312737"^^xsd:anyURI ;
+  dct:publisher "J Bone Miner Res" ;
+  dct:title "Dietary calcium and serum 25-hydroxyvitamin D status in relation to BMD among U.S. adults" ;
+  dct:identifier "10.1359/JBMR.081242" ;
+  :openAccess "http://europepmc.org/articles/PMC3312737?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e56eb214e2aa8b8589cf
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2610423"^^xsd:anyURI ;
+  dct:publisher "Obstet Gynecol" ;
+  dct:title "Cardiovascular disease risk profiles in women with histories of gestational diabetes but without current diabetes" ;
+  dct:identifier "10.1097/AOG.0b013e31818638b5" ;
+  :openAccess "http://europepmc.org/articles/PMC2610423?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-429209d3e2835ccbfe1b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2551643"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Association of C-reactive protein with reduced forced vital capacity in a nonsmoking U.S. population with metabolic syndrome and diabetes" ;
+  dct:identifier "10.2337/dc08-0801" ;
+  :openAccess "http://europepmc.org/articles/PMC2551643?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-07d743ac892dd8aa2af8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3005489"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Persistent increase of prevalence of metabolic syndrome among U.S. adults: NHANES III to NHANES 1999-2006" ;
+  dct:identifier "10.2337/dc10-0879" ;
+  :openAccess "http://europepmc.org/articles/PMC3005489?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d947a16b312de1126d57
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3005486"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Performance of A1C for the classification and prediction of diabetes" ;
+  dct:identifier "10.2337/dc10-1235" ;
+  :openAccess "http://europepmc.org/articles/PMC3005486?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c3d739fd35bd85cc2e7d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2148411"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "In vitamin B12 deficiency, higher serum folate is associated with increased total homocysteine and methylmalonic acid concentrations" ;
+  dct:identifier "10.1073/pnas.0709487104" ;
+  :openAccess "http://europepmc.org/articles/PMC2148411?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-26726eabef0f114dd06d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1913605"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "The association between blood lead levels and osteoporosis among adults--Results from the Third National Health and Nutrition Examination Survey (NHANES III)" ;
+  dct:identifier "10.1289/ehp.9716" ;
+  :openAccess "http://europepmc.org/articles/PMC1913605?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-5cbea8c9095c8f6fb930
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1480505"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Trends in the exposure of nonsmokers in the U.S. population to secondhand smoke: 1988-2002" ;
+  dct:identifier "10.1289/ehp.8850" ;
+  :openAccess "http://europepmc.org/articles/PMC1480505?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a6176973ff4c0d11ddfc
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4542754"^^xsd:anyURI ;
+  dct:publisher "Clin Infect Dis" ;
+  dct:title "All-cause, liver-related, and non-liver-related mortality among HCV-infected individuals in the general US population" ;
+  dct:identifier "10.1093/cid/cir306" ;
+  :openAccess "http://europepmc.org/articles/PMC4542754?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-89e543f88c97b736ca67
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3731378"^^xsd:anyURI ;
+  dct:publisher "JAMA" ;
+  dct:title "Temporal trends in the prevalence of diabetic kidney disease in the United States" ;
+  dct:identifier "10.1001/jama.2011.861" ;
+  :openAccess "http://europepmc.org/articles/PMC3731378?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-63c24eabd3f39a831250
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3155612"^^xsd:anyURI ;
+  dct:publisher "Ann Hum Genet" ;
+  dct:title "Evidence for age as a modifier of genetic associations for lipid levels" ;
+  dct:identifier "10.1111/j.1469-1809.2011.00664.x" ;
+  :openAccess "http://europepmc.org/articles/PMC3155612?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-93c3a6acb797ad50733c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3350356"^^xsd:anyURI ;
+  dct:publisher "Nephrol Dial Transplant" ;
+  dct:title "Dietary phosphorus intake and mortality in moderate chronic kidney disease: NHANES III" ;
+  dct:identifier "10.1093/ndt/gfr367" ;
+  :openAccess "http://europepmc.org/articles/PMC3350356?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-5ebb48bb8f33362b20d5
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3175050"^^xsd:anyURI ;
+  dct:publisher "Nephrol Dial Transplant" ;
+  dct:title "Serum phosphorus predicts incident chronic kidney disease and end-stage renal disease" ;
+  dct:identifier "10.1093/ndt/gfq808" ;
+  :openAccess "http://europepmc.org/articles/PMC3175050?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-931baa23bb20bcd4f6e3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3185097"^^xsd:anyURI ;
+  dct:publisher "CMAJ" ;
+  dct:title "Using the Edmonton obesity staging system to predict mortality in a population-representative cohort of people with overweight and obesity" ;
+  dct:identifier "10.1503/cmaj.110387" ;
+  :openAccess "http://europepmc.org/articles/PMC3185097?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6b3e83df4663019ee686
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3899432"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol" ;
+  dct:title "Socioeconomic status, self-rated health, and mortality in a multiethnic sample of US adults" ;
+  dct:identifier "10.2188/jea.JE20100142" ;
+  :openAccess "http://europepmc.org/articles/PMC3899432?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c5383cc2a319db3e8bfe
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3105433"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Trends in cardiovascular risk factor levels in the Minnesota Heart Survey (1980-2002) as compared with the National Health and Nutrition Examination Survey (1976-2002): A partial explanation for Minnesota's low cardiovascular disease mortality?" ;
+  dct:identifier "10.1093/aje/kwq367" ;
+  :openAccess "http://europepmc.org/articles/PMC3105433?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-288b6a19a01dca933528
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3120172"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Long-term and recent progress in blood pressure levels among U.S. adults with diagnosed diabetes, 1988-2008" ;
+  dct:identifier "10.2337/dc11-0178" ;
+  :openAccess "http://europepmc.org/articles/PMC3120172?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-48020f45f647e278e031
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3247860"^^xsd:anyURI ;
+  dct:publisher "Nephrol Dial Transplant" ;
+  dct:title "Kidney function, albuminuria and age-related macular degeneration in NHANES III" ;
+  dct:identifier "10.1093/ndt/gfr022" ;
+  :openAccess "http://europepmc.org/articles/PMC3247860?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-77791da3f284f952c1bc
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3263918"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Racial/ethnic- and education-related disparities in the control of risk factors for cardiovascular disease among individuals with diabetes" ;
+  dct:identifier "10.2337/dc11-1405" ;
+  :openAccess "http://europepmc.org/articles/PMC3263918?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a05d0b02ac9cd2133e3b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3289985"^^xsd:anyURI ;
+  dct:publisher "BMJ Open" ;
+  dct:title "Decreased prevalence of diabetes in marijuana users: cross-sectional data from the National Health and Nutrition Examination Survey (NHANES) III" ;
+  dct:identifier "10.1136/bmjopen-2011-000494" ;
+  :openAccess "http://europepmc.org/articles/PMC3289985?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6cb8b4a553162ba8a23a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3308905"^^xsd:anyURI ;
+  dct:publisher "J Infect Dis" ;
+  dct:title "Association between gastric helicobacter pylori colonization and glycated hemoglobin levels" ;
+  dct:identifier "10.1093/infdis/jis106" ;
+  :openAccess "http://europepmc.org/articles/PMC3308905?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-f51fec0b4f5e45fb2cf2
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3774012"^^xsd:anyURI ;
+  dct:publisher "J Androl" ;
+  dct:title "Association between sex steroid hormones and hematocrit in a nationally-representative sample of men" ;
+  dct:identifier "10.2164/jandrol.111.015651" ;
+  :openAccess "http://europepmc.org/articles/PMC3774012?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3a402c8dee0b06d08505
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4026170"^^xsd:anyURI ;
+  dct:publisher "Cancer Epidemiol Biomarkers Prev" ;
+  dct:title "Serum antioxidant nutrients, vitamin A, and mortality in US adults" ;
+  dct:identifier "10.1158/1055-9965.EPI-13-0381" ;
+  :openAccess "http://europepmc.org/articles/PMC4026170?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-81ee1277fca46afdb8bd
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3866217"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "The progression of cardiometabolic disease: Validation of a new cardiometabolic disease staging system applicable to obesity" ;
+  dct:identifier "10.1002/oby.20585" ;
+  :openAccess "http://europepmc.org/articles/PMC3866217?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
