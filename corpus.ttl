@@ -6,11 +6,25 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 
+:dataset-11a95bfc951f7d23206a
+  rdf:type :Dataset ;
+  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Retail"^^xsd:anyURI ;
+  dct:publisher "IRI" ;
+  dct:title "IRI Infoscan" ;
+.
+
+:dataset-a58edecf666ec74fdbaf
+  rdf:type :Dataset ;
+  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Media/Media-Solutions/Consumer"^^xsd:anyURI ;
+  dct:publisher "IRI" ;
+  dct:title "IRI Consumer Network" ;
+.
+
 :dataset-52a86e661f7fc50f82b0
   rdf:type :Dataset ;
   foaf:page "https://www.bundesbank.de/en/bundesbank/research/rdsc/research-data/annual-financial-statements-of-non-financial-firms-janis-and-ustan--618088"^^xsd:anyURI ;
   dct:publisher "Deutsche Bundesbank" ;
-  dct:title "Corporate balance sheets " ;
+  dct:title "Corporate balance sheets" ;
   dct:alternative "USTAN" ;
   dct:alternative "Unternehmensbilanzen" ;
 .
@@ -43,14 +57,6 @@
   foaf:page "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/interest-rates-and-yields-793418"^^xsd:anyURI ;
   dct:publisher "Deutsche Bundesbank" ;
   dct:title "Interest rates and yields" ;
-.
-
-:dataset-a755ac27b9721267c39b
-  rdf:type :Dataset ;
-  foaf:page "https://www.rand.org/well-being/social-and-behavioral-policy/centers/aging/dataprod.html"^^xsd:anyURI ;
-  dct:publisher "RAND Center for the Study of Aging" ;
-  dct:title "Health and Retirement Study" ;
-  dct:alternative "HRS" ;
 .
 
 :dataset-0b739bd83bc73c8ea4e1
@@ -114,18 +120,12 @@
   dct:alternative "SITS" ;
 .
 
-:dataset-a58edecf666ec74fdbaf
+:dataset-a755ac27b9721267c39b
   rdf:type :Dataset ;
-  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Media/Media-Solutions/Consumer"^^xsd:anyURI ;
-  dct:publisher "IRI" ;
-  dct:title "IRI Consumer Network" ;
-.
-
-:dataset-11a95bfc951f7d23206a
-  rdf:type :Dataset ;
-  foaf:page "https://www.iriworldwide.com/en-US/Solutions/Retail"^^xsd:anyURI ;
-  dct:publisher "IRI" ;
-  dct:title "IRI Infoscan" ;
+  foaf:page "https://www.rand.org/well-being/social-and-behavioral-policy/centers/aging/dataprod.html"^^xsd:anyURI ;
+  dct:publisher "RAND Center for the Study of Aging" ;
+  dct:title "Health and Retirement Study" ;
+  dct:alternative "HRS" ;
 .
 
 :dataset-0a7b604ab2e52411d45a
@@ -139,7 +139,7 @@
   dct:alternative "NHANES III" ;
 .
 
-:dataset-555eb8a443bf5f1d1a4a
+:dataset-4645e20e239dba63eb24
   rdf:type :Dataset ;
   foaf:page "https://wwwn.cdc.gov/nchs/nhanes/nhefs/default.aspx/"^^xsd:anyURI ;
   dct:publisher "Centers for Disease Control and Prevention" ;
@@ -178,6 +178,224 @@
   dct:alternative "JHU PRC" ;
   dct:alternative "PRC" ;
   dct:alternative "Prevention Research Study" ;
+.
+
+:dataset-54fddaafdd50a5bc4fbb
+  rdf:type :Dataset ;
+  foaf:page "https://www.census.gov/retail/index.html"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "Monthly Retail Trade Surveys" ;
+  dct:alternative "MARTS" ;
+  dct:alternative "MRTS" ;
+  dct:alternative "ARTS" ;
+.
+
+:dataset-acd2173a7f1e9062d818
+  rdf:type :Dataset ;
+  foaf:page "https://www.bls.gov/cex/"^^xsd:anyURI ;
+  dct:publisher "Bureau of Labor Statistics" ;
+  dct:title "Consumer Expenditure Surveys" ;
+  dct:alternative "CES" ;
+.
+
+:dataset-8271fcc525f587c8a05d
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/foodaps-national-household-food-acquisition-and-purchase-survey/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "FoodAPS National Household Food Acquisition and Purchase Survey" ;
+  dct:alternative "FoodAPS" ;
+  dct:alternative "Food Acquisition and Purchase Survey" ;
+  dct:alternative "National Household Food Acquisition and Purchase Survey" ;
+.
+
+:dataset-bb6e126b8b79b0088d38
+  rdf:type :Dataset ;
+  foaf:page "https://data.nal.usda.gov/dataset/supplemental-nutrition-assistance-program-snap-data-system"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Supplemental Nutrition Assistance Program" ;
+  dct:alternative "SNAP" ;
+.
+
+:dataset-cefa0a7211de0925e5f5
+  rdf:type :Dataset ;
+  foaf:page "https://www.census.gov/sipp/"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "Survey of Income and Program Participation" ;
+  dct:alternative "SIPP" ;
+.
+
+:dataset-b3218a5f9805b03b05de
+  rdf:type :Dataset ;
+  foaf:page "https://data.nal.usda.gov/dataset/nielsen-tdlinx"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Nielsen TDLinx" ;
+  dct:alternative "TDLinx" ;
+.
+
+:dataset-a95d4a6070fce2214cfb
+  rdf:type :Dataset ;
+  foaf:page "http://example.com"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "NPD ReCount" ;
+  dct:alternative "ReCount" ;
+.
+
+:dataset-664ebc1bad974d4ea5c7
+  rdf:type :Dataset ;
+  foaf:page "http://example.com"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "National Establishment Time Series" ;
+  dct:alternative "NETS" ;
+.
+
+:dataset-e0568d331853c0def1cb
+  rdf:type :Dataset ;
+  foaf:page "https://catalog.data.gov/dataset/nielsen-homescan"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Nielsen Homescan" ;
+.
+
+:dataset-2e971ef07d50395b3b85
+  rdf:type :Dataset ;
+  foaf:page "https://www.fns.usda.gov/pd/overview"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food and Nutrition Service Program Data" ;
+  dct:alternative "Food and Nutrition Service Data" ;
+  dct:alternative "FNS" ;
+.
+
+:dataset-d4f5cc61097691c00833
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/food-security-in-the-united-states/documentation.aspx#cps"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "Current Population Survey Food Security Supplement" ;
+  dct:alternative "CPS-FSS" ;
+  dct:alternative "CPS" ;
+  dct:alternative "FSS" ;
+.
+
+:dataset-e01e4e929b423fd424ca
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/cost-estimates-of-foodborne-illnesses"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Cost Estimates of Foodborne Illnesses" ;
+  dct:alternative "Cost Est. Foodborne Illnesses" ;
+.
+
+:dataset-9dbfd3102ba925d381fd
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/food-access-research-atlas"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Access Research Atlas" ;
+  dct:alternative "FARA" ;
+.
+
+:dataset-e5fd80987e328a4a4bcd
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/food-availability-per-capita-data-system"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Availability Data System - Loss-adjusted food availability" ;
+  dct:alternative "Food Availability (Per Capita) Data System" ;
+  dct:alternative "Loss-adjusted food availability" ;
+  dct:alternative "FADS-LAFA" ;
+  dct:alternative "FADS" ;
+.
+
+:dataset-788de229286ac919b401
+  rdf:type :Dataset ;
+  foaf:page "https://data.nal.usda.gov/dataset/food-intakes-converted-retail-commodities-databases-ficrcd"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Intakes Converted to Retail Commodities Databases" ;
+  dct:alternative "FICRCD" ;
+.
+
+:dataset-4b10c2d0d0c23a0e8441
+  rdf:type :Dataset ;
+  foaf:page "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/past-surveys/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Continuing Surveys of Food Intakes by Individuals" ;
+  dct:alternative "CSFII" ;
+.
+
+:dataset-c6ca8bd8cce8a469083e
+  rdf:type :Dataset ;
+  foaf:page "https://www.accessdata.fda.gov/scripts/ora/pcb/index.cfm?action=tutorial.les2_oasis#oasis"^^xsd:anyURI ;
+  dct:publisher "U.S. Food and Drug Administration" ;
+  dct:title "Operational and Administrative System for Import Support" ;
+  dct:alternative "OASIS" ;
+  dct:alternative "Import Refusal Report" ;
+  dct:alternative "FDA data" ;
+.
+
+:dataset-27d85be7e6d5c01ba197
+  rdf:type :Dataset ;
+  foaf:page "https://www.ams.usda.gov/resources-terms/datasets"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Agricultural Marketing Service Program Data" ;
+  dct:alternative "AMS" ;
+.
+
+:dataset-d7f7918a9a1583edb639
+  rdf:type :Dataset ;
+  foaf:page "https://www.fsis.usda.gov/wps/portal/fsis/home"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Safety and Inpection Service Program Data" ;
+  dct:alternative "FSIS" ;
+.
+
+:dataset-c9e310c98c77df601b74
+  rdf:type :Dataset ;
+  foaf:page "https://www.fsis.usda.gov/wps/portal/fsis/home"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "School Food Authority Characteristics Study" ;
+  dct:alternative "SFACS" ;
+.
+
+:dataset-03591499df2b37db1b3f
+  rdf:type :Dataset ;
+  foaf:page "https://www.fns.usda.gov/school-nutrition-dietary-assessment-study-iii"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "School Nutrition Dietary Assessment Study" ;
+  dct:alternative "SNDA" ;
+  dct:alternative "SNDA-I" ;
+  dct:alternative "SNDA-II" ;
+  dct:alternative "SNDA-III" ;
+  dct:alternative "SNDA-IV" ;
+.
+
+:dataset-45765fc973cd4e8ad078
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/quarterly-food-at-home-price-database"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Quarterly Food-at-Home Price Database" ;
+  dct:alternative "QFAHPD" ;
+  dct:alternative "Qtrly FAFH" ;
+.
+
+:dataset-db36220fbb7e658029dc
+  rdf:type :Dataset ;
+  foaf:page "https://open.fda.gov/apis/food/enforcement/"^^xsd:anyURI ;
+  dct:publisher "U.S. Food and Drug Administration" ;
+  dct:title "Enforcement Reports" ;
+  dct:alternative "FDA Recall Enterprise System" ;
+.
+
+:dataset-30f10c51bc3edf42a39b
+  rdf:type :Dataset ;
+  foaf:page "https://www.census.gov/programs-surveys/acs"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "American Community Survey" ;
+  dct:alternative "ACS" ;
+.
+
+:dataset-55b7b2693fc12c416060
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/food-security-in-the-united-states/documentation.aspx#cps"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "Current Population Survey Annual Social and Economic Supplement" ;
+  dct:alternative "CPS-ASEC" ;
+  dct:alternative "CPS" ;
+  dct:alternative "ASEC" ;
 .
 
 :publication-7781d5b717be8053c543
@@ -880,14 +1098,34 @@
   cito:citesAsDataSource :dataset-0b739bd83bc73c8ea4e1 ;
 .
 
-:publication-9d97f680b0bd17354309
+:publication-fdf45e8c968433d4aa0f
   rdf:type :ResearchPublication ;
-  foaf:page "http://europepmc.org/articles/PMC3547948"^^xsd:anyURI ;
-  dct:publisher "PLoS ONE" ;
-  dct:title "Major cardiovascular risk factors in Latin America: A comparison with the United States" ;
-  dct:identifier "doi:10.1371/journal.pone.0054056" ;
-  :openAccess "http://europepmc.org/articles/PMC3547948?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  foaf:page "https://www.researchgate.net/publication/46454968_Choosing_and_Using_Payment_Instruments_Evidence_From_German_Microdata"^^xsd:anyURI ;
+  dct:publisher "Empirical Economics" ;
+  dct:title "Choosing and using payment instruments: evidence from German microdata" ;
+  dct:identifier "10.1007/s00181-013-0708-3" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/30032/1/61738505X.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-44063629e96b00629efa ;
+.
+
+:publication-c215ee5d32f883539869
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3073863"^^xsd:anyURI ;
+  dct:publisher "Int J Behav Nutr Phys Act" ;
+  dct:title "Does perception equal reality? Weight misperception in relation to weight-related attitudes and behaviors among overweight and obese US adults" ;
+  dct:identifier "doi:10.1186/1479-5868-8-20" ;
+  :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3073863&blobtype=pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-887db53e675a52a761e9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.nutritionj.com/content/10/1/17"^^xsd:anyURI ;
+  dct:publisher "Nutrition Journal" ;
+  dct:title "Diet quality is positively associated with 100% fruit juice consumption in children and adults in the United States: NHANES 2003-2006" ;
+  dct:identifier "doi:10.1186/1475-2891-10-17" ;
+  :openAccess "https://nutritionj.biomedcentral.com/track/pdf/10.1186/1475-2891-10-17"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-ea02695293f2279e9bba
@@ -900,64 +1138,24 @@
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-94cff4e79b01232f619a
+:publication-29da5fc3948c049528f3
   rdf:type :ResearchPublication ;
-  foaf:page "https://www.ahajournals.org/doi/abs/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
-  dct:publisher "Hypertension" ;
-  dct:title "Risk factors for hypertension in a national cohort study" ;
-  dct:identifier "doi:10.1161/01.HYP.18.5.598" ;
-  :openAccess "https://www.ahajournals.org/doi/pdf/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-555eb8a443bf5f1d1a4a ;
-.
-
-:publication-aa4c92fe018754a19a1a
-  rdf:type :ResearchPublication ;
-  foaf:page "http://europepmc.org/articles/PMC3048868"^^xsd:anyURI ;
-  dct:publisher "PLoS ONE" ;
-  dct:title "Direct measurement of perchlorate exposure biomarkers in a highly exposed population: a pilot study" ;
-  dct:identifier "doi:10.1371/journal.pone.0017015" ;
-  :openAccess "http://europepmc.org/articles/PMC3048868?pdf=render"^^xsd:anyURI ;
+  foaf:page "https://europepmc.org/articles/PMC2796886"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Metabolic syndrome and weight gain in adulthood" ;
+  dct:identifier "doi:10.1093/gerona/glp177" ;
+  :openAccess "https://europepmc.org/articles/PMC2796886?pdf=render"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-1ff4f24e421e8af59b24
+:publication-9e72294442e0cf63e77e
   rdf:type :ResearchPublication ;
-  foaf:page "http://europepmc.org/articles/PMC3235992"^^xsd:anyURI ;
-  dct:publisher "Biomark Insights" ;
-  dct:title "Association between perchlorate and indirect indicators of thyroid dysfunction in NHANES 2001-2002, a cross-sectional, hypothesis-generating study" ;
-  dct:identifier "doi:10.4137/BMI.S7985" ;
-  :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3235992&blobtype=pdf"^^xsd:anyURI ;
+  foaf:page "http://europepmc.org/articles/PMC2685842"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Bisphenol A data in NHANES suggest longer than expected half-life, substantial nonfood exposure, or both" ;
+  dct:identifier "doi:10.1289/ehp.0800376" ;
+  :openAccess "http://europepmc.org/articles/PMC2685842?pdf=render"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
-.
-
-:publication-f864820c2ac96be88d5d
-  rdf:type :ResearchPublication ;
-  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2023843"^^xsd:anyURI ;
-  dct:publisher "Journal of Banking and Finance" ;
-  dct:title "The role of interbank relationships and liquidity needs" ;
-  dct:identifier "doi:10.2139/ssrn.2023843" ;
-  :openAccess "https://www.clevelandfed.org/~/media/content/newsroom%20and%20events/publications/working%20papers/2014/wp%201421%20the%20role%20of%20relationships%20and%20liquidity%20needs%20pdf.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-1c4bd6e13d3c15e578fa, :dataset-2cea7e830ce94a923473 ;
-.
-
-:publication-546224c87740608e122d
-  rdf:type :ResearchPublication ;
-  foaf:page "http://hdl.handle.net/10419/144318"^^xsd:anyURI ;
-  dct:publisher "National Bank of Belgium" ;
-  dct:title "Sector concentration in loan portfolios and economic capital" ;
-  dct:identifier "doi:10.2139/ssrn.1687615" ;
-  :openAccess "https://www.econstor.eu/bitstream/10419/144318/1/wp105.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
-.
-
-:publication-f45c2734c942ab11ea19
-  rdf:type :ResearchPublication ;
-  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2793911"^^xsd:anyURI ;
-  dct:publisher "Applied Economics" ;
-  dct:title "Banks' regulatory buffers, liquidity networks and monetary policy transmission" ;
-  dct:identifier "doi:10.1080/00036840802360245" ;
-  :openAccess "https://www.econstor.eu/bitstream/10419/3871/1/200606dkp_b.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
 .
 
 :publication-0a3215061f330d8b7684
@@ -967,7 +1165,7 @@
   dct:title "Disparities in health care utilization by smoking status--NHANES 1999-2004" ;
   dct:identifier "doi:10.3390/ijerph6031095" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2672402&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-b05e2dfeb9b3344abb94
@@ -977,7 +1175,7 @@
   dct:title "An examination of the association of selected toxic metals with total and central obesity indices: NHANES 99-02" ;
   dct:identifier "doi:10.3390/ijerph7093332" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2954548&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-1df4c309cc8a15f1b91c
@@ -987,7 +1185,7 @@
   dct:title "Mitigating case mix factors by choice of glycemic control performance measure threshold" ;
   dct:identifier "doi:10.2337/dc07-2010" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2518340&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-f6db14e68241685dc613
@@ -997,27 +1195,7 @@
   dct:title "Consistency between education reported in health survey and recorded in death certificate" ;
   dct:identifier "doi:10.1186/1471-2458-7-294" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2175513&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
-.
-
-:publication-6b233bf5f6dea842c458
-  rdf:type :ResearchPublication ;
-  foaf:page "http://europepmc.org/articles/PMC3073863"^^xsd:anyURI ;
-  dct:publisher "Springer Nature" ;
-  dct:title "Does perception equal reality? Weight misperception in relation to weight-related attitudes and behaviors among overweight and obese US adults" ;
-  dct:identifier "doi:10.1186/1479-5868-8-20" ;
-  :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3073863&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
-.
-
-:publication-597d75c9fc6b8e9ed27d
-  rdf:type :ResearchPublication ;
-  foaf:page "http://www.nutritionj.com/content/10/1/17"^^xsd:anyURI ;
-  dct:publisher "Springer Nature" ;
-  dct:title "Diet quality is positively associated with 100% fruit juice consumption in children and adults in the United States: NHANES 2003-2006" ;
-  dct:identifier "doi:10.1186/1475-2891-10-17" ;
-  :openAccess "https://nutritionj.biomedcentral.com/track/pdf/10.1186/1475-2891-10-17"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-f6b1e82dd866c73e2533
@@ -1037,7 +1215,7 @@
   dct:title "Factors associated with vitamin D deficiency and inadequacy among women of childbearing age in the United States" ;
   dct:identifier "doi:10.5402/2012/691486" ;
   :openAccess "http://downloads.hindawi.com/archive/2012/691486.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-225533333da65e518f41
@@ -1047,7 +1225,7 @@
   dct:title "Hypertension in women of reproductive age in the United States: NHANES 1999-2008" ;
   dct:identifier "doi:10.1371/journal.pone.0036171" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3340351&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-e815543ea13dec652f54
@@ -1057,7 +1235,7 @@
   dct:title "Trends in low-density lipoprotein cholesterol goal achievement in high risk United States adults: Longitudinal findings from the 1999-2008 National Health and Nutrition Examination Surveys" ;
   dct:identifier "doi:10.1371/journal.pone.0059309" ;
   :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3615020&blobtype=pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a38a5f85846af72cdb6b
@@ -1067,7 +1245,27 @@
   dct:title "A database of human exposomes and phenomes from the US National Health and Nutrition Examination Survey" ;
   dct:identifier "doi:10.1038/sdata.2016.96" ;
   :openAccess "https://www.nature.com/articles/sdata201696.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a9f750ec148669c3426b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.nature.com/articles/sdata2017108"^^xsd:anyURI ;
+  dct:publisher "Scientific Data" ;
+  dct:title "Spatiotemporal database of US congressional elections, 1896--2014" ;
+  dct:identifier "doi:10.1038/sdata.2017.108" ;
+  :openAccess "https://www.nature.com/articles/sdata2017108.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-af96c479278ffcab091f ;
+.
+
+:publication-94cff4e79b01232f619a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ahajournals.org/doi/abs/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
+  dct:publisher "Hypertension" ;
+  dct:title "Risk factors for hypertension in a national cohort study" ;
+  dct:identifier "doi:10.1161/01.HYP.18.5.598" ;
+  :openAccess "https://www.ahajournals.org/doi/pdf/10.1161/01.HYP.18.5.598"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-4645e20e239dba63eb24, :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-29977e522c5bdb3dc41a
@@ -1077,7 +1275,7 @@
   dct:title "Application of support vector machine modeling for prediction of common diseases: The case of diabetes and pre-diabetes" ;
   dct:identifier "doi:10.1186/1472-6947-10-16" ;
   :openAccess "http://europepmc.org/articles/PMC2850872?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-1d38a72bd0df5bfe03d4
@@ -1087,7 +1285,7 @@
   dct:title "Morbid obesity as a risk factor for hospitalization and death due to 2009 pandemic influenza A(H1N1) disease" ;
   dct:identifier "doi:10.1371/journal.pone.0009694" ;
   :openAccess "http://europepmc.org/articles/PMC2837749?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-6fafd6b71cf9b38296c8
@@ -1097,7 +1295,7 @@
   dct:title "Cholesterol treatment with statins: Who is left out and who makes it to goal?" ;
   dct:identifier "doi:10.1186/1472-6963-10-68" ;
   :openAccess "http://europepmc.org/articles/PMC2846927?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-bc5133ff85d50c484d0f
@@ -1107,7 +1305,7 @@
   dct:title "Lack of association between dietary fructose and hyperuricemia risk in adults" ;
   dct:identifier "doi:10.1186/1743-7075-7-16" ;
   :openAccess "https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-7-16"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-5d0c5c73146b1ab784e4
@@ -1117,7 +1315,7 @@
   dct:title "Association of urinary bisphenol a concentration with heart disease: Evidence from NHANES 2003/06" ;
   dct:identifier "doi:10.1371/journal.pone.0008673" ;
   :openAccess "http://europepmc.org/articles/PMC2800195?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-94362e0b3c5f2c7f3e16
@@ -1127,7 +1325,7 @@
   dct:title "Blood lead levels and major depressive disorder, panic disorder, and generalized anxiety disorder in US young adults" ;
   dct:identifier "doi:10.1001/archgenpsychiatry.2009.164" ;
   :openAccess "https://europepmc.org/articles/PMC2917196?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a7eb9cdcdcfc0a59092d
@@ -1137,7 +1335,7 @@
   dct:title "Inverse association between insulin resistance and gait speed in nondiabetic older men: Results from the U.S. National Health and Nutrition Examination Survey (NHANES) 1999-2002" ;
   dct:identifier "doi:10.1186/1471-2318-9-49" ;
   :openAccess "http://europepmc.org/articles/PMC2784762?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-012df4a72af52b038483
@@ -1147,7 +1345,7 @@
   dct:title "Public health impact of antiviral therapy for hepatitis C in the United States" ;
   dct:identifier "doi:10.1002/hep.23220" ;
   :openAccess "https://aasldpubs.onlinelibrary.wiley.com/doi/pdf/10.1002/hep.23220"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a883cb9652fa61df6382
@@ -1157,7 +1355,7 @@
   dct:title "A cross-sectional study of food group intake and C-reactive protein among children" ;
   dct:identifier "doi:10.1186/1743-7075-6-40" ;
   :openAccess "https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-6-40"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-94a7e77aa9b87afe58ff
@@ -1167,7 +1365,7 @@
   dct:title "Diabetes prevalence and diagnosis in US states: Analysis of health surveys" ;
   dct:identifier "doi:10.1186/1478-7954-7-16" ;
   :openAccess "http://europepmc.org/articles/PMC2764564?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-22cce392aec224560430
@@ -1177,7 +1375,7 @@
   dct:title "Dual energy X-Ray absorptiometry body composition reference values from NHANES" ;
   dct:identifier "doi:10.1371/journal.pone.0007038" ;
   :openAccess "http://europepmc.org/articles/PMC2737140?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-f531d3f446a7c82b2f4b
@@ -1197,7 +1395,7 @@
   dct:title "Tobacco smoke exposure and levels of urinary metals in the U.S. youth and adult population: The National Health and Nutrition Examination Survey (NHANES) 1999-2004" ;
   dct:identifier "doi:10.3390/ijerph6071930" ;
   :openAccess "http://europepmc.org/articles/PMC2738890?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-f8246c42da6cb6b41bc6
@@ -1207,7 +1405,7 @@
   dct:title "The 'fit but fat' concept revisited: Population-based estimates using NHANES" ;
   dct:identifier "doi:10.1186/1479-5868-7-47" ;
   :openAccess "http://europepmc.org/articles/PMC2885314?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-191fe1c40316b22b8c0a
@@ -1217,7 +1415,7 @@
   dct:title "The association of biomarkers of iron status with peripheral arterial disease in US adults" ;
   dct:identifier "doi:10.1186/1471-2261-9-34" ;
   :openAccess "https://bmccardiovascdisord.biomedcentral.com/track/pdf/10.1186/1471-2261-9-34"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a419708f45f20a810aca
@@ -1227,7 +1425,7 @@
   dct:title "Age-related associations of hypertension and diabetes mellitus with chronic kidney disease" ;
   dct:identifier "doi:10.1186/1471-2369-10-17" ;
   :openAccess "http://europepmc.org/articles/PMC2714514?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a636f0391b5e83a6180a
@@ -1237,7 +1435,7 @@
   dct:title "Who is exposed to secondhand smoke? Self-reported and serum cotinine measured exposure in the U.S., 1999-2006" ;
   dct:identifier "doi:10.3390/ijerph6051633" ;
   :openAccess "http://europepmc.org/articles/PMC2697933?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a818ff02f30301d3efb9
@@ -1267,7 +1465,7 @@
   dct:title "Changes in inflammatory biomarkers across weight classes in a representative US population: A link between obesity and inflammation" ;
   dct:identifier "doi:10.1007/s11605-009-0904-9" ;
   :openAccess "https://escholarship.org/content/qt94q4t57k/qt94q4t57k.pdf?t=l7nx9c"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-8b2cc8d064c9ddeac221
@@ -1287,7 +1485,7 @@
   dct:title "Fitness versus fatness and insulin resistance in U.S. adolescents" ;
   dct:identifier "doi:10.1155/2010/195729" ;
   :openAccess "http://europepmc.org/articles/PMC2911600?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-32f59b29aba6a3aeb35f
@@ -1307,7 +1505,7 @@
   dct:title "Endocrine disruptors and obesity: An examination of selected persistent organic pollutants in the NHANES 1999-2002 data" ;
   dct:identifier "doi:10.3390/ijerph7072988" ;
   :openAccess "http://europepmc.org/articles/PMC2922741?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-60b9dcc06d427c4146e6
@@ -1317,7 +1515,7 @@
   dct:title "Active play and screen time in US children aged 4 to 11 years in relation to sociodemographic and weight status characteristics: A nationally representative cross-sectional analysis" ;
   dct:identifier "doi:10.1186/1471-2458-8-366" ;
   :openAccess "http://europepmc.org/articles/PMC2605460?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a5e4fea97c0eb7db47e4
@@ -1327,7 +1525,7 @@
   dct:title "Sugary soda consumption and albuminuria: Results from the National Health and Nutrition Examination Survey, 1999-2004" ;
   dct:identifier "doi:10.1371/journal.pone.0003431" ;
   :openAccess "http://europepmc.org/articles/PMC2562987?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-201a6f562422fc88d64f
@@ -1337,7 +1535,7 @@
   dct:title "Herpes simplex virus type 2 seropositivity and relationship status among U.S. adults age 20 to 49: A population-based analysis" ;
   dct:identifier "doi:10.1186/1471-2334-10-359" ;
   :openAccess "http://europepmc.org/articles/PMC3020161?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-ce453384eae33a648095
@@ -1347,7 +1545,7 @@
   dct:title "Obesity and undiagnosed diabetes in the U.S." ;
   dct:identifier "doi:10.2337/dc07-1867" ;
   :openAccess "http://europepmc.org/articles/PMC2518350?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-469d6a00da67a105d8ee
@@ -1357,7 +1555,7 @@
   dct:title "Factors and common conditions associated with adolescent dietary supplement use: an analysis of the National Health and Nutrition Examination Survey (NHANES)" ;
   dct:identifier "doi:10.1186/1472-6882-8-9" ;
   :openAccess "http://europepmc.org/articles/PMC2330139?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-238b9f032d2782ec43d8
@@ -1367,7 +1565,7 @@
   dct:title "Prevalence of self-reported diagnosis of diabetes mellitus and associated risk factors in a national survey in the US population: SHIELD (Study to Help Improve Early evaluation and management of risk factors Leading to Diabetes)" ;
   dct:identifier "doi:10.1186/1471-2458-7-277" ;
   :openAccess "http://europepmc.org/articles/PMC2222165?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-ef07330d0f0910d88983
@@ -1377,7 +1575,7 @@
   dct:title "Association between the metabolic syndrome and its components and gait speed among U.S. adults aged 50 years and older: A cross-sectional analysis" ;
   dct:identifier "doi:10.1186/1471-2458-6-282" ;
   :openAccess "http://europepmc.org/articles/PMC1654157?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-fc745286d79a36da1eee
@@ -1387,7 +1585,7 @@
   dct:title "Satisfied or unaware? Racial differences in perceived weight status" ;
   dct:identifier "doi:10.1186/1479-5868-3-40" ;
   :openAccess "http://europepmc.org/articles/PMC1684255?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-f41ff9f6ff1a65f3b059
@@ -1407,7 +1605,7 @@
   dct:title "Volume, patterns, and types of sedentary behavior and cardio-metabolic health in children and adolescents: A cross-sectional study" ;
   dct:identifier "doi:10.1186/1471-2458-11-274" ;
   :openAccess "http://europepmc.org/articles/PMC3112118?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-ed6758f583b532aa41ea
@@ -1417,7 +1615,7 @@
   dct:title "Urinary concentrations of dialkylphosphate metabolites of organophosphorus pesticides: National Health and Nutrition Examination Survey 1999-2004" ;
   dct:identifier "doi:10.3390/ijerph8083063" ;
   :openAccess "http://europepmc.org/articles/PMC3166728?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-7d690048fe371660afaa
@@ -1447,7 +1645,17 @@
   dct:title "Influence of familial risk on diabetes risk-reducing behaviors among U.S. adults without diabetes" ;
   dct:identifier "doi:10.2337/dc11-0876" ;
   :openAccess "http://europepmc.org/articles/PMC3198289?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-aa4c92fe018754a19a1a
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3048868"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Direct measurement of perchlorate exposure biomarkers in a highly exposed population: a pilot study" ;
+  dct:identifier "doi:10.1371/journal.pone.0017015" ;
+  :openAccess "http://europepmc.org/articles/PMC3048868?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-a4bd5ec74c4a98d1219b
@@ -1457,7 +1665,7 @@
   dct:title "Associations of serum 25-hydroxyvitamin D, parathyroid hormone and calcium with cardiovascular risk factors: Analysis of 3 NHANES cycles (2001-2006)" ;
   dct:identifier "doi:10.1371/journal.pone.0013882" ;
   :openAccess "http://europepmc.org/articles/PMC2976699?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-ff6ad68ae972cdb99228
@@ -1477,7 +1685,7 @@
   dct:title "Assessing physical activity and its relationship to cardiovascular risk factors: NHANES 2003-2006" ;
   dct:identifier "doi:10.1186/1471-2458-11-387" ;
   :openAccess "http://europepmc.org/articles/PMC3123595?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-208b9151c3898409f7a4
@@ -1487,7 +1695,7 @@
   dct:title "Relationship between obesity and diabetes in a US adult population: Findings from the National Health and Nutrition Examination Survey, 1999-2006" ;
   dct:identifier "doi:10.1007/s11695-010-0335-4" ;
   :openAccess "https://escholarship.org/content/qt8tx9g85b/qt8tx9g85b.pdf?t=owvy08"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-9bab608b09ad5834ecf9
@@ -1497,7 +1705,7 @@
   dct:title "Menarche delay and menstrual irregularities persist in adolescents with type 1 diabetes" ;
   dct:identifier "doi:10.1186/1477-7827-9-61" ;
   :openAccess "https://rbej.biomedcentral.com/track/pdf/10.1186/1477-7827-9-61"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-b052b78d4eca464f5a9c
@@ -1507,7 +1715,7 @@
   dct:title "Urinary bisphenol A and type-2 diabetes in U.S. adults: Data from NHANES 2003-2008" ;
   dct:identifier "doi:10.1371/journal.pone.0026868" ;
   :openAccess "http://europepmc.org/articles/PMC3202589?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-199073dc122b37d7279a
@@ -1537,7 +1745,7 @@
   dct:title "Milk intake and total dairy consumption: Associations with early menarche in NHANES 1999-2004" ;
   dct:identifier "doi:10.1371/journal.pone.0014685" ;
   :openAccess "http://europepmc.org/articles/PMC3038976?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-334b3d4512fde0a07c11
@@ -1547,7 +1755,7 @@
   dct:title "Cadmium exposure and neurodevelopmental outcomes in U.S. children" ;
   dct:identifier "doi:10.1289/ehp.1104152" ;
   :openAccess "http://europepmc.org/articles/PMC3346779?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-add5ba5e1ad6fd919ec0
@@ -1557,7 +1765,7 @@
   dct:title "Social disparities in exposures to bisphenol A and polyfluoroalkyl chemicals: A cross-sectional study within NHANES 2003-2006" ;
   dct:identifier "doi:10.1186/1476-069X-11-10" ;
   :openAccess "http://europepmc.org/articles/PMC3312862?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-fb895f053d3dac268135
@@ -1577,7 +1785,7 @@
   dct:title "Population-based screening for anemia using first-time blood donors" ;
   dct:identifier "doi:10.1002/ajh.23171" ;
   :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3525330/pdf/nihms386381.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-936d61f7d517cb2c26c1
@@ -1587,7 +1795,7 @@
   dct:title "Blood pressure over height ratios: Simple and accurate method of detecting elevated blood pressure in children" ;
   dct:identifier "doi:10.1155/2012/253497" ;
   :openAccess "http://downloads.hindawi.com/journals/ijpedi/2012/253497.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-1e67747e53f038bd175c
@@ -1597,37 +1805,17 @@
   dct:title "The prevalence of clinically-relevant comorbid conditions in patients with COPD: a cross-sectional study using data from NHANES 1999-2008" ;
   dct:identifier "doi:10.1186/1471-2466-12-26" ;
   :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3461433/pdf/1471-2466-12-26.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a, :dataset-0a7b604ab2e52411d45a ;
-.
-
-:publication-d918ae99a7fb0a9ffc61
-  rdf:type :ResearchPublication ;
-  foaf:page "http://hdl.handle.net/10419/138415"^^xsd:anyURI ;
-  dct:publisher "Intereconomics" ;
-  dct:title "The Missing Link" ;
-  dct:identifier "doi:10.1007/BF02926183" ;
-  :openAccess "https://www.econstor.eu/bitstream/10419/138415/1/v05-i12-a01-BF02926183.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-a9f750ec148669c3426b
+:publication-9d97f680b0bd17354309
   rdf:type :ResearchPublication ;
-  foaf:page "https://www.nature.com/articles/sdata2017108"^^xsd:anyURI ;
-  dct:publisher "Scientific Data" ;
-  dct:title "Spatiotemporal database of US congressional elections, 1896--2014" ;
-  dct:identifier "doi:10.1038/sdata.2017.108" ;
-  :openAccess "https://www.nature.com/articles/sdata2017108.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-af96c479278ffcab091f ;
-.
-
-:publication-68e286b8655870d6193b
-  rdf:type :ResearchPublication ;
-  foaf:page "https://www.nature.com/articles/sdata201811"^^xsd:anyURI ;
-  dct:publisher "Scientific Data" ;
-  dct:title "A large, open source dataset of stroke anatomical brain images and manual lesion segmentations" ;
-  dct:identifier "doi:10.1038/sdata.2018.11" ;
-  :openAccess "https://www.nature.com/articles/sdata201811.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-8b19c7c2ef65f00bd51a ;
+  foaf:page "http://europepmc.org/articles/PMC3547948"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Major cardiovascular risk factors in Latin America: A comparison with the United States" ;
+  dct:identifier "doi:10.1371/journal.pone.0054056" ;
+  :openAccess "http://europepmc.org/articles/PMC3547948?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-90628845bc09364f4cc4
@@ -1640,163 +1828,73 @@
   cito:citesAsDataSource :dataset-d623648d0332068886e3 ;
 .
 
-:publication-139c4619390ea75b0462
+:publication-68e286b8655870d6193b
   rdf:type :ResearchPublication ;
-  foaf:page "http://hdl.handle.net/10419/194508"^^xsd:anyURI ;
-  dct:publisher "Wine Economics and Policy" ;
-  dct:title "Wine consumption and sales strategies: The evolution of Mass Retail Trading in Italy" ;
-  dct:identifier "doi:10.1016/j.wep.2015.12.001" ;
-  :openAccess "https://www.econstor.eu/bitstream/10419/194508/1/1-s2.0-S2212977415000332-main.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+  foaf:page "https://www.nature.com/articles/sdata201811"^^xsd:anyURI ;
+  dct:publisher "Scientific Data" ;
+  dct:title "A large, open source dataset of stroke anatomical brain images and manual lesion segmentations" ;
+  dct:identifier "doi:10.1038/sdata.2018.11" ;
+  :openAccess "https://www.nature.com/articles/sdata201811.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-8b19c7c2ef65f00bd51a ;
 .
 
-:publication-1bbf332aa8524baf77cf
+:publication-f864820c2ac96be88d5d
   rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/25212"^^xsd:anyURI ;
-  dct:publisher "Agribusiness" ;
-  dct:title "Retail oligopoly power, dairy compact, and Boston milk prices" ;
-  dct:identifier "doi:10.1002/agr.20058" ;
-  :openAccess "https://ageconsearch.umn.edu/record/25212/files/rr040083.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2023843"^^xsd:anyURI ;
+  dct:publisher "Journal of Banking and Finance" ;
+  dct:title "The role of interbank relationships and liquidity needs" ;
+  dct:identifier "doi:10.2139/ssrn.2023843" ;
+  :openAccess "https://www.clevelandfed.org/~/media/content/newsroom%20and%20events/publications/working%20papers/2014/wp%201421%20the%20role%20of%20relationships%20and%20liquidity%20needs%20pdf.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473, :dataset-1c4bd6e13d3c15e578fa ;
 .
 
-:publication-20331961a2835bfe9208
+:publication-546224c87740608e122d
   rdf:type :ResearchPublication ;
-  foaf:page "http://www.escholarship.org/uc/item/7cm5p858"^^xsd:anyURI ;
-  dct:publisher "Econometrica" ;
-  dct:title "Measuring Market Power in the Ready‐to‐Eat Cereal Industry" ;
-  dct:identifier "doi:10.1111/1468-0262.00194" ;
-  :openAccess "https://escholarship.org/content/qt7cm5p858/qt7cm5p858.pdf?t=lnqh3r"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+  foaf:page "http://hdl.handle.net/10419/144318"^^xsd:anyURI ;
+  dct:publisher "National Bank of Belgium" ;
+  dct:title "Sector concentration in loan portfolios and economic capital" ;
+  dct:identifier "doi:10.2139/ssrn.1687615" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/144318/1/wp105.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-2cea7e830ce94a923473 ;
 .
 
-:publication-2919a7f141f1ceacd570
+:publication-f45c2734c942ab11ea19
   rdf:type :ResearchPublication ;
-  foaf:page "http://europepmc.org/articles/PMC4427330"^^xsd:anyURI ;
-  dct:publisher "PLoS ONE" ;
-  dct:title "Relationships between Diet, Alcohol Preference, and Heart Disease and Type 2 Diabetes among Americans" ;
-  dct:identifier "doi:10.1371/journal.pone.0124351" ;
-  :openAccess "http://europepmc.org/articles/PMC4427330?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
+  foaf:page "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2793911"^^xsd:anyURI ;
+  dct:publisher "Applied Economics" ;
+  dct:title "Banks' regulatory buffers, liquidity networks and monetary policy transmission" ;
+  dct:identifier "doi:10.1080/00036840802360245" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/3871/1/200606dkp_b.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-515a08e38c69762ff789 ;
 .
 
-:publication-2f4f1ecfbb1ca0af267d
+:publication-1ff4f24e421e8af59b24
   rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/149024"^^xsd:anyURI ;
-  dct:publisher "Journal of Industrial Economics" ;
-  dct:title "PRICE COMPETITION IN U.S. BREWING*" ;
-  dct:identifier "doi:10.1111/j.1467-6451.2008.00330.x" ;
-  :openAccess "https://ageconsearch.umn.edu/record/149024/files/rr90.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+  foaf:page "http://europepmc.org/articles/PMC3235992"^^xsd:anyURI ;
+  dct:publisher "Biomark Insights" ;
+  dct:title "Association between perchlorate and indirect indicators of thyroid dysfunction in NHANES 2001-2002, a cross-sectional, hypothesis-generating study" ;
+  dct:identifier "doi:10.4137/BMI.S7985" ;
+  :openAccess "http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3235992&blobtype=pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-3a382bb8effd68c9a013
+:publication-d918ae99a7fb0a9ffc61
   rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC6522848/"^^xsd:anyURI ;
-  dct:publisher "Preventive Medicine Reports" ;
-  dct:title "Sugar-sweetened beverage prices: Variations by beverage, food store, and neighborhood characteristics, 2017" ;
-  dct:identifier "doi:10.1016/j.pmedr.2019.100883" ;
-  :openAccess "https://europepmc.org/articles/PMC6522848?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+  foaf:page "http://hdl.handle.net/10419/138415"^^xsd:anyURI ;
+  dct:publisher "Intereconomics" ;
+  dct:title "The Missing Link" ;
+  dct:identifier "doi:10.1007/BF02926183" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/138415/1/v05-i12-a01-BF02926183.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-406b3b5b47d15fe28817
+:publication-deae8f422bc1dfa16aef
   rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC5574185/"^^xsd:anyURI ;
-  dct:publisher "Appetite" ;
-  dct:title "Deal or no deal? The prevalence and nutritional quality of price promotions among U.S. food and beverage purchases" ;
-  dct:identifier "doi:10.1016/j.appet.2017.07.006" ;
-  :openAccess "https://europepmc.org/articles/PMC5574185?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a, :dataset-a58edecf666ec74fdbaf ;
-.
-
-:publication-408d82342fdc431c2899
-  rdf:type :ResearchPublication ;
-  foaf:page "http://hdl.handle.net/10.1093/erae/jbu033"^^xsd:anyURI ;
-  dct:publisher "European Review of Agricultural Economics" ;
-  dct:title "Simulating welfare effects of the European nutrition and health claims’ regulation: the Italian yogurt market" ;
-  dct:identifier "doi:10.1093/erae/jbu033" ;
-  :openAccess "https://academic.oup.com/erae/article-pdf/42/3/499/7003763/jbu033.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-571f215c4d4f29c1977d
-  rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/43788"^^xsd:anyURI ;
-  dct:publisher "Journal of Agricultural and Applied Economics" ;
-  dct:title "Firm-Level Competition in Price and Variety" ;
-  dct:identifier "doi:10.1017/s1074070800022574" ;
-  :openAccess "https://ageconsearch.umn.edu/record/43788/files/Richards%20JAAE%20December%202006.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-5eeefd66b276846f9913
-  rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/19726"^^xsd:anyURI ;
-  dct:publisher "Journal of Agricultural & Food Industrial Organization" ;
-  dct:title "Market Conduct in the U.S. Ready-to-Eat Cereal Industry" ;
-  dct:identifier "doi:10.2202/1542-0485.1075" ;
-  :openAccess "https://ageconsearch.umn.edu/record/19726/files/sp02re01.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-60a74b11ed45e09ec09d
-  rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/25158"^^xsd:anyURI ;
+  foaf:page "https://ageconsearch.umn.edu/record/205424"^^xsd:anyURI ;
   dct:publisher "Agricultural Economics" ;
-  dct:title "Strategic pricing in a differentiated product oligopoly model: fluid milk in Boston" ;
-  dct:identifier "doi:10.1111/j.1574-0862.2006.00136.x" ;
-  :openAccess "https://ageconsearch.umn.edu/record/25158/files/rr050086.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-718958707acda3cc1665
-  rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC6404774/"^^xsd:anyURI ;
-  dct:publisher "American Journal of Agricultural Economics" ;
-  dct:title "Scanner Data-Based Panel Price Indexes." ;
-  dct:identifier "doi:10.1093/ajae/aay032" ;
-  :openAccess "https://europepmc.org/articles/PMC6404774?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-a11ff7b2ad7f8a0e7416
-  rdf:type :ResearchPublication ;
-  foaf:page "https://ideas.repec.org/a/tpr/restat/v97y2015i1p166-180.html"^^xsd:anyURI ;
-  dct:publisher "Review of Economics and Statistics" ;
-  dct:title "Variety Pass-Through: An Examination of the Ready-to-Eat Breakfast Cereal Market" ;
-  dct:identifier "doi:10.1162/rest_a_00447" ;
-  :openAccess "http://hevra.haifa.ac.il/econ/wp_files/wp201004.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
-.
-
-:publication-a1d5337484acf3c5cf02
-  rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/204951"^^xsd:anyURI ;
-  dct:publisher "Agricultural Economics" ;
-  dct:title "Modeling price transmission between farm and retail prices: a soft switches approach" ;
-  dct:identifier "doi:10.1111/agec.12222" ;
-  :openAccess "https://ageconsearch.umn.edu/record/204951/files/Farm%20to%20retail%20cheese%20price%20transmission_r.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
-.
-
-:publication-c2c77d78aa95b1e38f47
-  rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC5573644/"^^xsd:anyURI ;
-  dct:publisher "Journal of the Academy of Nutrition and Dietetics" ;
-  dct:title "No Fat, No Sugar, No Salt . . . No Problem? Prevalence of “Low-Content” Nutrient Claims and Their Associations with the Nutritional Profile of Food and Beverage Purchases in the United States" ;
-  dct:identifier "doi:10.1016/j.jand.2017.01.011" ;
-  :openAccess "https://europepmc.org/articles/PMC5573644?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a, :dataset-a58edecf666ec74fdbaf ;
-.
-
-:publication-da9ef68c5e7a09255209
-  rdf:type :ResearchPublication ;
-  foaf:page "https://www.nber.org/papers/w14434"^^xsd:anyURI ;
-  dct:publisher "Review of Economics and Statistics" ;
-  dct:title "Identification With Imperfect Instruments" ;
-  dct:identifier "doi:10.1162/rest_a_00171" ;
-  :openAccess "https://www.nber.org/papers/w14434.pdf"^^xsd:anyURI ;
+  dct:title "Does a nutritious diet cost more in food deserts?" ;
+  dct:identifier "10.22004/ag.econ.205424" ;
+  :openAccess "https://ageconsearch.umn.edu/record/205424/files/Food%20Deserts%202015%20AAEAUpdated.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
@@ -1805,49 +1903,169 @@
   foaf:page "http://dx.doi.org/10.1016/j.aaspro.2016.02.014"^^xsd:anyURI ;
   dct:publisher "Agriculture and Agricultural Science Procedia" ;
   dct:title "Consumer Response to Quality Differentiation Strategies in Wine PDOs" ;
-  dct:identifier "doi:10.1016/j.aaspro.2016.02.014" ;
-  :openAccess "https://www.sciencedirect.com/science/article/pii/S2210784316300146/pdf?md5=34b1252b54bd3535bc0b54b192c6cc4a&pid=1-s2.0-S2210784316300146-main.pdf"^^xsd:anyURI ;
+  dct:identifier "10.1016/j.aaspro.2016.02.014" ;
+  :openAccess "https://reader.elsevier.com/reader/sd/pii/S2210784316300146?token=13A5F1BE3A3D75CBE539E07FBA81E2015E751473E31642684B6EAABF244185F15BE2C3567298F6F11588EA51BA65DBA7"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
-:publication-deae8f422bc1dfa16aef
+:publication-139c4619390ea75b0462
   rdf:type :ResearchPublication ;
-  foaf:page "http://purl.umn.edu/205424"^^xsd:anyURI ;
-  dct:publisher "Agricultural Economics" ;
-  dct:title "Does a nutritious diet cost more in food deserts?" ;
-  dct:identifier "doi:10.1111/agec.12444" ;
-  :openAccess "https://ageconsearch.umn.edu/record/205424/files/Food%20Deserts%202015%20AAEAUpdated.pdf"^^xsd:anyURI ;
+  foaf:page "http://hdl.handle.net/10419/194508"^^xsd:anyURI ;
+  dct:publisher "Wine Economics and Policy" ;
+  dct:title "Wine consumption and sales strategies: The evolution of Mass Retail Trading in Italy" ;
+  dct:identifier "10.1016/j.wep.2015.12.001" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/194508/1/1-s2.0-S2212977415000332-main.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
-:publication-eec3ec68c233e65b9fd7
+:publication-da9ef68c5e7a09255209
   rdf:type :ResearchPublication ;
-  foaf:page "https://ageconsearch.umn.edu/record/34602"^^xsd:anyURI ;
-  dct:publisher "Review of Agricultural Economics" ;
-  dct:title "Sales Responses to Recalls for Listeria monocytogenes: Evidence from Branded Ready‐to‐Eat Meats" ;
-  dct:identifier "doi:10.1111/j.1467-9353.2006.00317.x" ;
-  :openAccess "https://ageconsearch.umn.edu/record/34602/files/sp04th01.pdf"^^xsd:anyURI ;
+  foaf:page "http://www.mitpressjournals.org/doi/pdf/10.1162/REST_a_00171"^^xsd:anyURI ;
+  dct:publisher "Review of Economics and Statistics" ;
+  dct:title "Identification With Imperfect Instruments" ;
+  dct:identifier "10.1162/rest_a_00171" ;
+  :openAccess "https://www.nber.org/papers/w14434.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-1bbf332aa8524baf77cf
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/25212"^^xsd:anyURI ;
+  dct:publisher "Agribusiness" ;
+  dct:title "Retail oligopoly power, dairy compact, and Boston milk prices" ;
+  dct:identifier "10.1002/agr.20058" ;
+  :openAccess "Retail oligopoly power, dairy compact, and Boston milk prices"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-5eeefd66b276846f9913
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/19726"^^xsd:anyURI ;
+  dct:publisher "Journal of Agricultural & Food Industrial Organization" ;
+  dct:title "Market Conduct in the U.S. Ready-to-Eat Cereal Industry" ;
+  dct:identifier "10.2202/1542-0485.1075" ;
+  :openAccess "https://pdfs.semanticscholar.org/6739/ccb50ee2f09d5034508dab65775aefb42d1b.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
 :publication-f9f1710dee6ac89e40e0
   rdf:type :ResearchPublication ;
-  foaf:page "https://www.nber.org/papers/w8425"^^xsd:anyURI ;
+  foaf:page "http://www.mitpressjournals.org/doi/pdf/10.1162/003465303765299792"^^xsd:anyURI ;
   dct:publisher "Review of Economics and Statistics" ;
   dct:title "New Products, Quality Changes, and Welfare Measures Computed from Estimated Demand Systems" ;
-  dct:identifier "doi:10.1162/003465303765299792" ;
+  dct:identifier "10.1162/003465303765299792" ;
   :openAccess "https://www.nber.org/papers/w8425.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
-:publication-fdf45e8c968433d4aa0f
+:publication-20331961a2835bfe9208
   rdf:type :ResearchPublication ;
-  foaf:page "http://hdl.handle.net/10419/153578"^^xsd:anyURI ;
-  dct:publisher "Empirical Economics" ;
-  dct:title "Choosing and using payment instruments: evidence from German microdata" ;
-  dct:identifier "doi:10.1007/s00181-013-0708-3" ;
-  :openAccess "https://www.econstor.eu/bitstream/10419/153578/1/ecbwp1144.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-44063629e96b00629efa ;
+  foaf:page "http://www.escholarship.org/uc/item/7cm5p858"^^xsd:anyURI ;
+  dct:publisher "Econometrica" ;
+  dct:title "Measuring Market Power in the Ready‐to‐Eat Cereal Industry" ;
+  dct:identifier "10.1111/1468-0262.00194" ;
+  :openAccess "https://escholarship.org/content/qt7cm5p858/qt7cm5p858.pdf?t=lnqh3r"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-139c4619390ea75b0462
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/194508"^^xsd:anyURI ;
+  dct:publisher "Wine Economics and Policy" ;
+  dct:title "Wine consumption and sales strategies: The evolution of Mass Retail Trading in Italy" ;
+  dct:identifier "10.1016/j.wep.2015.12.001" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/194508/1/1-s2.0-S2212977415000332-main.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-408d82342fdc431c2899
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10.1093/erae/jbu033"^^xsd:anyURI ;
+  dct:publisher "European Review of Agricultural Economics" ;
+  dct:title "Simulating welfare effects of the European nutrition and health claims’ regulation: the Italian yogurt market" ;
+  dct:identifier "10.1093/erae/jbu033" ;
+  :openAccess "https://pdfs.semanticscholar.org/1166/42c216694d3d77763d1afffc33127a95fe27.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-2f4f1ecfbb1ca0af267d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/149024"^^xsd:anyURI ;
+  dct:publisher "Journal of Industrial Economics" ;
+  dct:title "PRICE COMPETITION IN U.S. BREWING*" ;
+  dct:identifier "10.1111/j.1467-6451.2008.00330.x" ;
+  :openAccess "https://ageconsearch.umn.edu/record/149024/files/rr90.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-2b4497873374d080d359
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/43788"^^xsd:anyURI ;
+  dct:publisher "Journal of Agricultural & Applied Economics" ;
+  dct:title "Firm-Level Competition in Price and Variety" ;
+  dct:identifier "10.1017/s1074070800022574" ;
+  :openAccess "http://ageconsearch.umn.edu/record/43788/files/Richards%20JAAE%20December%202006.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-eec3ec68c233e65b9fd7
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.researchgate.net/publication/4917236_Sales_Responses_to_Recalls_for_Listeria_monocytogenes_Evidence_from_Branded_Ready-to-Eat_Meats"^^xsd:anyURI ;
+  dct:publisher "Review of Agricultural Economics" ;
+  dct:title "Sales Responses to Recalls for Listeria monocytogenes: Evidence from Branded Ready‐to‐Eat Meats" ;
+  dct:identifier "10.2307/3877197" ;
+  :openAccess "http://ageconsearch.umn.edu/record/34602/files/sp04th01.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-60a74b11ed45e09ec09d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://purl.umn.edu/25158"^^xsd:anyURI ;
+  dct:publisher "Agricultural Economics" ;
+  dct:title "Strategic pricing in a differentiated product oligopoly model: fluid milk in Boston" ;
+  dct:identifier "10.1111/j.1574-0862.2006.00136.x" ;
+  :openAccess "http://ageconsearch.umn.edu/record/25158/files/rr050086.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-406b3b5b47d15fe28817
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5574185"^^xsd:anyURI ;
+  dct:publisher "Appetite" ;
+  dct:title "Deal or no deal? The prevalence and nutritional quality of price promotions among U.S. food and beverage purchases" ;
+  dct:identifier "10.1016/j.appet.2017.07.006" ;
+  :openAccess "https://europepmc.org/articles/PMC5574185?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
+.
+
+:publication-ee54b274499f5be1cf8d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5573644"^^xsd:anyURI ;
+  dct:publisher "J Acad Nutr Diet" ;
+  dct:title "No Fat, No Sugar, No Salt . . . No Problem? Prevalence of “Low-Content” Nutrient Claims and Their Associations with the Nutritional Profile of Food and Beverage Purchases in the United States" ;
+  dct:identifier "10.1016/j.jand.2017.01.011" ;
+  :openAccess "https://europepmc.org/articles/PMC5573644?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a58edecf666ec74fdbaf ;
+.
+
+:publication-d4ac60a0c2b4f4fdb756
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC6522848"^^xsd:anyURI ;
+  dct:publisher "Prev Med Rep" ;
+  dct:title "Sugar-sweetened beverage prices: Variations by beverage, food store, and neighborhood characteristics, 2017" ;
+  dct:identifier "10.1016/j.pmedr.2019.100883" ;
+  :openAccess "https://europepmc.org/articles/PMC6522848?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
+.
+
+:publication-797bcded9617f75f2a89
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC6404774"^^xsd:anyURI ;
+  dct:publisher "Am J Agric Econ" ;
+  dct:title "Scanner Data-Based Panel Price Indexes" ;
+  dct:identifier "10.1093/ajae/aay032" ;
+  :openAccess "https://europepmc.org/articles/PMC6404774?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
 :publication-e2194e545123492c0159
@@ -1968,5 +2186,715 @@
   dct:identifier "RePEc:zbw:bubdp1:199609e" ;
   :openAccess "https://www.econstor.eu/bitstream/10419/107169/1/816593701.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-52a86e661f7fc50f82b0 ;
+.
+
+:publication-b155f23efbfd14706d9e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://hal.archives-ouvertes.fr/hal-01919564"^^xsd:anyURI ;
+  dct:publisher "The European Journal of Public Health" ;
+  dct:title "What role does socio-economic position play in the link between functional limitations and self-rated health: France vs. USA?" ;
+  dct:identifier "doi:10.1093/eurpub/ckr056" ;
+  :openAccess "https://pdfs.semanticscholar.org/00c7/9fd0b3e6fbf07329ad12d721c8170f17d82a.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6a3f22d6ad09fed8f8b1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3779368"^^xsd:anyURI ;
+  dct:publisher "Am J Hematol" ;
+  dct:title "IRon Overload screeNing tool (IRON): development of a tool to guide screening in primary care" ;
+  dct:identifier "doi:10.1002/ajh.22082" ;
+  :openAccess "https://europepmc.org/articles/PMC3779368?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c27867c087852cfbb044
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3267099"^^xsd:anyURI ;
+  dct:publisher "Epidemiol Infect" ;
+  dct:title "Determinants of anti-hepatitis A antibody seroprevalence in 2- to 19-year-olds in the USA using NHANES 2007-2008" ;
+  dct:identifier "doi:10.1017/S0950268811000732" ;
+  :openAccess "http://europepmc.org/articles/PMC3267099?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-52076cf1a3330194bd39
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3527629"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "The impact of insulin resistance and inflammation on the association between sarcopenic obesity and physical functioning" ;
+  dct:identifier "doi:10.1038/oby.2012.20" ;
+  :openAccess "https://europepmc.org/articles/PMC3527629?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e7e0b9cde3b493f33fc1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5774853"^^xsd:anyURI ;
+  dct:publisher "Am J Hypertens" ;
+  dct:title "The impact of differences in methodology and population characteristics on the prevalence of hypertension in US Adults in 1976-1980 and 1999-2002" ;
+  dct:identifier "doi:10.1038/ajh.2010.40" ;
+  :openAccess "https://europepmc.org/articles/PMC5774853?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-85deffd63c2326a878f6
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2955475"^^xsd:anyURI ;
+  dct:publisher "J Gen Intern Med" ;
+  dct:title "Erratum to: The dietary quality of persons with heart failure in NHANES 1999-2006" ;
+  dct:identifier "doi:10.1007/s11606-010-1322-0" ;
+  :openAccess "https://europepmc.org/articles/PMC2955475?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-0794e73329b8692fe3c8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3079892"^^xsd:anyURI ;
+  dct:publisher "J Expo Sci Environ Epidemiol" ;
+  dct:title "Daily intake of bisphenol A and potential sources of exposure: 2005-2006 National Health and Nutrition Examination Survey" ;
+  dct:identifier "doi:10.1038/jes.2010.9" ;
+  :openAccess "http://europepmc.org/articles/PMC3079892?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4593a795b0a234ff99c1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3102008"^^xsd:anyURI ;
+  dct:publisher "Am J Hypertens" ;
+  dct:title "Race/Ethnicity and hypertension: The role of social support" ;
+  dct:identifier "doi:10.1038/ajh.2010.28" ;
+  :openAccess "https://europepmc.org/articles/PMC3102008?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b9290366fc62b337fb0f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2800028"^^xsd:anyURI ;
+  dct:publisher "J Korean Med Sci" ;
+  dct:title "Prevalence of metabolic syndrome and obesity in adolescents aged 12 to 19 years: Comparison between the United States and Korea" ;
+  dct:identifier "doi:10.3346/jkms.2010.25.1.75" ;
+  :openAccess "http://europepmc.org/articles/PMC2800028?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b10c6d789fa06a1a8388
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2773506"^^xsd:anyURI ;
+  dct:publisher "Circ Cardiovasc Qual Outcomes" ;
+  dct:title "Serum selenium concentrations and hypertension in the US Population" ;
+  dct:identifier "doi:10.1161/CIRCOUTCOMES.108.831552" ;
+  :openAccess "https://europepmc.org/articles/PMC2773506?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-66583101cb92355b871d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2817320"^^xsd:anyURI ;
+  dct:publisher "CMAJ" ;
+  dct:title "Serum anion gap, bicarbonate and biomarkers of inflammation in healthy individuals in a national survey" ;
+  dct:identifier "doi:10.1503/cmaj.090329" ;
+  :openAccess "https://europepmc.org/articles/PMC2817320?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1cebb61452a1466cfe41
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2809279"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Associations of serum concentrations of 25-hydroxyvitamin D and parathyroid hormone with surrogate markers of insulin resistance among U.S. adults without physician-diagnosed diabetes: NHANES, 2003-2006" ;
+  dct:identifier "doi:10.2337/dc09-0924" ;
+  :openAccess "http://europepmc.org/articles/PMC2809279?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1a62cd91ac1e2ffe1023
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3671378"^^xsd:anyURI ;
+  dct:publisher "Int J Obes (Lond)" ;
+  dct:title "Long-term weight loss maintenance in the United States" ;
+  dct:identifier "doi:10.1038/ijo.2010.94" ;
+  :openAccess "https://europepmc.org/articles/PMC3671378?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ff21857b3880a3db43a6
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2782978"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Association among acrylamide, blood insulin, and insulin resistance in adults" ;
+  dct:identifier "doi:10.2337/dc09-0309" ;
+  :openAccess "http://europepmc.org/articles/PMC2782978?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-943cb319c54a0e99e4ef
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2719699"^^xsd:anyURI ;
+  dct:publisher "Eur Heart J" ;
+  dct:title "Kidney function estimated from serum creatinine and cystatin C and peripheral arterial disease in NHANES 1999-2002" ;
+  dct:identifier "doi:10.1093/eurheartj/ehp195" ;
+  :openAccess "https://europepmc.org/articles/PMC2719699?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-bb1774d49cef9d2db036
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2712920"^^xsd:anyURI ;
+  dct:publisher "Eur J Public Health" ;
+  dct:title "By how much would limiting TV food advertising reduce childhood obesity?" ;
+  dct:identifier "doi:10.1093/eurpub/ckp039" ;
+  :openAccess "http://europepmc.org/articles/PMC2712920?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-0de31c0ce5a5738e70a4
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2895706"^^xsd:anyURI ;
+  dct:publisher "Nutr Res Pract" ;
+  dct:title "Noodle consumption patterns of American consumers: NHANES 2001-2002" ;
+  dct:identifier "doi:10.4162/nrp.2010.4.3.243" ;
+  :openAccess "http://europepmc.org/articles/PMC2895706?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3536b13ac43446b892a4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2727225"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Serum selenium and peripheral arterial disease: Results from the National Health and Nutrition Examination Survey, 2003-2004" ;
+  dct:identifier "doi:10.1093/aje/kwn414" ;
+  :openAccess "https://europepmc.org/articles/PMC2727225?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a6a7dd4a08d24643e7bb
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2657166"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Total water intakes of community-living middle-old and oldest-old adults" ;
+  dct:identifier "doi:10.1093/gerona/gln045" ;
+  :openAccess "https://europepmc.org/articles/PMC2657166?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-dbe96afb639302c5e693
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2671106"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Elevated A1C in adults without a history of diabetes in the U.S" ;
+  dct:identifier "doi:10.2337/dc08-1699" ;
+  :openAccess "http://europepmc.org/articles/PMC2671106?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d198b04451eca8112381
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2996491"^^xsd:anyURI ;
+  dct:publisher "Arch Pediatr Adolesc Med" ;
+  dct:title "Vitamin and mineral supplement use by children and adolescents in the 1999-2004 National Health and Nutrition Examination Survey: Relationship with nutrition, food security, physical activity, and health care access" ;
+  dct:identifier "doi:10.1001/archpediatrics.2008.523" ;
+  :openAccess "https://europepmc.org/articles/PMC2996491?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b40f1ec1d00dae118474
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2655011"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Prevalence, awareness, and management of hypertension, dyslipidemia, and diabetes among United States adults aged 65 and older" ;
+  dct:identifier "doi:10.1093/gerona/gln016" ;
+  :openAccess "http://europepmc.org/articles/PMC2655011?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c438d857a3c9dd315274
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2945293"^^xsd:anyURI ;
+  dct:publisher "JAMA" ;
+  dct:title "Prevalence of diabetic retinopathy in the United States, 2005-2008" ;
+  dct:identifier "doi:10.1001/jama.2010.1111" ;
+  :openAccess "https://europepmc.org/articles/PMC2945293?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6644ecc726c66ef07e94
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3001778"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "Prevalence of CKD in Northeastern Italy: Results of the INCIPE Study and Comparison with NHANES" ;
+  dct:identifier "doi:10.2215/CJN.02400310" ;
+  :openAccess "https://pdfs.semanticscholar.org/2890/dd240521807ea3fa7c6c3be5a45090c7dfb5.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-90c0000fb29184e81cba
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3221329"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Association of prescription H1 antihistamine use with obesity: Results from the National Health and Nutrition Examination Survey" ;
+  dct:identifier "doi:10.1038/oby.2010.176" ;
+  :openAccess "https://europepmc.org/articles/PMC3221329?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3719776d3148c3d61914
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2660466"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Association among serum perfluoroalkyl chemicals, glucose homeostasis, and metabolic syndrome in adolescents and adults" ;
+  dct:identifier "doi:10.2337/dc08-1816" ;
+  :openAccess "http://europepmc.org/articles/PMC2660466?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-530c6c2b66bcf8d72b07
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2615703"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "Association of serum intact parathyroid hormone with lower estimated glomerular filtration rate" ;
+  dct:identifier "doi:10.2215/CJN.03050608" ;
+  :openAccess "https://pdfs.semanticscholar.org/93ec/b41aa60ffb98bfe267c40fb4fb3f933ef76e.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4487cb69c2e7b34821eb
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2801345"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Obesity and the likelihood of sexual behavioral risk factors for HPV and cervical cancer" ;
+  dct:identifier "doi:10.1038/oby.2008.394" ;
+  :openAccess "https://europepmc.org/articles/PMC2801345?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-bbd79a6bc7d0dd57f720
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2516573"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Diet and nondiet predictors of urinary 3-phenoxybenzoic acid in NHANES 1999-2002" ;
+  dct:identifier "doi:10.1289/ehp.11082" ;
+  :openAccess "http://europepmc.org/articles/PMC2516573?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-49f724988997d6c44d41
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2772054"^^xsd:anyURI ;
+  dct:publisher "Arch Ophthalmol" ;
+  dct:title "Prevalence of refractive error in the United States, 1999-2004" ;
+  dct:identifier "doi:10.1001/archopht.126.8.1111" ;
+  :openAccess "https://europepmc.org/articles/PMC2772054?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-db2933ddfe3f44ea2fe9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2453167"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Association of environmental toxicants and conduct disorder in U.S. children: NHANES 2001-2004" ;
+  dct:identifier "doi:10.1289/ehp.11177" ;
+  :openAccess "http://europepmc.org/articles/PMC2453167?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-388727d5bf7f7bed71c0
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3645372"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol Community Health" ;
+  dct:title "What explains the American disadvantage in health compared with the English? The case of diabetes" ;
+  dct:identifier "doi:10.1136/jech.2010.108415" ;
+  :openAccess "https://europepmc.org/articles/PMC3645372?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-230497ec76df2856274d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2704240"^^xsd:anyURI ;
+  dct:publisher "Circulation" ;
+  dct:title "Association of insulin resistance and inflammation with peripheral arterial disease: The National Health and Nutrition Examination Survey, 1999 to 2004" ;
+  dct:identifier "doi:10.1161/CIRCULATIONAHA.107.721878" ;
+  :openAccess "https://europepmc.org/articles/PMC2704240?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d9ad79e5b0cc2be703cb
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3053124"^^xsd:anyURI ;
+  dct:publisher "Matern Child Nutr" ;
+  dct:title "Food insecurity is not associated with lower energy intakes" ;
+  dct:identifier "doi:10.1038/oby.2008.288" ;
+  :openAccess "https://europepmc.org/articles/PMC3053124?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ce8e6d488822b8c1250f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2705139"^^xsd:anyURI ;
+  dct:publisher "Arterioscler Thromb Vasc Biol" ;
+  dct:title "Serum 25-hydroxyvitamin D levels and the prevalence of peripheral arterial disease: Results from NHANES 2001 to 2004" ;
+  dct:identifier "doi:10.1161/ATVBAHA.108.165886" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2705139/pdf/nihms110645.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4e1889542039fe881673
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2848449"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Obesity and C-reactive protein levels among White, Black, and Hispanic US adults" ;
+  dct:identifier "doi:10.1038/oby.2008.7" ;
+  :openAccess "https://europepmc.org/articles/PMC2848449?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ed940a5cacc3688fb8dd
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2265044"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Urinary concentrations of triclosan in the U.S. population: 2003-2004" ;
+  dct:identifier "doi:10.1289/ehp.10768" ;
+  :openAccess "http://europepmc.org/articles/PMC2265044?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-189579e3abba99e90220
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2267424"^^xsd:anyURI ;
+  dct:publisher "Ann Fam Med" ;
+  dct:title "Acculturation and healthy lifestyle among Latinos with diabetes" ;
+  dct:identifier "doi:10.1370/afm.814" ;
+  :openAccess "https://europepmc.org/articles/PMC2267424?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-0b9a0bd845768c8b923b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3527832"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Amount of time spent in sedentary behaviors in the United States, 2003-2004" ;
+  dct:identifier "doi:10.1093/aje/kwm390" ;
+  :openAccess "https://europepmc.org/articles/PMC3527832?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c83d63235f4c7712e8a2
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2199293"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Cadmium exposure and hypertension in the 1999-2004 National Health and Nutrition Examination Survey (NHANES)" ;
+  dct:identifier "doi:10.1289/ehp.10764" ;
+  :openAccess "http://europepmc.org/articles/PMC2199293?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4841c5017a938d60c1d2
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1964908"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Impact of smoking and thiocyanate on perchlorate and thyroid hormone associations in the 2001-2002 National Health and Nutrition Examination Survey" ;
+  dct:identifier "doi:10.1289/ehp.10300" ;
+  :openAccess "http://europepmc.org/articles/PMC1964908?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b410a83a4f10ed6d9aee
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1367827"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Blood mercury reporting in NHANES: identifying Asian, Pacific Islander, Native American, and multiracial groups" ;
+  dct:identifier "doi:10.1289/ehp.8464" ;
+  :openAccess "http://europepmc.org/articles/PMC1367827?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8f8ff2f7b8e6bf9692b6
+  rdf:type :ResearchPublication ;
+  foaf:page "https://care.diabetesjournals.org/content/28/8/1981"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Relationship between HbA1c level and peripheral arterial disease" ;
+  dct:identifier "10.2337/diacare.28.8.1981" ;
+  :openAccess "https://www.jvascsurg.org/article/S0741-5214(06)00257-6/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4df4a5f12322435aa8c0
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1741027"^^xsd:anyURI ;
+  dct:publisher "Occup Environ Med" ;
+  dct:title "Urinary mercury concentrations associated with dental restorations in adult women aged 16-49 years: United States, 1999-2000" ;
+  dct:identifier "doi:10.1136/oem.2004.016832" ;
+  :openAccess "https://europepmc.org/articles/PMC1741027?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-ae2ff6ea61e446a40bd1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ahajournals.org/doi/10.1161/01.CIR.0000137913.26087.F0"^^xsd:anyURI ;
+  dct:publisher "Circulation" ;
+  dct:title "Prevalence of and risk factors for peripheral arterial disease in the United States: Results from the National Health and Nutrition Examination Survey, 1999-2000" ;
+  dct:identifier "doi:10.1161/01.CIR.0000137913.26087.F0" ;
+  :openAccess "https://www.ahajournals.org/doi/pdf/10.1161/01.CIR.0000137913.26087.F0"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3fa9235c7ce20a889a11
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3024375"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Sedentary activity associated with metabolic syndrome independent of physical activity" ;
+  dct:identifier "doi:10.2337/dc10-0987" ;
+  :openAccess "http://europepmc.org/articles/PMC3024375?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a617b282b749877a00b9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3104666"^^xsd:anyURI ;
+  dct:publisher "J Clin Med Res" ;
+  dct:title "High total bilirubin as a protective factor for diabetes mellitus: An analysis of NHANES data from 1999 - 2006" ;
+  dct:identifier "doi:10.4021/jocmr425w" ;
+  :openAccess "http://europepmc.org/articles/PMC3104666?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-5149c55345ed4ed57464
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3277688"^^xsd:anyURI ;
+  dct:publisher "Occup Environ Med" ;
+  dct:title "Occupational noise exposure assessment using O*NET and its application to a study of hearing loss in the US general population" ;
+  dct:identifier "doi:10.1136/oem.2011.064758" ;
+  :openAccess "http://europepmc.org/articles/PMC3277688?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e22cba3af7fd9f7bf8c9
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3131698"^^xsd:anyURI ;
+  dct:publisher "J Pediatr Psychol" ;
+  dct:title "Obesity and related health behaviors among urban and rural children in the United States: data from the National Health And Nutrition Examination Survey 2003-2004 and 2005-2006" ;
+  dct:identifier "doi:10.1093/jpepsy/jsq117" ;
+  :openAccess "https://europepmc.org/articles/PMC3131698?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-40a4f87b22e0ab7767f5
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3176582"^^xsd:anyURI ;
+  dct:publisher "Am J Hypertens" ;
+  dct:title "Vitamin D and racial disparity in albuminuria: NHANES 2001-2006" ;
+  dct:identifier "doi:10.1038/ajh.2011.108" ;
+  :openAccess "http://europepmc.org/articles/PMC3176582?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e3b1638ff40469db6db5
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3194029"^^xsd:anyURI ;
+  dct:publisher "J Clin Med Res" ;
+  dct:title "Bilirubin as a protective factor for rheumatoid arthritis: An NHANES study of 2003 - 2006 data" ;
+  dct:identifier "doi:10.4021/jocmr444w" ;
+  :openAccess "http://europepmc.org/articles/PMC3194029?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-88b3fa9b879db4dcc220
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3174857"^^xsd:anyURI ;
+  dct:publisher "J Nutr" ;
+  dct:title "Foods, fortificants, and supplements: Where do Americans get their nutrients?" ;
+  dct:identifier "doi:10.3945/jn.111.142257" ;
+  :openAccess "http://europepmc.org/articles/PMC3174857?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-832ce59f0fa7a749769f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3634159"^^xsd:anyURI ;
+  dct:publisher "Eur Heart J" ;
+  dct:title "Sedentary time and cardio-metabolic biomarkers in US adults: NHANES 2003-06" ;
+  dct:identifier "doi:10.1093/eurheartj/ehq451" ;
+  :openAccess "https://europepmc.org/articles/PMC3634159?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-e4459148885f8825807c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3252472"^^xsd:anyURI ;
+  dct:publisher "Cancer Prev Res (Phila)" ;
+  dct:title "Opportunities for the primary prevention of colorectal cancer in the United States" ;
+  dct:identifier "doi:10.1158/1940-6207.CAPR-11-0322" ;
+  :openAccess "https://europepmc.org/articles/PMC3252472?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-da72cbd9a938ab206ae8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3133759"^^xsd:anyURI ;
+  dct:publisher "Nutr Res Pract" ;
+  dct:title "Survey of American food trends and the growing obesity epidemic" ;
+  dct:identifier "doi:10.4162/nrp.2011.5.3.253" ;
+  :openAccess "http://europepmc.org/articles/PMC3133759?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b4d9cc027e757fa6c596
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3161724"^^xsd:anyURI ;
+  dct:publisher "J Am Board Fam Med" ;
+  dct:title "Prevalence, treatment, and control of depressive symptoms in the United States: Results from the National Health and Nutrition Examination Survey (NHANES), 2005-2008" ;
+  dct:identifier "doi:10.3122/jabfm.2011.01.100121" ;
+  :openAccess "https://europepmc.org/articles/PMC3161724?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-fb38c0f1af15a532b6b1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3137384"^^xsd:anyURI ;
+  dct:publisher "Hum Reprod" ;
+  dct:title "Evidence for increased cardiovascular events in the fathers but not mothers of women with polycystic ovary syndrome" ;
+  dct:identifier "doi:10.1093/humrep/der101" ;
+  :openAccess "https://europepmc.org/articles/PMC3137384?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6d68f9d421291ce5a864
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3210955"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Relations of a marker of endothelial activation (s-VCAM) to function and mortality in community-dwelling older adults" ;
+  dct:identifier "doi:10.1093/gerona/glr121" ;
+  :openAccess "https://europepmc.org/articles/PMC3210955?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-3c87692e90a2461f83a5 ;
+.
+
+:publication-2c3ba76fdbb570337f3a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3574556"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "The association between childhood obesity and tooth eruption" ;
+  dct:identifier "doi:10.1038/oby.2012.23" ;
+  :openAccess "https://europepmc.org/articles/PMC3574556?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3a6a89bc53a94ea36f6f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3440106"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Bisphenol A and Peripheral Arterial Disease: Results from the NHANES" ;
+  dct:identifier "doi:10.1289/ehp.1104114" ;
+  :openAccess "http://europepmc.org/articles/PMC3440106?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-67e279b8de069ce4658d
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4264593"^^xsd:anyURI ;
+  dct:publisher "Arch Pediatr Adolesc Med" ;
+  dct:title "Relationship between insulin resistance-associated metabolic parameters and anthropometric measurements with sugar-sweetened beverage intake and physical activity levels in US adolescents" ;
+  dct:identifier "doi:10.1001/archpediatrics.2009.21" ;
+  :openAccess "https://europepmc.org/articles/PMC4264593?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1864b19e3bc94e329d88
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2661918"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Exposure of U.S. children to residential dust lead, 1999-2004: I. Housing and demographic factors" ;
+  dct:identifier "doi:10.1289/ehp.11917" ;
+  :openAccess "http://europepmc.org/articles/PMC2661918?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1d9ec753c636cc701f88
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2918403"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Obesity and smoking: Comparing cessation treatment seekers with the general smoking population" ;
+  dct:identifier "doi:10.1038/oby.2009.36" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2918403/pdf/nihms223869.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8f6469a3a1c7b6c98e9e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2906527"^^xsd:anyURI ;
+  dct:publisher "Ann Fam Med" ;
+  dct:title "Prevalence of coronary heart disease risk factors and screening for high cholesterol levels among young adults, United States, 1999-2006" ;
+  dct:identifier "doi:10.1370/afm.1137" ;
+  :openAccess "https://europepmc.org/articles/PMC2906527?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c7f046a0cfc4a6510694
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2647758"^^xsd:anyURI ;
+  dct:publisher "Am J Clin Nutr" ;
+  dct:title "Folate-vitamin B-12 interaction in relation to cognitive impairment, anemia, and biochemical indicators of vitamin B-12 deficiency" ;
+  dct:identifier "doi:10.3945/ajcn.2008.26947C" ;
+  :openAccess "https://europepmc.org/articles/PMC2647758?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1b922fbcec0d1a11f3a7
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3170426"^^xsd:anyURI ;
+  dct:publisher "Clin Infect Dis" ;
+  dct:title "Metabolic syndrome in HIV-infected patients from an urban, midwestern US outpatient population" ;
+  dct:identifier "doi:10.1086/511679" ;
+  :openAccess "https://europepmc.org/articles/PMC3170426?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-454358cd20fb8e0250a3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1578655"^^xsd:anyURI ;
+  dct:publisher "Ann Fam Med" ;
+  dct:title "Evidence of nephropathy and peripheral neuropathy in US adults with undiagnosed diabetes" ;
+  dct:identifier "doi:10.1370/afm.577" ;
+  :openAccess "https://europepmc.org/articles/PMC1578655?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-cc049fc20fa977d5ac55
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1557358"^^xsd:anyURI ;
+  dct:publisher "Diabetes Care" ;
+  dct:title "Prevalence and risk factors for urinary incontinence in women with type 2 diabetes and impaired fasting glucose: Findings from the National Health and Nutrition Examination Survey (NHANES) 2001-2002" ;
+  dct:identifier "doi:10.2337/dc05-2463" ;
+  :openAccess "https://europepmc.org/articles/PMC1557358?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-9d035a6b84bacac6b683
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2376837"^^xsd:anyURI ;
+  dct:publisher "J Gerontol A Biol Sci Med Sci" ;
+  dct:title "Linking C-reactive protein to late-life disability in the National Health and Nutrition Examination Survey (NHANES) 1999-2002" ;
+  dct:identifier "doi:10.1093/gerona/61.4.380" ;
+  :openAccess "https://europepmc.org/articles/PMC2376837?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-75004b32f0455c269871
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1467003"^^xsd:anyURI ;
+  dct:publisher "Ann Fam Med" ;
+  dct:title "Nasal carriage of Staphylococcus aureus and methicillin-resistant S aureus in the United States, 2001-2002" ;
+  dct:identifier "doi:10.1370/afm.526" ;
+  :openAccess "https://europepmc.org/articles/PMC1467003?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4693bde97601d5909d6f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3142730"^^xsd:anyURI ;
+  dct:publisher "Am J Clin Nutr" ;
+  dct:title "Monitoring of vitamin B-12 nutritional status in the United States by using plasma methylmalonic acid and serum vitamin B-12" ;
+  dct:identifier "doi:10.3945/ajcn.111.015222" ;
+  :openAccess "https://europepmc.org/articles/PMC3142730?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
