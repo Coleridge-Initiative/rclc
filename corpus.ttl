@@ -11,6 +11,7 @@
   foaf:page "https://www.iriworldwide.com/en-US/Solutions/Retail"^^xsd:anyURI ;
   dct:publisher "IRI" ;
   dct:title "IRI Infoscan" ;
+  dct:alternative "retail scanner data" ;
 .
 
 :dataset-a58edecf666ec74fdbaf
@@ -18,6 +19,8 @@
   foaf:page "https://www.iriworldwide.com/en-US/Solutions/Media/Media-Solutions/Consumer"^^xsd:anyURI ;
   dct:publisher "IRI" ;
   dct:title "IRI Consumer Network" ;
+  dct:alternative "Consumer Network" ;
+  dct:alternative "household scanner data" ;
 .
 
 :dataset-52a86e661f7fc50f82b0
@@ -363,13 +366,16 @@
   dct:alternative "SNDA-IV" ;
 .
 
-:dataset-45765fc973cd4e8ad078
+:dataset-b5ecda6a60ca5c2476d2
   rdf:type :Dataset ;
   foaf:page "https://www.ers.usda.gov/data-products/quarterly-food-at-home-price-database"^^xsd:anyURI ;
   dct:publisher "U.S. Department of Agriculture" ;
-  dct:title "Quarterly Food-at-Home Price Database" ;
+  dct:title "Quarterly Food at Home Prices" ;
   dct:alternative "QFAHPD" ;
-  dct:alternative "Qtrly FAFH" ;
+  dct:alternative "QFAFHP" ;
+  dct:alternative "FAH" ;
+  dct:alternative "Quarterly Food at Home Prices Database" ;
+  dct:alternative "Quarterly Food-at-Home Price Database" ;
 .
 
 :dataset-db36220fbb7e658029dc
@@ -396,6 +402,602 @@
   dct:alternative "CPS-ASEC" ;
   dct:alternative "CPS" ;
   dct:alternative "ASEC" ;
+.
+
+:dataset-8be72b6176c9882493b5
+  rdf:type :Dataset ;
+  foaf:page "https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/FSQ_H.htm"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Security Questionnaire" ;
+  dct:alternative "NHANES-FSQ" ;
+  dct:alternative "FSQ" ;
+  dct:alternative "CPS-FSQ" ;
+.
+
+:dataset-50b4f1ba5d38a1364a12
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/media/8279/ad2012.pdf"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Security Survey Module" ;
+  dct:alternative "FSSM" ;
+.
+
+:dataset-0546147195ac6a4db883
+  rdf:type :Dataset ;
+  foaf:page "https://www.cdc.gov/nchs/nhis/about_nhis.htm"^^xsd:anyURI ;
+  dct:publisher "Centers for Disease Control and Prevention" ;
+  dct:title "National Health Interview Survey Family Food Security Supplement" ;
+  dct:alternative "NHIS-FFS" ;
+  dct:alternative "NHIS" ;
+.
+
+:dataset-203c3f6f54945fc08d79
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/eating-and-health-module-atus/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Eating and Health Module" ;
+  dct:alternative "EHM" ;
+  dct:alternative "Eating & Health Module" ;
+  dct:alternative "Eating and Health Module to the American Time Use Survey" ;
+.
+
+:dataset-16223ff4cbc4de453388
+  rdf:type :Dataset ;
+  foaf:page "https://www.bls.gov/tus/"^^xsd:anyURI ;
+  dct:publisher "Bureau of Labor Statistics" ;
+  dct:title "American Time Use Survey" ;
+  dct:alternative "ATUS" ;
+.
+
+:dataset-d4172642f58cbba53b7b
+  rdf:type :Dataset ;
+  foaf:page "https://ndb.nal.usda.gov/ndb/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Composition Databases" ;
+  dct:alternative "USDA National Nutrient Database" ;
+  dct:alternative "USDA Branded Food Products Database" ;
+.
+
+:dataset-7333d97edf4ede175c7e
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/food-expenditure-series/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Expenditure Series" ;
+.
+
+:dataset-60a8eb49d1d4ee134e8d
+  rdf:type :Dataset ;
+  foaf:page "https://www.ers.usda.gov/data-products/quarterly-food-away-from-home-prices/"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Quarterly Food-Away-From-Home Prices" ;
+  dct:alternative "Qtrly FAFH" ;
+  dct:alternative "QFAFHP" ;
+  dct:alternative "FAFH" ;
+  dct:alternative "Quarterly Food Away From Home Prices Database" ;
+  dct:alternative "Quarterly Food Away From Home Database" ;
+.
+
+:dataset-1d65b61eab2d08afd1b9
+  rdf:type :Dataset ;
+  foaf:page "https://www.fns.usda.gov/special-nutrition-program-operations-study-school-year-2013-14"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "The Special Nutrition Program Operations Study" ;
+  dct:alternative "SNOPS" ;
+  dct:alternative "SNOPS-I" ;
+.
+
+:dataset-c0edb58fcd54efb68cf3
+  rdf:type :Dataset ;
+  foaf:page "https://www.fns.usda.gov/resource/healthy-eating-index-hei"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "The Healthy Eating Index" ;
+  dct:alternative "HEI" ;
+.
+
+:dataset-c3bfa2ae89f2b9d2ee8c
+  rdf:type :Dataset ;
+  foaf:page "https://www.bls.gov/cpi/"^^xsd:anyURI ;
+  dct:publisher "Bureau of Labor Statistics" ;
+  dct:title "Consumer Price Index" ;
+  dct:alternative "HEI" ;
+.
+
+:dataset-6d671746cf582b8af391
+  rdf:type :Dataset ;
+  foaf:page "https://faculty.cnr.ncsu.edu/yuanyao/wp-content/uploads/sites/14/2018/09/An-Overview-of-FEDS-The-Food-Environment-Data-System.pdf"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Food Environment Data System" ;
+  dct:alternative "FEDS" ;
+.
+
+:dataset-9ac1252a2cbef37ee1e5
+  rdf:type :Dataset ;
+  foaf:page "https://www.usda.gov/sites/default/files/documents/fns-store-tracking-redemption-system-stars-pia.pdf"^^xsd:anyURI ;
+  dct:publisher "U.S. Department of Agriculture" ;
+  dct:title "Store Tracking and Redemption System" ;
+  dct:alternative "STARS" ;
+.
+
+:dataset-593985a85cfa0924fbc3
+  rdf:type :Dataset ;
+  foaf:page "https://www.irp.wisc.edu/wp/wp-content/uploads/2018/09/TechnicalReport_MSPFlessons2014_2.pdf"^^xsd:anyURI ;
+  dct:publisher "Intitute for Research on Poverty at the University of Wisconsin–Madison" ;
+  dct:title "Multi-Sample Person File" ;
+  dct:alternative "MSPF" ;
+  dct:alternative "Wisconsin Multi-Sample Person File" ;
+.
+
+:dataset-0f0881d3d618eb9d48d4
+  rdf:type :Dataset ;
+  foaf:page "https://www.census.gov/programs-surveys/cps/data-detail.html"^^xsd:anyURI ;
+  dct:publisher "U.S. Census Bureau" ;
+  dct:title "Current Population Survey" ;
+  dct:alternative "CPS" ;
+.
+
+:dataset-c80fd9e9b5bba52119f5
+  rdf:type :Dataset ;
+  foaf:page "https://dwd.wisconsin.gov/uistats/"^^xsd:anyURI ;
+  dct:publisher "State of Wisconsin Department of Workforce Development" ;
+  dct:title "Wisconsin Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Wisconsin UI" ;
+  dct:alternative "Wisconsin Unemployment Insurance" ;
+.
+
+:dataset-232082a0c852bba708b6
+  rdf:type :Dataset ;
+  foaf:page "https://www.ssa.gov/policy/docs/data/ssi-2010/SSI-2010-User-Manual.pdf"^^xsd:anyURI ;
+  dct:publisher "Social Security Administration" ;
+  dct:title "Supplemental Security Income" ;
+  dct:alternative "Supplemental Security Income program" ;
+  dct:alternative "SSI" ;
+.
+
+:dataset-64c20e0a1b201f24a6c3
+  rdf:type :Dataset ;
+  foaf:page "https://dcf.wisconsin.gov/w2/researchers/annual-reports"^^xsd:anyURI ;
+  dct:publisher "Wisconsin Department of Children and Families" ;
+  dct:title "Wisconsin Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Wisconsin TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Wisconsin Aid to Dependent Families with Children" ;
+  dct:alternative "Wisconsin AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-b186661123dda71bf5f1
+  rdf:type :Dataset ;
+  foaf:page "https://doc.wi.gov/Pages/DataResearch/DataAndReports.aspx"^^xsd:anyURI ;
+  dct:publisher "Wisconsin Department of Corrections" ;
+  dct:title "Wisconsin Department of Corrections" ;
+  dct:alternative "DOC" ;
+  dct:alternative "Wisconsin DOC" ;
+  dct:alternative "Department of Corrections" ;
+.
+
+:dataset-62ba1fec76de2029184b
+  rdf:type :Dataset ;
+  foaf:page "https://dpi.wi.gov/families-students/data"^^xsd:anyURI ;
+  dct:publisher "Wisconsin Department of Public Instruction" ;
+  dct:title "Department of Public Instruction" ;
+  dct:alternative "DPI" ;
+  dct:alternative "Wisconsin Department of Public Instruction" ;
+  dct:alternative "Department of Corrections" ;
+.
+
+:dataset-88ab3b96b5b9644c7cfc
+  rdf:type :Dataset ;
+  foaf:page "https://nscresearchcenter.org/workingwithourdata/"^^xsd:anyURI ;
+  dct:publisher "National Student Clearinghouse Research Center" ;
+  dct:title "College Enrollment" ;
+.
+
+:dataset-0c031cd2add4a868289e
+  rdf:type :Dataset ;
+  foaf:page "https://usa.ipums.org/usa/"^^xsd:anyURI ;
+  dct:publisher "Minnesota Population Center" ;
+  dct:title "Integrated Public Use Microdata Series" ;
+  dct:alternative "IPUMS" ;
+.
+
+:dataset-4eef5e324de677d7a83d
+  rdf:type :Dataset ;
+  foaf:page "https://www.ssa.gov/policy/docs/quickfacts/prog_highlights/RatesLimits2019.html"^^xsd:anyURI ;
+  dct:publisher "Social Security Administration" ;
+  dct:title "Old-Age, Survivors, and Disability Insurance" ;
+  dct:alternative "OASDI" ;
+.
+
+:dataset-8d2317a3217cd2637273
+  rdf:type :Dataset ;
+  foaf:page "https://www.acf.hhs.gov/ofa/programs/tanf/data-reports"^^xsd:anyURI ;
+  dct:publisher "Department of Health and Human Services" ;
+  dct:title "Temporary Assistance for Needy Families" ;
+  dct:alternative "TANF" ;
+.
+
+:dataset-53ca68ba0ded95220662
+  rdf:type :Dataset ;
+  foaf:page "https://www.hud.gov/program_offices/public_indian_housing"^^xsd:anyURI ;
+  dct:publisher "Department of Housing and Urban Development" ;
+  dct:title "Public and Indian Housing Information Center" ;
+  dct:alternative "Public and Indian Housing" ;
+  dct:alternative "PIC" ;
+.
+
+:dataset-875ffb2b04b1392cd1f2
+  rdf:type :Dataset ;
+  foaf:page "https://www.hud.gov/program_offices/housing/mfh/trx/trxsum"^^xsd:anyURI ;
+  dct:publisher "Department of Housing and Urban Development" ;
+  dct:title "Tenant Rental Assistance Certification System" ;
+  dct:alternative "TRACS" ;
+.
+
+:dataset-852ea6da06a9887d50e5
+  rdf:type :Dataset ;
+  foaf:page "https://www.irs.gov/privacy-disclosure/information-returns-processing"^^xsd:anyURI ;
+  dct:publisher "Internal Revenue Service" ;
+  dct:title "IRS 1040 Forms" ;
+  dct:alternative "Census Bureau extracts of IRS 1040 Forms" ;
+  dct:alternative "Internal Revenue Service 1040 Forms" ;
+  dct:alternative "Census Bureau extracts of Internal Revenue Service 1040 Forms" ;
+.
+
+:dataset-7f84425f1acf910e1615
+  rdf:type :Dataset ;
+  foaf:page "https://www.bls.gov/eag/eag.mi.htm"^^xsd:anyURI ;
+  dct:publisher "Bureau of Labor Statistics" ;
+  dct:title "State of Michigan Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Michigan UI" ;
+  dct:alternative "Michigan Unemployment Insurance" ;
+.
+
+:dataset-9e16c6ef6b44e6b9675b
+  rdf:type :Dataset ;
+  foaf:page "https://detroitatwork.com/"^^xsd:anyURI ;
+  dct:publisher "Michigan Works!" ;
+  dct:title "Detroit Work First" ;
+  dct:alternative "Detroit Works!" ;
+  dct:alternative "Michigan Work First" ;
+.
+
+:dataset-588a930c2849615415f5
+  rdf:type :Dataset ;
+  foaf:page "https://www.dshs.wa.gov/"^^xsd:anyURI ;
+  dct:publisher "Washington State Department of Social and Health Services" ;
+  dct:title "Washington Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Washington TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Washington Aid to Dependent Families with Children" ;
+  dct:alternative "Washington AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-71daf91d2cca6302c94b
+  rdf:type :Dataset ;
+  foaf:page "https://www.dshs.wa.gov/esa/division-child-support"^^xsd:anyURI ;
+  dct:publisher "Washington State Department of Social and Health Services" ;
+  dct:title "Washington Child support" ;
+  dct:alternative "Child support" ;
+.
+
+:dataset-d165e2f511b727397d51
+  rdf:type :Dataset ;
+  foaf:page "https://otda.ny.gov/resources/caseload/"^^xsd:anyURI ;
+  dct:publisher "New York State Office of Temporary and Disability Statistics" ;
+  dct:title "Temporary & Disability Assistance Statistics" ;
+  dct:alternative "Social Statistics" ;
+.
+
+:dataset-274286da979ae5d1fc98
+  rdf:type :Dataset ;
+  foaf:page "https://www.census.gov/about/adrm/linkage/projects/pvs.html"^^xsd:anyURI ;
+  dct:publisher "United States Census Bureau" ;
+  dct:title "Person Identification Validation System" ;
+  dct:alternative "PVS" ;
+.
+
+:dataset-9d0340163769e811a73d
+  rdf:type :Dataset ;
+  foaf:page "https://www.researchgate.net/publication/255666384_THE_CHILD_SUPPORT_DEMONSTRATION_EVALUATION_RESEARCH_SUMMARY"^^xsd:anyURI ;
+  dct:publisher "Institute for Research on Poverty" ;
+  dct:title "Wisconsin Child Support Demonstration Evaluation" ;
+  dct:alternative "CSDE" ;
+  dct:alternative "Wisconsin CSDE" ;
+  dct:alternative "Child Support Demonstration Evaluation" ;
+.
+
+:dataset-ee6875f845982d727ffe
+  rdf:type :Dataset ;
+  foaf:page "https://wrd.urban.org/wrd/databook.cfm"^^xsd:anyURI ;
+  dct:publisher "Department of Health and Human Services" ;
+  dct:title "Welfare Rules Database" ;
+  dct:alternative "WRD" ;
+.
+
+:dataset-aee4238a4308d80ac5fb
+  rdf:type :Dataset ;
+  foaf:page "https://www.mdrc.org/project/youth-villages-transitional-living-program-evaluation#design-site-data-sources"^^xsd:anyURI ;
+  dct:publisher "MDRC" ;
+  dct:title "Youth Villages Transitional Living Program" ;
+  dct:alternative "Youth Villages Transitional Living Evaluation" ;
+.
+
+:dataset-cee2a820b37d6ecfd888
+  rdf:type :Dataset ;
+  foaf:page "https://www.benefits.gov/benefit/1657"^^xsd:anyURI ;
+  dct:publisher "Florida Department of Children and Families" ;
+  dct:title "Florida Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Florida TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Florida Aid to Dependent Families with Children" ;
+  dct:alternative "Florida AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-3cb37c42f18263ca5e73
+  rdf:type :Dataset ;
+  foaf:page "https://dfcs.georgia.gov/tanf-eligibility-requirements"^^xsd:anyURI ;
+  dct:publisher "Georgia Department of Human Services" ;
+  dct:title "Georgia Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Georgia TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Georgia Aid to Dependent Families with Children" ;
+  dct:alternative "Georgia AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-00de331ef4e5b42101f4
+  rdf:type :Dataset ;
+  foaf:page "https://www.michigan.gov/documents/mdhhs/TANF_State_Plan_2017_538823_7.pdf"^^xsd:anyURI ;
+  dct:publisher "Michigan Department of Health and Human Services" ;
+  dct:title "Michigan Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Michigan TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Michigan Aid to Dependent Families with Children" ;
+  dct:alternative "Michigan AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-d750c0835b8d51ed5bcd
+  rdf:type :Dataset ;
+  foaf:page "http://jfs.ohio.gov/owf/plan_new.stm"^^xsd:anyURI ;
+  dct:publisher "Ohio Department of Job and Family Services" ;
+  dct:title "Ohio Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Ohio TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Ohio Aid to Dependent Families with Children" ;
+  dct:alternative "Ohio AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-cc13984352ceba824b64
+  rdf:type :Dataset ;
+  foaf:page "http://ohiolmi.com/data.htm"^^xsd:anyURI ;
+  dct:publisher "Ohio Department of Job and Family Services" ;
+  dct:title "State of Ohio Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Ohio UI" ;
+  dct:alternative "Ohio Unemployment Insurance" ;
+.
+
+:dataset-238259958b3f88b1a31c
+  rdf:type :Dataset ;
+  foaf:page "http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases"^^xsd:anyURI ;
+  dct:publisher "Florida Department of Economic Opportunity" ;
+  dct:title "State of Florida Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Florida UI" ;
+  dct:alternative "Florida Unemployment Insurance" ;
+.
+
+:dataset-7c0c109b330092cfcaa0
+  rdf:type :Dataset ;
+  foaf:page "https://dol.georgia.gov/documents/unemployment-rate-statewide-seasonally-adjusted"^^xsd:anyURI ;
+  dct:publisher "Georgia Department of Labor" ;
+  dct:title "State of Georgia Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Georgia UI" ;
+  dct:alternative "Georgia Unemployment Insurance" ;
+.
+
+:dataset-22571eb2d0cf42459c19
+  rdf:type :Dataset ;
+  foaf:page "https://www.dshs.wa.gov/ffa/rda/research-reports/dshs-integrated-client-database"^^xsd:anyURI ;
+  dct:publisher "Georgia Department of Labor" ;
+  dct:title "Integrated Client Database" ;
+  dct:alternative "ICDB" ;
+  dct:alternative "DSHS' Integrated Client Database" ;
+  dct:alternative "DSHS' ICDB" ;
+  dct:alternative "Washington State DSHS Integrated Client Database" ;
+  dct:alternative "Washington State ICDB" ;
+  dct:alternative "Washington DSHS Integrated Client Database" ;
+  dct:alternative "Washington ICDB" ;
+  dct:alternative "Washington DSHS ICDB" ;
+.
+
+:dataset-945eb8333e3caaa1b7b8
+  rdf:type :Dataset ;
+  foaf:page "https://www.ssa.gov/policy/docs/statcomps/di_asr/index.html"^^xsd:anyURI ;
+  dct:publisher "Social Security Administration" ;
+  dct:title "Social Security Disability Insurance Program" ;
+  dct:alternative "Social Security Disability Insurance" ;
+  dct:alternative "SSDI" ;
+.
+
+:dataset-e6dfd6cb5860e6505761
+  rdf:type :Dataset ;
+  foaf:page "https://www.oregon.gov/DHS/ASSISTANCE/Branch%20District%20Data/TANF%20Flash%20figures%20August%202019.pdf"^^xsd:anyURI ;
+  dct:publisher "Oregon Department of Human Services" ;
+  dct:title "Oregon Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Oregon TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Oregon Aid to Dependent Families with Children" ;
+  dct:alternative "Oregon AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-78f927ee5b78874942ac
+  rdf:type :Dataset ;
+  foaf:page "https://www.oregon.gov/DHS/ASSISTANCE/Branch%20District%20Data/SNAP%20Flash%20Figures%20for%20February%202019.pdf"^^xsd:anyURI ;
+  dct:publisher "Oregon Department of Human Services" ;
+  dct:title "State of Oregon Supplemental Nutrition Assistance Program" ;
+  dct:alternative "SNAP" ;
+  dct:alternative "Oregon SNAP" ;
+  dct:alternative "Oregon Supplemental Nutrition Assistance Program" ;
+  dct:alternative "Supplemental Nutrition Assistance Program" ;
+  dct:alternative "State of Oregon SNAP" ;
+.
+
+:dataset-32ec824e56fc8277cbb6
+  rdf:type :Dataset ;
+  foaf:page "http://www.dc.state.fl.us/pub/index.html"^^xsd:anyURI ;
+  dct:publisher "Florida Department of Corrections" ;
+  dct:title "Florida Department of Corrections Administrative Data" ;
+  dct:alternative "FLDOC" ;
+.
+
+:dataset-2089b9a1267aee93f6f5
+  rdf:type :Dataset ;
+  foaf:page "https://www.bjs.gov/"^^xsd:anyURI ;
+  dct:publisher "U.S. Bureau of Justice" ;
+  dct:title "U.S. Bureau of Justice Statistics" ;
+.
+
+:dataset-33b1ce039c67a6658644
+  rdf:type :Dataset ;
+  foaf:page "https://www.edd.ca.gov/unemployment/"^^xsd:anyURI ;
+  dct:publisher "State of California Employment Development Department" ;
+  dct:title "California Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "California UI" ;
+  dct:alternative "California Unemployment Insurance" ;
+.
+
+:dataset-fe338b5b2f3f6b0d11a4
+  rdf:type :Dataset ;
+  foaf:page ""^^xsd:anyURI ;
+  dct:publisher "National Criminal Justice Reference Service" ;
+  dct:title "Transitional Aid Research Project Experimental Data" ;
+  dct:alternative "TARP" ;
+.
+
+:dataset-379ff5f518e664ba2353
+  rdf:type :Dataset ;
+  foaf:page "https://twc.texas.gov/jobseekers/unemployment-benefits"^^xsd:anyURI ;
+  dct:publisher "Texas Workforce Commission" ;
+  dct:title "Texas Unemployment Insurance" ;
+  dct:alternative "UI" ;
+  dct:alternative "Texas UI" ;
+  dct:alternative "Texas Unemployment Insurance" ;
+.
+
+:dataset-91aa7ea5f7bed0aa77d2
+  rdf:type :Dataset ;
+  foaf:page "https://www.acf.hhs.gov/ofa/resource/tanf-and-moe-spending-and-transfers-by-activity-fy-2018-contains-national-state-pie-charts"^^xsd:anyURI ;
+  dct:publisher "Department of Health and Human Services" ;
+  dct:title "Maintenance of Effort" ;
+  dct:alternative "MOE" ;
+.
+
+:dataset-d5a4413d556640c964cb
+  rdf:type :Dataset ;
+  foaf:page "https://dcf.wisconsin.gov/w2/parents/w2"^^xsd:anyURI ;
+  dct:publisher "Wisconsin Department of Children and Families" ;
+  dct:title "Wisconsin Works (W-2)" ;
+  dct:alternative "W-2" ;
+  dct:alternative "Wisconsin W-2" ;
+.
+
+:dataset-6dd36db95656017dce0b
+  rdf:type :Dataset ;
+  foaf:page "https://dhs.dc.gov/service/whats-new-tanf"^^xsd:anyURI ;
+  dct:publisher "District of Columbia Department of Human Services" ;
+  dct:title "District of Columbia Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "District of Columbia TANF" ;
+  dct:alternative "D.C. TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "District of Columbia Aid to Dependent Families with Children" ;
+  dct:alternative "D.C. Aid to Dependent Families with Children" ;
+  dct:alternative "District of Columbia AFDC" ;
+  dct:alternative "D.C. AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-f21633b92a33a0ef9b16
+  rdf:type :Dataset ;
+  foaf:page "http://www.dhs.pa.gov/citizens/cashassistance/tanfandmovingtoindependence/index.htm"^^xsd:anyURI ;
+  dct:publisher "Pennsylvania Department of Human Services" ;
+  dct:title "Pennsylvania Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "Pennsylvania TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "Pennsylvania Aid to Dependent Families with Children" ;
+  dct:alternative "Pennsylvania AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-be74cce5400d67ca0f7d
+  rdf:type :Dataset ;
+  foaf:page "https://otda.ny.gov/policy/tanf/"^^xsd:anyURI ;
+  dct:publisher "New York State Office of Temporary and Disability Assistance" ;
+  dct:title "New York Temporary Assistance to Needy Families" ;
+  dct:alternative "TANF" ;
+  dct:alternative "New York TANF" ;
+  dct:alternative "N.Y. TANF" ;
+  dct:alternative "Temporary Assistance to Needy Families" ;
+  dct:alternative "Aid to Dependent Families with Children" ;
+  dct:alternative "New York Aid to Dependent Families with Children" ;
+  dct:alternative "N.Y. Aid to Dependent Families with Children" ;
+  dct:alternative "New York AFDC" ;
+  dct:alternative "N.Y. AFDC" ;
+  dct:alternative "AFDC" ;
+.
+
+:dataset-ae88a8d271be6ed49ab2
+  rdf:type :Dataset ;
+  foaf:page "https://www.icpsr.umich.edu/icpsrweb/ICPSR/series/48"^^xsd:anyURI ;
+  dct:publisher "ICPSR" ;
+  dct:title "National Survey of Family Growth" ;
+  dct:alternative "NSFG" ;
+  dct:alternative "NSFG data" ;
+  dct:alternative "NSFG dataset" ;
+  dct:alternative "NCHS" ;
+.
+
+:dataset-a2301c21c43fde8e35f6
+  rdf:type :Dataset ;
+  foaf:page "https://www.icpsr.umich.edu/icpsrweb/DSDR/studies/21600"^^xsd:anyURI ;
+  dct:publisher "ICPSR" ;
+  dct:title "National Longitudinal Study of Adolescent to Adult Health" ;
+  dct:alternative "ADD Health" ;
+  dct:alternative "AHS" ;
+  dct:alternative "Add Health Project" ;
+  dct:alternative "Add Health Study" ;
+  dct:alternative "Add Health Surveys" ;
+  dct:alternative "AddHealth" ;
+  dct:alternative "Adolescent Health" ;
+  dct:alternative "Longitudinal Study of Adolescent Health" ;
+  dct:alternative "The National Longitudinal Study of Adolescent Health" ;
 .
 
 :publication-f909edfc5b2812f512fb
@@ -2354,7 +2956,7 @@
   dct:publisher "Agribusiness" ;
   dct:title "Retail oligopoly power, dairy compact, and Boston milk prices" ;
   dct:identifier "10.1002/agr.20058" ;
-  :openAccess "Retail oligopoly power, dairy compact, and Boston milk prices"^^xsd:anyURI ;
+  :openAccess "https://ageconsearch.umn.edu/record/25212/files/rr040083.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-11a95bfc951f7d23206a ;
 .
 
@@ -2606,6 +3208,206 @@
   dct:identifier "RePEc:zbw:bubdp1:199609e" ;
   :openAccess "https://www.econstor.eu/bitstream/10419/107169/1/816593701.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-52a86e661f7fc50f82b0 ;
+.
+
+:publication-83098f90bc7db9ce275d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3944983"^^xsd:anyURI ;
+  dct:publisher "Environ Health Perspect" ;
+  dct:title "Computational toxicology of chloroform: Reverse dosimetry using Bayesian inference, Markov chain Monte Carlo simulation, and human biomonitoring data" ;
+  dct:identifier "10.1289/ehp.11079" ;
+  :openAccess "https://pdfs.semanticscholar.org/96fc/57e51a276a5195cdd53b14efb9ddc4b7b8bd.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-10883e73945a2306165b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3279937"^^xsd:anyURI ;
+  dct:publisher "J Am Soc Nephrol" ;
+  dct:title "Estimated GFR, albuminuria, and complications of chronic kidney disease" ;
+  dct:identifier "10.1681/ASN.2010111181" ;
+  :openAccess "https://jasn.asnjournals.org/content/jnephrol/22/12/2322.full.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-4549c649162ba050eb98
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1046/j.1523-1755.2001.00001.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Association between renal insufficiency and malnutrition in older adults: Results from the NHANES III" ;
+  dct:identifier "10.1046/j.1523-1755.2001.00001.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)48068-8/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-a6cc410a0e54fce90cef
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1111/j.1523-1755.2005.67128.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Decreased renal function among adults with a history of nephrolithiasis: A study of NHANES III" ;
+  dct:identifier "10.1111/j.1523-1755.2005.67128.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)50504-8/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8c29a13d5f73b65219b3
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1111/j.1523-1755.2005.00080.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Relationship between hepatitis C and microalbuminuria: Results from the NHANES III" ;
+  dct:identifier "10.1111/j.1523-1755.2005.00080.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)50452-3/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-f43e18ec9369582e475d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1046/j.1523-1755.2002.00356.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Albuminuria and renal insufficiency prevalence guides population screening: Results from the NHANES III" ;
+  dct:identifier "10.1046/j.1523-1755.2002.00356.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)48466-2/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d8684e813bfe66bb90bd
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1046/j.1523-1755.2003.00812.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Blood lead and chronic kidney disease in the general United States population: Results from NHANES III" ;
+  dct:identifier "10.1046/j.1523-1755.2003.00812.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)48973-2/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-1bd0a623afcca465cb5e
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1160573"^^xsd:anyURI ;
+  dct:publisher "PLoS Med" ;
+  dct:title "Smoking cessation and cardiovascular disease risk factors: Results from the Third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1371/journal.pmed.0020160" ;
+  :openAccess "http://europepmc.org/articles/PMC1160573?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-74c81f06754918327e5d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1111/j.1523-1755.2004.00732.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Association between serum homocysteine and markers of impaired kidney function in adults in the United States" ;
+  dct:identifier "10.1111/j.1523-1755.2004.00732.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)50032-X/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-6827441f1154e81e6503
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1111/j.1523-1755.2004.00481.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Prevalence of acidosis and inflammation and their association with low serum albumin in chronic kidney disease" ;
+  dct:identifier "10.1111/j.1523-1755.2004.00481.x" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)49797-2/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-39f48336bf69a1adb9b2
+  rdf:type :ResearchPublication ;
+  foaf:page "https://lirias.kuleuven.be/handle/123456789/26329"^^xsd:anyURI ;
+  dct:publisher "J Hum Hypertens" ;
+  dct:title "The relationship between blood pressure and blood lead in NHANES III" ;
+  dct:identifier "10.1038/sj.jhh.1001452" ;
+  :openAccess "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.114.04023"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-3e1b65b88870adf09da6
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1046/j.1523-1755.2002.00306.x"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "Bone mineral density is not diminished by mild to moderate chronic renal insufficiency" ;
+  dct:identifier "10.1046/j.1523-1755.2002.00306.x" ;
+  :openAccess "https://core.ac.uk/download/pdf/82045763.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-83759dce6775f44352e0
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2801650"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "CRP polymorphisms and progression of chronic kidney disease in African Americans" ;
+  dct:identifier "10.2215/CJN.01900309" ;
+  :openAccess "https://pdfs.semanticscholar.org/2d8a/277c6bf236ae7c8476adc0c636f4de34a7d9.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-7740fd53b795a959dc4e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2572279"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "Age, gender, and race effects on cystatin C levels in US adolescents" ;
+  dct:identifier "10.2215/CJN.00840208" ;
+  :openAccess "https://pdfs.semanticscholar.org/05e2/124e948e49d2a4bb621deacc993d355123a1.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b96f4aa1c2b649ea400c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3004771"^^xsd:anyURI ;
+  dct:publisher "Med Lab Sci" ;
+  dct:title "Racial disparity in death from colorectal cancer: Does vitamin D deficiency contribute?" ;
+  dct:identifier "10.1002/cncr.25647" ;
+  :openAccess "https://europepmc.org/articles/PMC3004771?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-554371a4b56b14b616d3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2440295"^^xsd:anyURI ;
+  dct:publisher "J Am Soc Nephrol" ;
+  dct:title "Racial differences in mortality among those with CKD" ;
+  dct:identifier "10.1681/ASN.2007070747" ;
+  :openAccess "https://cjasn.asnjournals.org/content/clinjasn/6/8/1858.full.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-747b8967ea7ddfaa1a33
+  rdf:type :ResearchPublication ;
+  foaf:page "http://dx.doi.org/10.1038/sj.ki.5002002"^^xsd:anyURI ;
+  dct:publisher "Kidney International" ;
+  dct:title "25-Hydroxyvitamin D, insulin resistance, and kidney function in the Third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1038/sj.ki.5002002" ;
+  :openAccess "https://www.kidney-international.org/article/S0085-2538(15)52324-7/pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-c238eb4efc61f59f13ef
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3255359"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "Living kidney donors ages 70 and older: Recipient and donor outcomes" ;
+  dct:identifier "10.2215/CJN.04160511" ;
+  :openAccess "https://pdfs.semanticscholar.org/97c6/6abcb97cbd795cc3ac0d7dcffaa64db03355.pdf?_ga=2.179775462.350438171.1568849670-1243611954.1559012100"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-635aa6daef309d55cb6b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3255373"^^xsd:anyURI ;
+  dct:publisher "Clin J Am Soc Nephrol" ;
+  dct:title "Age-specific associations of reduced estimated glomerular filtration rate with concurrent chronic kidney disease complications" ;
+  dct:identifier "10.2215/CJN.06770711" ;
+  :openAccess "https://cjasn.asnjournals.org/content/clinjasn/6/12/2822.full.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-d6d70beff2dbc95316e9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3220620"^^xsd:anyURI ;
+  dct:publisher "BMJ" ;
+  dct:title "Non-alcoholic fatty liver disease and mortality among US adults: prospective cohort study" ;
+  dct:identifier "10.1136/bmj.d6891" ;
+  :openAccess "https://pdfs.semanticscholar.org/1d14/a4c126e33a4e0018bfec70d850aa87698bd4.pdf?_ga=2.48033765.350438171.1568849670-1243611954.1559012100"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
 :publication-b155f23efbfd14706d9e
@@ -3208,6 +4010,1056 @@
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
+:publication-f2eb3e82537bba0551fc
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.demographic-research.org/volumes/vol19/47/"^^xsd:anyURI ;
+  dct:publisher "Demogr Res" ;
+  dct:title "Cohabitation and children's living arrangements: New estimates from the United States" ;
+  dct:identifier "10.4054/DemRes.2008.19.47" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2612998/pdf/nihms-69952.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-39ae99e1b39a8815c1bd
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.hal.inserm.fr/inserm-00464850"^^xsd:anyURI ;
+  dct:publisher "Hum Reprod" ;
+  dct:title "Trends and determinants of reproductive health service use among young women in the USA" ;
+  dct:identifier "10.1093/humrep/dep333" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3888238/pdf/dep333.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-8c1a01a0959d7eeb86f1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/3br6230p"^^xsd:anyURI ;
+  dct:publisher "Arch Sex Behav" ;
+  dct:title "Adolescents of the U.S. National Longitudinal Lesbian Family Study: Sexual orientation, sexual behavior, and sexual risk exposure" ;
+  dct:identifier "10.1007/s10508-010-9692-2" ;
+  :openAccess "https://escholarship.org/content/qt3br6230p/qt3br6230p.pdf?t=mdsm28"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-1bea86359b3b4d0a709f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.demographic-research.org/volumes/vol18/12/"^^xsd:anyURI ;
+  dct:publisher "Demographic Research" ;
+  dct:title "The transition to early fatherhood: National estimates based on multiple surveys" ;
+  dct:identifier "10.4054/DemRes.2008.18.12" ;
+  :openAccess "https://pdfs.semanticscholar.org/d8b6/b56d0a3fe92db515755573b98c4a22a4cbc2.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-6fbad1b1136c6d46de3f
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2799543"^^xsd:anyURI ;
+  dct:publisher "J Acquir Immune Defic Syndr" ;
+  dct:title "Sexual violence and HIV risk behaviors among a nationally representative sample of heterosexual American women: The importance of sexual coercion" ;
+  dct:identifier "10.1097/QAI.0b013e3181b3a8cc" ;
+  :openAccess "https://europepmc.org/articles/PMC2799543?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-2b16d1fc98f8193f8bc4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5241802"^^xsd:anyURI ;
+  dct:publisher "J Acquir Immune Defic Syndr" ;
+  dct:title "Temporal trends in sexual behavior among men who have sex with men in the United States, 2002 to 2006-10" ;
+  dct:identifier "10.1097/QAI.0b013e31828e0cfc" ;
+  :openAccess "https://europepmc.org/articles/PMC5241802?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-ae88a8d271be6ed49ab2 ;
+.
+
+:publication-320b0537fc5a29270964
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3066389"^^xsd:anyURI ;
+  dct:publisher "J Abnorm Child Psychol" ;
+  dct:title "Deviant peer affiliation and antisocial behavior: Interaction with monoamine oxidase A (MAOA) genotype" ;
+  dct:identifier "10.1007/s10802-010-9474-2" ;
+  :openAccess "http://europepmc.org/articles/PMC3066389?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-045d817877d506cccfb3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3139206/"^^xsd:anyURI ;
+  dct:publisher "Front Psychol" ;
+  dct:title "Measuring personality in Wave I of the National Longitudinal Study of Adolescent Health" ;
+  dct:identifier "10.3389/fpsyg.2011.00158" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3139206/pdf/fpsyg-02-00158.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4b37071b926c012ba068
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4081643"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Polygenic risk predicts obesity in both white and black young adults" ;
+  dct:identifier "10.1371/journal.pone.0101596" ;
+  :openAccess "http://europepmc.org/articles/PMC4081643?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-40585df7a649da14efca
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5034522"^^xsd:anyURI ;
+  dct:publisher "BMC Med Res Methodol" ;
+  dct:title "Feasibility and validity of a statistical adjustment to reduce self-report bias of height and weight in wave 1 of the Add Health study" ;
+  dct:identifier "10.1186/s12874-016-0227-y" ;
+  :openAccess "http://europepmc.org/articles/PMC5034522?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-3c5b64b095bcb3633cf1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1906831"^^xsd:anyURI ;
+  dct:publisher "Int J Behav Nutr Phys Act" ;
+  dct:title "Screen time and physical activity during adolescence: Longitudinal effects on obesity in young adulthood" ;
+  dct:identifier "10.1186/1479-5868-4-26" ;
+  :openAccess "http://europepmc.org/articles/PMC1906831?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-559c035a0cf5091609a8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1824713"^^xsd:anyURI ;
+  dct:publisher "Behav Genet" ;
+  dct:title "The association between conduct problems and the initiation and progression of marijuana use during adolescence: A genetic analysis across time" ;
+  dct:identifier "10.1007/s10519-006-9124-1" ;
+  :openAccess "http://europepmc.org/articles/PMC1824713?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-32500311aef093834180
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2902744/"^^xsd:anyURI ;
+  dct:publisher "J Abnorm Child Psychol" ;
+  dct:title "Latent class analysis of antisocial behavior: Interaction of serotonin transporter genotype and maltreatment" ;
+  dct:identifier "10.1007/s10802-010-9409-y" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2902744/pdf/10802_2010_Article_9409.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-7000d3695f3fbbeeb437
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3152773"^^xsd:anyURI ;
+  dct:publisher "Int J Behav Nutr Phys Act" ;
+  dct:title "Built and socioeconomic environments: Patterning and associations with physical activity in U.S. adolescents" ;
+  dct:identifier "10.1186/1479-5868-7-45" ;
+  :openAccess "http://europepmc.org/articles/PMC3152773?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-188081f5ce63fcd40ea2
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2825268"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "The dopamine transporter gene, a spectrum of most common risky behaviors, and the legal status of the behaviors" ;
+  dct:identifier "10.1371/journal.pone.0009352" ;
+  :openAccess "http://europepmc.org/articles/PMC2825268?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-8817ddb7dc909e5b2614
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/3mc034mj"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "The spread of sleep loss influences drug use in adolescent social networks" ;
+  dct:identifier "10.1371/journal.pone.0009775" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841645/pdf/pone.0009775.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-6c8b1f4a70777c0cc936
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2898042"^^xsd:anyURI ;
+  dct:publisher "Int J Environ Res Public Health" ;
+  dct:title "Adolescent propensity to engage in health risky behaviors: The role of individual resilience" ;
+  dct:identifier "10.3390/ijerph7052161" ;
+  :openAccess "http://europepmc.org/articles/PMC2898042?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-e52adb9c08b4f9152254
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2925826"^^xsd:anyURI ;
+  dct:publisher "BMC Public Health" ;
+  dct:title "Assessing weight perception accuracy to promote weight loss among U.S. female adolescents: A secondary analysis" ;
+  dct:identifier "10.1186/1471-2458-10-465" ;
+  :openAccess "http://europepmc.org/articles/PMC2925826?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-5f44c6416d3348c6a0dc
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2924306"^^xsd:anyURI ;
+  dct:publisher "Subst Abuse Treat Prev Policy" ;
+  dct:title "Are adolescents with high socioeconomic status more likely to engage in alcohol and illicit drug use in early adulthood?" ;
+  dct:identifier "10.1186/1747-597X-5-19" ;
+  :openAccess "http://europepmc.org/articles/PMC2924306?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4aa591861167d0c7fd36
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2959083"^^xsd:anyURI ;
+  dct:publisher "Int J Behav Nutr Phys Act" ;
+  dct:title "Residential self-selection bias in the estimation of built environment effects on physical activity between adolescence and young adulthood" ;
+  dct:identifier "10.1186/1479-5868-7-70" ;
+  :openAccess "http://europepmc.org/articles/PMC2959083?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-f5ae611622c29636ffde
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3246743"^^xsd:anyURI ;
+  dct:publisher "Nurs Res Pract" ;
+  dct:title "Cigarette smoking and alcohol use among adolescents and young adults with asthma" ;
+  dct:identifier "10.1155/2011/503201" ;
+  :openAccess "http://europepmc.org/articles/PMC3246743?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-e39cf4d3f23ef85111b0
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2916847"^^xsd:anyURI ;
+  dct:publisher "PLoS Genet" ;
+  dct:title "Multiple independent loci at chromosome 15q25.1 affect smoking quantity: A meta-analysis and comparison with lung cancer and COPD" ;
+  dct:identifier "10.1371/journal.pgen.1001053" ;
+  :openAccess "http://europepmc.org/articles/PMC2916847?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4fb589f6cc3814cc884f
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10.1093/jleo/ewp038"^^xsd:anyURI ;
+  dct:publisher "The Journal of Law, Economics, & Organization" ;
+  dct:title "Juvenile delinquency and conformism" ;
+  dct:identifier "10.1093/jleo/ewp038" ;
+  :openAccess "https://pdfs.semanticscholar.org/946a/c8bd5ec915a371df7e8286e38f7ffad93447.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-1048500b49996568cfe4
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3411584"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Adolescent expectations of early death predict adult risk behaviors" ;
+  dct:identifier "10.1371/journal.pone.0041905" ;
+  :openAccess "http://europepmc.org/articles/PMC3411584?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-428b926c393556ad61c8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3018468"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "The social contagion effect of marijuana use among adolescents" ;
+  dct:identifier "10.1371/journal.pone.0016183" ;
+  :openAccess "http://europepmc.org/articles/PMC3018468?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-3b855aa9e0352202713c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3121719"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Weight-related behavior among adolescents: The role of peer effects" ;
+  dct:identifier "10.1371/journal.pone.0021179" ;
+  :openAccess "http://europepmc.org/articles/PMC3121719?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-3773fbb5f55f802b05e4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4248561"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Food insecurity and increased BMI in young adult women" ;
+  dct:identifier "10.1038/oby.2011.233" ;
+  :openAccess "https://europepmc.org/articles/PMC4248561?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4f834c6cf6aaf919a9d9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3469361"^^xsd:anyURI ;
+  dct:publisher "BMC Pediatr" ;
+  dct:title "Peer selection and influence effects on adolescent alcohol use: A stochastic actor-based model" ;
+  dct:identifier "10.1186/1471-2431-12-115" ;
+  :openAccess "http://europepmc.org/articles/PMC3469361?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-588076fc7c083c13f649
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3160374"^^xsd:anyURI ;
+  dct:publisher "BMC Public Health" ;
+  dct:title "Neighborhood fast food restaurants and fast food consumption: A national study" ;
+  dct:identifier "10.1186/1471-2458-11-543" ;
+  :openAccess "http://europepmc.org/articles/PMC3160374?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-2a15b5675bd84378253b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/16p6r00p"^^xsd:anyURI ;
+  dct:publisher "Arch Sex Behav" ;
+  dct:title "Same-sex sexual attraction does not spread in adolescent social networks" ;
+  dct:identifier "10.1007/s10508-013-0142-9" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3888648/pdf/10508_2013_Article_142.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-6458f72904c4fbcf6454
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3694100"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "The long-term effects of stress on partner weight characteristics" ;
+  dct:identifier "10.1371/journal.pone.0066353" ;
+  :openAccess "http://europepmc.org/articles/PMC3694100?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-f35c0b6cf8193ce1d9da
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3816342"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Weight change and depression among US young women during the transition to adulthood" ;
+  dct:identifier "10.1093/aje/kws462" ;
+  :openAccess "https://europepmc.org/articles/PMC3816342?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-9d1eccb525c70bb64ade
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3764158"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Ethnic differences in body mass index trajectories from adolescence to adulthood: A focus on Hispanic and Asian subgroups in the United States" ;
+  dct:identifier "10.1371/journal.pone.0072983" ;
+  :openAccess "http://europepmc.org/articles/PMC3764158?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-fef50b0d4f55dc2ef2a0
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3765120"^^xsd:anyURI ;
+  dct:publisher "Int J Behav Nutr Phys Act" ;
+  dct:title "The price of access: Capitalization of neighborhood contextual factors" ;
+  dct:identifier "10.1186/1479-5868-10-95" ;
+  :openAccess "http://europepmc.org/articles/PMC3765120?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-eebbbd84c800826f5a55
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/3682v27r"^^xsd:anyURI ;
+  dct:publisher "Ann Appl Stat" ;
+  dct:title "Estimating within-school contact networks to understand influenza transmission" ;
+  dct:identifier "10.1214/11-AOAS505" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359895/pdf/nihms364519.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-b57c8bfa0edd7c81d25b
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3387251"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "An actor-based model of social network influence on adolescent body size, screen time, and playing sports" ;
+  dct:identifier "10.1371/journal.pone.0039795" ;
+  :openAccess "http://europepmc.org/articles/PMC3387251?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c189b001c1de1a4c4088
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3897950"^^xsd:anyURI ;
+  dct:publisher "BMC Pregnancy Childbirth" ;
+  dct:title "Academic performance, educational aspiration and birth outcomes among adolescent mothers: a national longitudinal study" ;
+  dct:identifier "10.1186/1471-2393-14-3" ;
+  :openAccess "http://europepmc.org/articles/PMC3897950?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-40a950442498311956a9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4081801"^^xsd:anyURI ;
+  dct:publisher "J Eat Disord" ;
+  dct:title "Adolescent risk factors for purging in young women: Findings from the national longitudinal study of adolescent health" ;
+  dct:identifier "10.1186/2050-2974-2-1" ;
+  :openAccess "http://europepmc.org/articles/PMC4081801?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-9aa4dc1f9e2deebacbed
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/9wh07421"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Alcohol use among Adolescent youth: The role of friendship networks and family factors in multiple school studies" ;
+  dct:identifier "10.1371/journal.pone.0119965" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4355410/pdf/pone.0119965.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-a1aa21b0f4f079c34003
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4306868"^^xsd:anyURI ;
+  dct:publisher "Int J Environ Res Public Health" ;
+  dct:title "The role of adolescent nutrition and physical activity in the prediction of verbal intelligence during early adulthood: A genetically informed analysis of twin pairs" ;
+  dct:identifier "10.3390/ijerph120100385" ;
+  :openAccess "http://europepmc.org/articles/PMC4306868?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-7b9988dae6df6b9937b7
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/4007k3q1"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "On social and cognitive influences: Relating adolescent networks, generalized expectancies, and adolescent smoking" ;
+  dct:identifier "10.1371/journal.pone.0115668" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275246/pdf/pone.0115668.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-970f25cab1445e07df51
+  rdf:type :ResearchPublication ;
+  foaf:page "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207744/"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Association between adolescents' physical activity and sedentary behaviors with change in BMI and risk of type 2 diabetes" ;
+  dct:identifier "10.1371/journal.pone.0110732" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207744/pdf/pone.0110732.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-514abc3e2b3c75dfe447
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4082345"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Accuracy of self-reported versus measured weight over adolescence and young adulthood: Findings from the National Longitudinal Study of Adolescent Health, 1996-2008" ;
+  dct:identifier "10.1093/aje/kwu133" ;
+  :openAccess "https://europepmc.org/articles/PMC4082345?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-1cd25d4bd768e9960548
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4060847"^^xsd:anyURI ;
+  dct:publisher "J Eat Disord" ;
+  dct:title "Prevalence and correlates of unhealthy weight control behaviors: Findings from the National Longitudinal Study of Adolescent Health" ;
+  dct:identifier "10.1186/2050-2974-2-16" ;
+  :openAccess "http://europepmc.org/articles/PMC4060847?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-9894a3670194ba2dafe1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3962399"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Effect of partner violence in adolescence and young adulthood on blood pressure and incident hypertension" ;
+  dct:identifier "10.1371/journal.pone.0092204" ;
+  :openAccess "http://europepmc.org/articles/PMC3962399?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-675065d6ccff530e268d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4020453"^^xsd:anyURI ;
+  dct:publisher "J Obes" ;
+  dct:title "Sexual orientation disparities in BMI among US adolescents and young adults in three race/ethnicity groups" ;
+  dct:identifier "10.1155/2014/537242" ;
+  :openAccess "http://europepmc.org/articles/PMC4020453?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-9691d879a9d1af2ad7b3
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4243069"^^xsd:anyURI ;
+  dct:publisher "Pediatrics" ;
+  dct:title "Health outcomes in young adults from foster care and economically diverse backgrounds" ;
+  dct:identifier "10.1542/peds.2014-1150" ;
+  :openAccess "https://europepmc.org/articles/PMC4243069?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-adff4ad8f8ed29f1ac8c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4634717"^^xsd:anyURI ;
+  dct:publisher "BMC Genet" ;
+  dct:title "Interaction of smoking and obesity susceptibility loci on adolescent BMI: The National Longitudinal Study of Adolescent to Adult Health" ;
+  dct:identifier "10.1186/s12863-015-0289-6" ;
+  :openAccess "http://europepmc.org/articles/PMC4634717?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-dda89266480f180f0311
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4690953"^^xsd:anyURI ;
+  dct:publisher "Int J Environ Res Public Health" ;
+  dct:title "The influence of nutritional factors on verbal deficits and psychopathic personality traits: Evidence of the moderating role of the MAOA genotype" ;
+  dct:identifier "10.3390/ijerph121215017" ;
+  :openAccess "http://europepmc.org/articles/PMC4690953?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-e8cb0d9a7bcafaba8f9d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://hdl.handle.net/10419/150405"^^xsd:anyURI ;
+  dct:publisher "Quantitative Economics" ;
+  dct:title "Terms of endearment: An equilibrium model of sex and matching" ;
+  dct:identifier "10.3982/QE429" ;
+  :openAccess "https://www.econstor.eu/bitstream/10419/150405/1/v7-i1-p117-156-QE429.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-993140394b4a173515a8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4818465"^^xsd:anyURI ;
+  dct:publisher "BMC Public Health" ;
+  dct:title "A novel cutoff for the waist-to-height ratio predicting metabolic syndrome in young American adults" ;
+  dct:identifier "10.1186/s12889-016-2964-6" ;
+  :openAccess "http://europepmc.org/articles/PMC4818465?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-2044e41b210580e668fb
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4771826"^^xsd:anyURI ;
+  dct:publisher "Inj Epidemiol" ;
+  dct:title "Associations of financial stressors and physical intimate partner violence perpetration" ;
+  dct:identifier "10.1186/s40621-016-0069-4" ;
+  :openAccess "http://europepmc.org/articles/PMC4771826?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-eb364190cb07d61faa5d
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4682989"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Network structure and biased variance estimation in respondent driven sampling" ;
+  dct:identifier "10.1371/journal.pone.0145296" ;
+  :openAccess "http://europepmc.org/articles/PMC4682989?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-cab03feec30296696a96
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4889034"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Attractiveness compensates for low status background in the prediction of educational attainment" ;
+  dct:identifier "10.1371/journal.pone.0155313" ;
+  :openAccess "http://europepmc.org/articles/PMC4889034?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-69a7eb1eafae41f4803c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4777542"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Depression, stressful life events, and the impact of variation in the serotonin transporter: Findings from the National Longitudinal Study of Adolescent to Adult Health (Add Health)" ;
+  dct:identifier "10.1371/journal.pone.0148373" ;
+  :openAccess "http://europepmc.org/articles/PMC4777542?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c8f9b19b39e34d98a557
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/2x50b1wt"^^xsd:anyURI ;
+  dct:publisher "Am J Community Psychol" ;
+  dct:title "The functions and longitudinal outcomes of adolescents' naturally occurring mentorships" ;
+  dct:identifier "10.1002/ajcp.12031" ;
+  :openAccess "https://onlinelibrary.wiley.com/doi/epdf/10.1002/ajcp.12031"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-d4fd6b411422fb48c13c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5310809"^^xsd:anyURI ;
+  dct:publisher "Am J Drug Alcohol Abuse" ;
+  dct:title "The influence of childhood welfare participation on adulthood substance use: Evidence from the National Longitudinal Study of Adolescent to Adult Health" ;
+  dct:identifier "10.1080/00952990.2016.1176176" ;
+  :openAccess "https://europepmc.org/articles/PMC5310809?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-7648479c1ce37518f356
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4493707"^^xsd:anyURI ;
+  dct:publisher "PeerJ" ;
+  dct:title "US adolescents' friendship networks and health risk behaviors: A systematic review of studies using social network analysis and Add Health data" ;
+  dct:identifier "10.7717/peerj.1052" ;
+  :openAccess "http://europepmc.org/articles/PMC4493707?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-abb74c08f4a99b800384
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5338787"^^xsd:anyURI ;
+  dct:publisher "PLoS ONE" ;
+  dct:title "Interactions of adolescent social experiences and dopamine genes to predict physical intimate partner violence perpetration" ;
+  dct:identifier "10.1371/journal.pone.0172840" ;
+  :openAccess "http://europepmc.org/articles/PMC5338787?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-d9b6da75f04f3500b3d1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5852190"^^xsd:anyURI ;
+  dct:publisher "J Youth Adolesc" ;
+  dct:title "Unpacking the relationships between impulsivity, neighborhood disadvantage, and adolescent violence: An application of a neighborhood-based group decomposition" ;
+  dct:identifier "10.1007/s10964-017-0695-3" ;
+  :openAccess "http://europepmc.org/articles/PMC5852190?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-7a074573bbc88f6bde7c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://www.escholarship.org/uc/item/5x65x6nx"^^xsd:anyURI ;
+  dct:publisher "PLoS One" ;
+  dct:title "Cascades of emotional support in friendship networks and adolescent smoking" ;
+  dct:identifier "10.1371/journal.pone.0180204" ;
+  :openAccess "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5491211/pdf/pone.0180204.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-f5e288a71064ebefde0c
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5880546"^^xsd:anyURI ;
+  dct:publisher "Demogr Res" ;
+  dct:title "A longitudinal examination of US teen childbearing and smoking risk" ;
+  dct:identifier "10.4054/DemRes.2018.38.24" ;
+  :openAccess "http://europepmc.org/articles/PMC5880546?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-993f19102b95bc5cada8
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5398377"^^xsd:anyURI ;
+  dct:publisher "Subst Abuse" ;
+  dct:title "Prior delinquency and depression differentially predict conditional associations between discrete patterns of adolescent religiosity and adult alcohol use patterns" ;
+  dct:identifier "10.1177/1178221816686060" ;
+  :openAccess "http://europepmc.org/articles/PMC5398377?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-2515f0df450071575ca9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC1974773"^^xsd:anyURI ;
+  dct:publisher "Addiction" ;
+  dct:title "Genetic and environmental influences on the relationship between peer alcohol use and own alcohol use in adolescents" ;
+  dct:identifier "10.1111/j.1360-0443.2007.01824.x" ;
+  :openAccess "http://europepmc.org/articles/PMC1974773?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-185fa4b4fd82ffcfe222
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3025637"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "A study of the birth weight-obesity relation using a longitudinal cohort and sibling and twin pairs" ;
+  dct:identifier "10.1093/aje/kwq169" ;
+  :openAccess "http://europepmc.org/articles/PMC3025637?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-00e3d029cb89b0c5c710
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3033315"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "Correlated genotypes in friendship networks" ;
+  dct:identifier "10.1073/pnas.1011687108" ;
+  :openAccess "http://europepmc.org/articles/PMC3033315?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-044cca6174f1cbe0eb47
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3491494"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "How social and genetic factors predict friendship networks" ;
+  dct:identifier "10.1073/pnas.1208975109" ;
+  :openAccess "http://europepmc.org/articles/PMC3491494?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4378cfb11ab097ec05bd
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4576325"^^xsd:anyURI ;
+  dct:publisher "Sleep" ;
+  dct:title "Evidence for a possible link between bedtime and change in body mass index" ;
+  dct:identifier "10.5665/sleep.5038" ;
+  :openAccess "http://europepmc.org/articles/PMC4576325?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-5949425b7fe47fbad1c4
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5260153"^^xsd:anyURI ;
+  dct:publisher "Pediatrics" ;
+  dct:title "How does incarcerating young people affect their adult health outcomes?" ;
+  dct:identifier "10.1542/peds.2016-2624" ;
+  :openAccess "http://europepmc.org/articles/PMC5260153?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c5b51241ee438cfd77d8
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2919156"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Genes implicated in serotonergic and dopaminergic functioning predict BMI categories" ;
+  dct:identifier "10.1038/oby.2007.65" ;
+  :openAccess "http://europepmc.org/articles/PMC2919156?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-a48c329b23b1d221d470
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2491890"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol Community Health" ;
+  dct:title "Cigarette smoking transition in females of low socioeconomic status: Impact of state, school, and individual factors" ;
+  dct:identifier "10.1136/jech.2005.045658" ;
+  :openAccess "http://europepmc.org/articles/PMC2491890?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-19deaf578e55c4552365
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3004674"^^xsd:anyURI ;
+  dct:publisher "Arch Gen Psychiatry" ;
+  dct:title "Association between media use in adolescence and depression in young adulthood: A longitudinal study" ;
+  dct:identifier "10.1001/archgenpsychiatry.2008.532" ;
+  :openAccess "http://europepmc.org/articles/PMC3004674?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-ecacd2ebd2afe40f522c
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2922855"^^xsd:anyURI ;
+  dct:publisher "Eur J Hum Genet" ;
+  dct:title "The VNTR 2 repeat in MAOA and delinquent behavior in adolescence and young adulthood: Associations and MAOA promoter activity" ;
+  dct:identifier "10.1038/sj.ejhg.5201999" ;
+  :openAccess "http://europepmc.org/articles/PMC2922855?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4fdfa59d38802cc2ff29
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4773934"^^xsd:anyURI ;
+  dct:publisher "Bull World Health Organ" ;
+  dct:title "Diet quality and academic performance" ;
+  dct:identifier "10.2471/BLT.15.161315" ;
+  :openAccess "http://europepmc.org/articles/PMC4773934?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c7f83ce5932e980cfd0e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2796823"^^xsd:anyURI ;
+  dct:publisher "Arch Pediatr Adolesc Med" ;
+  dct:title "Depression, sexually transmitted infection, and sexual risk behavior among young adults in the United States" ;
+  dct:identifier "10.1001/archpediatrics.2009.95" ;
+  :openAccess "http://europepmc.org/articles/PMC2796823?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-511d4d75faa991df041a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2841897"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "Identifying the roles of race-based choice and chance in high school friendship network formation" ;
+  dct:identifier "10.1073/pnas.0911793107" ;
+  :openAccess "http://europepmc.org/articles/PMC2841897?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c44f7577ee836e0768f9
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2643347"^^xsd:anyURI ;
+  dct:publisher "Alcohol Clin Exp Res" ;
+  dct:title "Longitudinal associations between alcohol problems and depressive symptoms: Early adolescence through early adulthood" ;
+  dct:identifier "10.1111/j.1530-0277.2008.00810.x" ;
+  :openAccess "http://europepmc.org/articles/PMC2643347?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-db514cd6371c28d42665
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2965312"^^xsd:anyURI ;
+  dct:publisher "J Sleep Res" ;
+  dct:title "Shortened sleep duration does not predict obesity in adolescents" ;
+  dct:identifier "10.1111/j.1365-2869.2010.00840.x" ;
+  :openAccess "http://europepmc.org/articles/PMC2965312?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-5bbd6afd55d1b98cbff0
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2872407"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "Assessing respondent-driven sampling" ;
+  dct:identifier "10.1073/pnas.1000261107" ;
+  :openAccess "http://europepmc.org/articles/PMC2872407?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-22e5dcd20746e3018f11
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3076068"^^xsd:anyURI ;
+  dct:publisher "JAMA" ;
+  dct:title "Association of adolescent obesity with risk of severe obesity in adulthood" ;
+  dct:identifier "10.1001/jama.2010.1635" ;
+  :openAccess "http://europepmc.org/articles/PMC3076068?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-24880568762f7bd69418
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4410858"^^xsd:anyURI ;
+  dct:publisher "Arch Pediatr Adolesc Med" ;
+  dct:title "The effect of perceived and structural neighborhood conditions on adolescents' physical activity and sedentary behaviors" ;
+  dct:identifier "10.1001/archpediatrics.2010.167" ;
+  :openAccess "http://europepmc.org/articles/PMC4410858?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-260183233b37806ce897
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC2807471"^^xsd:anyURI ;
+  dct:publisher "Eur J Hum Genet" ;
+  dct:title "An integrated phenomic approach to multivariate allelic association" ;
+  dct:identifier "10.1038/ejhg.2009.133" ;
+  :openAccess "http://europepmc.org/articles/PMC2807471?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-9902875fb23508aac4da
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3387859"^^xsd:anyURI ;
+  dct:publisher "Pediatrics" ;
+  dct:title "Association between sexually transmitted diseases and young adults' self-reported abstinence" ;
+  dct:identifier "10.1542/peds.2009-0892" ;
+  :openAccess "http://europepmc.org/articles/PMC3387859?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-f13c66b3f1b687c3ca4e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3375466"^^xsd:anyURI ;
+  dct:publisher "Pediatrics" ;
+  dct:title "Criminal-justice and school sanctions against nonheterosexual youth: A national longitudinal study" ;
+  dct:identifier "10.1542/peds.2009-2306" ;
+  :openAccess "http://europepmc.org/articles/PMC3375466?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-df39661be5b88a93fd75
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3383314"^^xsd:anyURI ;
+  dct:publisher "Arch Pediatr Adolesc Med" ;
+  dct:title "Young adult outcomes of children growing up with chronic illness: An analysis of the National Longitudinal Study of Adolescent Health" ;
+  dct:identifier "10.1001/archpediatrics.2010.287" ;
+  :openAccess "http://europepmc.org/articles/PMC3383314?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-e460dcc222e351bb67f5
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3642773"^^xsd:anyURI ;
+  dct:publisher "Am J Hypertens" ;
+  dct:title "Systolic blood pressure and adiposity: Examination by race and gender in a nationally representative sample of young adults" ;
+  dct:identifier "10.1038/ajh.2011.177" ;
+  :openAccess "http://europepmc.org/articles/PMC3642773?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-412fe8e8e8411d60148e
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3856434"^^xsd:anyURI ;
+  dct:publisher "Sex Transm Dis" ;
+  dct:title "Intimate partner violence and sexually transmitted infections among young adult women" ;
+  dct:identifier "10.1097/OLQ.0b013e3182478fa5" ;
+  :openAccess "http://europepmc.org/articles/PMC3856434?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-53d169758dcec0c303a9
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3329604"^^xsd:anyURI ;
+  dct:publisher "BMJ Open" ;
+  dct:title "Are neighbourhood food resources distributed inequitably by income and race in the USA? Epidemiological findings across the urban spectrum" ;
+  dct:identifier "10.1136/bmjopen-2011-000698" ;
+  :openAccess "http://europepmc.org/articles/PMC3329604?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-70d091187fb219f78423
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3324435"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Parental incarceration and gender-based risks for increased body mass index: Evidence from the National Longitudinal Study of Adolescent Health in the United States" ;
+  dct:identifier "10.1093/aje/kwr409" ;
+  :openAccess "http://europepmc.org/articles/PMC3324435?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-7940697b4779d9f13932
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3530360"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Predictors of birth weight and gestational age among adolescents" ;
+  dct:identifier "10.1093/aje/kws231" ;
+  :openAccess "http://europepmc.org/articles/PMC3530360?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-24bff866cd25774bcbcb
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3461356"^^xsd:anyURI ;
+  dct:publisher "Nutr Diabetes" ;
+  dct:title "Estimation of genetic effects on BMI during adolescence in an ethnically diverse cohort: The National Longitudinal Study of Adolescent Health" ;
+  dct:identifier "10.1038/nutd.2012.20" ;
+  :openAccess "http://europepmc.org/articles/PMC3461356?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-319e4c304d4b693d2724
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3391591"^^xsd:anyURI ;
+  dct:publisher "Int J Obes (Lond)" ;
+  dct:title "Association between Attention-Deficit/Hyperactivity Disorder (ADHD) symptoms and obesity and hypertension in early adulthood: A population-based study" ;
+  dct:identifier "10.1038/ijo.2010.214" ;
+  :openAccess "http://europepmc.org/articles/PMC3391591?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-3c31c10c0b2677a5ce12
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC3574787"^^xsd:anyURI ;
+  dct:publisher "Twin Res Hum Genet" ;
+  dct:title "The National Longitudinal Study of Adolescent Health (Add Health) sibling pairs data" ;
+  dct:identifier "10.1017/thg.2012.137" ;
+  :openAccess "http://europepmc.org/articles/PMC3574787?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-341505b2d8816ef21235
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC3947414"^^xsd:anyURI ;
+  dct:publisher "Obesity (Silver Spring)" ;
+  dct:title "Longitudinal trajectories of BMI and cardiovascular disease risk: The National Longitudinal Study of Adolescent Health" ;
+  dct:identifier "10.1002/oby.20569" ;
+  :openAccess "http://europepmc.org/articles/PMC3947414?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-ea74367fe994b3d1bad1
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4663454"^^xsd:anyURI ;
+  dct:publisher "Health (Irvine Calif)" ;
+  dct:title "The role of drinking in new and existing friendships across high school settings" ;
+  dct:identifier "10.4236/health.2013.56A3004" ;
+  :openAccess "http://europepmc.org/articles/PMC4663454?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-580329937c98e1a2a0b9
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4295642"^^xsd:anyURI ;
+  dct:publisher "Sex Transm Dis" ;
+  dct:title "American Indians, substance use, and sexual behavior: Do predictors of sexually transmitted infections explain the race gap among young adults?" ;
+  dct:identifier "10.1097/OLQ.0000000000000230" ;
+  :openAccess "http://europepmc.org/articles/PMC4295642?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-294cbea2839f1c36db14
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4006439"^^xsd:anyURI ;
+  dct:publisher "Pediatrics" ;
+  dct:title "A longitudinal study of paternal mental health during transition to fatherhood as young adults" ;
+  dct:identifier "10.1542/peds.2013-3262" ;
+  :openAccess "http://europepmc.org/articles/PMC4006439?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-b2bb1d4daa6587f41b9a
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4692979"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Are early-life socioeconomic conditions directly related to birth outcomes? Grandmaternal education, grandchild birth weight, and associated bias analyses" ;
+  dct:identifier "10.1093/aje/kwv148" ;
+  :openAccess "http://europepmc.org/articles/PMC4692979?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-96d805a6f6559b538d06
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC5563465"^^xsd:anyURI ;
+  dct:publisher "J Sleep Res" ;
+  dct:title "Cumulative exposure to short sleep and body mass outcomes: A prospective study" ;
+  dct:identifier "10.1111/jsr.12327" ;
+  :openAccess "http://europepmc.org/articles/PMC5563465?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-4aa7676eec9d69022c96
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4753278"^^xsd:anyURI ;
+  dct:publisher "Am J Epidemiol" ;
+  dct:title "Depressive symptoms during adolescence and young adulthood and the development of type 2 diabetes mellitus" ;
+  dct:identifier "10.1093/aje/kwv149" ;
+  :openAccess "http://europepmc.org/articles/PMC4753278?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-88726723c837fdba5da1
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC4631696"^^xsd:anyURI ;
+  dct:publisher "Twin Res Hum Genet" ;
+  dct:title "Developmental changes in genetic and shared environmental contributions to smoking initiation and subsequent smoking quantity in adolescence and young adulthood" ;
+  dct:identifier "10.1017/thg.2015.48" ;
+  :openAccess "http://europepmc.org/articles/PMC4631696?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-04c28c958636ae6489e7
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC4682731"^^xsd:anyURI ;
+  dct:publisher "J Alcohol Drug Depend" ;
+  dct:title "Teen alcohol use and social networks: The contributions of friend influence and friendship selection" ;
+  dct:identifier "10.4172/2329-6488.1000224" ;
+  :openAccess "http://europepmc.org/articles/PMC4682731?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-e9894e0adeb8ae9771ea
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC5776811"^^xsd:anyURI ;
+  dct:publisher "Proc Natl Acad Sci U S A" ;
+  dct:title "College completion predicts lower depression but higher metabolic syndrome among disadvantaged minorities in young adulthood" ;
+  dct:identifier "10.1073/pnas.1714616114" ;
+  :openAccess "http://europepmc.org/articles/PMC5776811?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-c40db2bc3488102117c7
+  rdf:type :ResearchPublication ;
+  foaf:page "http://europepmc.org/articles/PMC2600605"^^xsd:anyURI ;
+  dct:publisher "BMJ" ;
+  dct:title "Detecting implausible social network effects in acne, height, and headaches: Longitudinal analysis" ;
+  dct:identifier "10.1136/bmj.a2533" ;
+  :openAccess "https://pdfs.semanticscholar.org/cc2f/5aac869c195b42ea1a27d8aaf3fe8dd965a6.pdf"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
+:publication-5f48a343cb75195cd646
+  rdf:type :ResearchPublication ;
+  foaf:page "https://econpapers.repec.org/article/blajorssa/v_3a170_3ay_3a2007_3ai_3a2_3ap_3a301-354.htm"^^xsd:anyURI ;
+  dct:publisher "Journal of the Royal Statistical Society Series A" ;
+  dct:title "Model-based clustering for social networks" ;
+  dct:identifier "10.1111/j.1467-985X.2007.00471.x" ;
+  :openAccess "https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-985X.2007.00471.x"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-a2301c21c43fde8e35f6 ;
+.
+
 :publication-67e279b8de069ce4658d
   rdf:type :ResearchPublication ;
   foaf:page "https://europepmc.org/articles/PMC4264593"^^xsd:anyURI ;
@@ -3408,16 +5260,6 @@
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
-:publication-8f3c276a3409bd00825b
-  rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC1731578"^^xsd:anyURI ;
-  dct:publisher "J Epidemiol Community Health" ;
-  dct:title "Excess type 2 diabetes in African-American women and men aged 40-74 and socioeconomic status: evidence from the Third National Health and Nutrition Examination Survey" ;
-  dct:identifier "10.1136/jech.54.11.839" ;
-  :openAccess "/articles/PMC1731578/pdf/v054p00839.pdf"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
-.
-
 :publication-789eaef21eaa9e7a3919
   rdf:type :ResearchPublication ;
   foaf:page "https://europepmc.org/articles/PMC3447083"^^xsd:anyURI ;
@@ -3545,16 +5387,6 @@
   dct:title "Effectiveness of diabetes mellitus screening recommendations" ;
   dct:identifier "10.1073/pnas.1733839100" ;
   :openAccess "http://europepmc.org/articles/PMC193602?pdf=render"^^xsd:anyURI ;
-  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
-.
-
-:publication-b041457c08183eb97a60
-  rdf:type :ResearchPublication ;
-  foaf:page "https://europepmc.org/articles/PMC1740336"^^xsd:anyURI ;
-  dct:publisher "Occup Environ Med" ;
-  dct:title "Prevalence and risk factors of work related asthma by industry among United States workers: Data from the Third National Health and Nutrition Examination Survey (1988-94)" ;
-  dct:identifier "10.1136/oem.59.8.505" ;
-  :openAccess "/articles/PMC1740336/pdf/v059p00505.pdf"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
@@ -3955,6 +5787,26 @@
   dct:title "The progression of cardiometabolic disease: Validation of a new cardiometabolic disease staging system applicable to obesity" ;
   dct:identifier "10.1002/oby.20585" ;
   :openAccess "http://europepmc.org/articles/PMC3866217?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-8f3c276a3409bd00825b
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1731578"^^xsd:anyURI ;
+  dct:publisher "J Epidemiol Community Health" ;
+  dct:title "Excess type 2 diabetes in African-American women and men aged 40-74 and socioeconomic status: evidence from the Third National Health and Nutrition Examination Survey" ;
+  dct:identifier "10.1136/jech.54.11.839" ;
+  :openAccess "https://europepmc.org/articles/PMC1731578?pdf=render"^^xsd:anyURI ;
+  cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
+.
+
+:publication-b041457c08183eb97a60
+  rdf:type :ResearchPublication ;
+  foaf:page "https://europepmc.org/articles/PMC1740336"^^xsd:anyURI ;
+  dct:publisher "Occup Environ Med" ;
+  dct:title "Prevalence and risk factors of work related asthma by industry among United States workers: Data from the Third National Health and Nutrition Examination Survey (1988-94)" ;
+  dct:identifier "10.1136/oem.59.8.505" ;
+  :openAccess "https://europepmc.org/articles/PMC1740336?pdf=render"^^xsd:anyURI ;
   cito:citesAsDataSource :dataset-0a7b604ab2e52411d45a ;
 .
 
