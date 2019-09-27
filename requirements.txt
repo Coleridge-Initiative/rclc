@@ -1,2 +1,6 @@
 rdflib >= 4.2.2
 rdflib-jsonld==0.4.0
+mypy==0.730
+pdfminer.six==20181108
+requests-html==0.10.0
+html5lib==1.0.1
