@@ -2,7 +2,7 @@ import argparse
 import json
 import requests
 import time
-
+import traceback
 from bs4 import BeautifulSoup  # type: ignore
 from pathlib import Path
 from pdfminer.pdfdocument import PDFDocument  # type: ignore
@@ -36,9 +36,11 @@ def is_valid_pdf_file(filename: str) -> bool:
             if not document.is_extractable:
                 raise PDFTextExtractionNotAllowed(filename)
             return True
-    except PDFSyntaxError as err:
-        print(err)
-        print(f'{filename} is not a valid pdf file.')
+    except PDFSyntaxError or PDFException as err:
+    # except KeyboardInterrupt:
+        # print(traceback.format_exc())
+        # print("{}: {}".format(err,filename))
+        # print(f'{filename} is not a valid pdf file.')
         return False
 
 
@@ -82,6 +84,8 @@ def _download(uri: str, res_type: str,
             out_file = output_path / (e_id + '.' + res_type)
             out_file.write_bytes(res.content)
             if res_type == 'pdf':
+                if is_valid_pdf_file(out_file.resolve().as_posix()):
+                    print('Writing {}'.format(out_file))
                 if not is_valid_pdf_file(out_file.resolve().as_posix()):
                     out_file.unlink()
                     trial += 1
@@ -121,12 +125,13 @@ def download_pub_resources(corpus: dict,
         _type = entity['@type']
         downloaded_before = _id in downloaded_pubs_id
         res_uri = entity['openAccess']['@value']
+        print('attempting to download {}'.format(res_uri))
         if force_download or not downloaded_before:
             if not _download(res_uri, 'pdf',
-                             pub_pdf_full_path, _id):
+                            pub_pdf_full_path, _id):
                 print(f'Failed to download {res_uri}')
             time.sleep(0.5)
-
+        
 
 def download_dataset_resources(corpus: dict,
                                output_path: Path,
