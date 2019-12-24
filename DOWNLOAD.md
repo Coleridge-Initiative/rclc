@@ -21,7 +21,7 @@ from the public S3 bucket.
 Download the corpus PDFs and other resource files:
 
 ```
-python bin/download_resources.py
+python bin/download_resources.py --logger errors.txt
 ```
 
 The PDF files get stored in the `resources/pub/pdf` subdirectory.
@@ -46,6 +46,8 @@ java -jar $SPJAR -o ./resources/pub/json ./resources/pub/pdf
 
 That command will download multiple resources from the Allan AI public
 datastore, which may take several minutes.
+
+TODO: replace this step with use of a containerized `SPv2` server.
 
 
 ## Upload PDF and JSON files
