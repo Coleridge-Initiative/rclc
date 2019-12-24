@@ -171,13 +171,14 @@ def enum_dat_resources (corpus: dict, output_path: Path, force_download: bool) -
         downloaded_before = e_id in downloaded_dat_id
 
         if force_download or not downloaded_before:
-            res_url = entity["foaf:page"]["@value"]
+            if "foaf:page" in entity:
+                res_url = entity["foaf:page"]["@value"]
 
-            if res_url.startswith("http://example.com"):
-                # ignore these placeholder URLs
-                continue
-            else:
-                todo.append(["unknown", e_id, res_url, dat_path])
+                if res_url.startswith("http://example.com"):
+                    # ignore these placeholder URLs
+                    continue
+                else:
+                    todo.append(["unknown", e_id, res_url, dat_path])
 
     return dat_path, todo
 
