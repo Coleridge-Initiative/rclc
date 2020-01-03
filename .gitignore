@@ -1,6 +1,7 @@
 *~
 .DS_STORE
 
+errors.txt
 tmp.ttl
 tmp.jsonld
 todo.tsv
