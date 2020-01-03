@@ -46,16 +46,6 @@ def upload_file (handle, local_path, s3_path):
     handle.meta.client.upload_file(local_path, "richcontext", s3_path)
 
 
-def upload_pdf_files (handle, json_file_path, new_json):
-    for n in new_json:
-        local_json_path = json_file_path + n + ".pdf.json"
-        s3_json_path = "corpus_docs/json/" + n.split(".pdf.json")[0] + ".json"
-        upload_file(handle, local_json_path, s3_json_path)
-        print("uploading {} to {}".format(local_json_path, s3_json_path))
-
-    print("uploaded {} files to corpus_docs/json/ in the bucket".format(len(new_json)))
-    
-
 def upload_pdf_files (handle, pdf_file_path, new_pdf):
     for n in new_pdf:
         local_pdf_path = pdf_file_path + n
@@ -65,6 +55,16 @@ def upload_pdf_files (handle, pdf_file_path, new_pdf):
 
     print("Uploaded {} files to corpus_docs/pdf/ in the bucket".format(len(new_pdf)))
 
+
+def upload_json_files (handle, json_file_path, new_json):
+    for n in new_json:
+        local_json_path = json_file_path + n + ".pdf.json"
+        s3_json_path = "corpus_docs/json/" + n.split(".pdf.json")[0] + ".json"
+        upload_file(handle, local_json_path, s3_json_path)
+        print("uploading {} to {}".format(local_json_path, s3_json_path))
+
+    print("uploaded {} files to corpus_docs/json/ in the bucket".format(len(new_json)))
+    
 
 def write_manifest (new_json, new_pdf, git_path="."):
     """
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # upload files
     new_json, new_pdf = gen_files(pdf_file_path, json_file_path, bucket)
     upload_pdf_files(handle, pdf_file_path, new_pdf)
-    upload_pdf_files(handle, json_file_path, new_json)
+    upload_json_files(handle, json_file_path, new_json)
 
     # write upload details to manifest
     write_manifest(new_json, new_pdf)
