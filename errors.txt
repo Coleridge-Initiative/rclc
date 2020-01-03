@@ -1,0 +1,170 @@
+WARNING:RichContext:number of records in the corpus: 2521
+WARNING:RichContext:failed: fc95db7f7d32cd5f6143 https://doi.org/10.1093/ajcn/nqz064
+WARNING:RichContext:failed: 40f8b8f798ae78fef5b3 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecin.12842
+WARNING:RichContext:no embedded PDF: 40f8b8f798ae78fef5b3 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecin.12842
+WARNING:RichContext:failed: c27ce9a0ba19a4ef1c7c http://link.springer.com/10.1007/s11113-018-9496-y
+WARNING:RichContext:failed: b52a4d9ed708d23ab31f https://manuscript.elsevier.com/S027795361730237X/pdf/S027795361730237X.pdf
+WARNING:RichContext:b52a4d9ed708d23ab31f https://manuscript.elsevier.com/S027795361730237X/pdf/S027795361730237X.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S027795361730237X/pdf/S027795361730237X.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 70846c225e81d8944ef2 https://doi.org/10.7758/rsf.2015.1.1.07
+WARNING:RichContext:failed: 4e29b682e33b1288ea1a https://onlinelibrary.wiley.com/doi/pdf/10.1111/joca.12158
+WARNING:RichContext:no embedded PDF: 4e29b682e33b1288ea1a https://onlinelibrary.wiley.com/doi/pdf/10.1111/joca.12158
+WARNING:RichContext:failed: ada821e909a30a8c6e0d https://doi.org/10.1016/j.childyouth.2014.04.003
+WARNING:RichContext:failed: caf688b9379490044130 https://www.sciencedirect.com/sdfe/reader/pii/S2210784316300973/pdf
+WARNING:RichContext:session.get failed: caf688b9379490044130 https://www.sciencedirect.com/sdfe/reader/pii/S2210784316300973/pdf
+WARNING:RichContext:failed: 6326552bd07f2ec4aeaf http://pdfs.semanticscholar.org/ca60/d8c02ca0590e15110e1b7b854c34ca9a52f2.pdf
+WARNING:RichContext:failed: 6b8a515fa898d061c94e https://doi.org/10.1016/j.jrurstud.2016.02.001
+WARNING:RichContext:failed: 9d4491e6ad99b405cdea https://onlinelibrary.wiley.com/doi/pdf/10.1002/oby.22395
+WARNING:RichContext:no embedded PDF: 9d4491e6ad99b405cdea https://onlinelibrary.wiley.com/doi/pdf/10.1002/oby.22395
+WARNING:RichContext:failed: 18c64ba865ad68d6cf90 Retail oligopoly power, dairy compact, and Boston milk prices
+WARNING:RichContext:18c64ba865ad68d6cf90 Retail oligopoly power, dairy compact, and Boston milk prices request exception Invalid URL 'Retail oligopoly power, dairy compact, and Boston milk prices': No schema supplied. Perhaps you meant http://Retail oligopoly power, dairy compact, and Boston milk prices?
+WARNING:RichContext:failed: 1d26e90c12bc8cc7fb2e http://jhppl.dukejournals.org/cgi/reprint/32/3/415.pdf
+WARNING:RichContext:failed: 778a15d3c9f53050675e https://doi.org/10.1016/j.childyouth.2016.10.018
+WARNING:RichContext:failed: cd5e96bdcfd516a8c765 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jtsa.12467
+WARNING:RichContext:no embedded PDF: cd5e96bdcfd516a8c765 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jtsa.12467
+WARNING:RichContext:failed: 296018d551a969ddbabc http://www.soc.jhu.edu/people/DeLuca/documents/SSR%20Mendenhall%2C%20DeLuca%2C%20Duncan.%202006.pdf
+WARNING:RichContext:failed: 6cc89963f723ce427738 http://www.degruyter.com/downloadpdf/j/alr.ahead-of-print/applirev-2018-0020/applirev-2018-0020.xml
+WARNING:RichContext:failed: 2dc1f36c8e8c269799f9 https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2017/wp17-19.pdf?utm_campaign=WorkingPapers&utm_source=2017/07/17&utm_medium=E-mail
+WARNING:RichContext:2dc1f36c8e8c269799f9 https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2017/wp17-19.pdf?utm_campaign=WorkingPapers&utm_source=2017/07/17&utm_medium=E-mail request exception HTTPSConnectionPool(host='www.philadelphiafed.org', port=443): Max retries exceeded with url: /-/media/research-and-data/publications/working-papers/2017/wp17-19.pdf?utm_campaign=WorkingPapers&utm_source=2017/07/17&utm_medium=E-mail (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 33d8143055f59f2829af https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/hsc.12619
+WARNING:RichContext:no embedded PDF: 33d8143055f59f2829af https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/hsc.12619
+WARNING:RichContext:failed: 4895cb2001777057a23c https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/pbaf.12244
+WARNING:RichContext:no embedded PDF: 4895cb2001777057a23c https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/pbaf.12244
+WARNING:RichContext:failed: 9502d3e234e31a774907 https://doi.org/10.1016/j.amepre.2016.08.023
+WARNING:RichContext:failed: e74e590413a621376e10 http://www.umass.edu/resec/faculty/rojas/docs/Taxes.pdf
+WARNING:RichContext:failed: 1a2665361435e5929d9a https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pop4.203
+WARNING:RichContext:no embedded PDF: 1a2665361435e5929d9a https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pop4.203
+WARNING:RichContext:failed: becacc4f9fe1589c4db4 https://manuscript.elsevier.com/S1499404616300318/pdf/S1499404616300318.pdf
+WARNING:RichContext:becacc4f9fe1589c4db4 https://manuscript.elsevier.com/S1499404616300318/pdf/S1499404616300318.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S1499404616300318/pdf/S1499404616300318.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 3519f2665128f8589e19 http://onlinelibrary.wiley.com/doi/10.1002/pop4.171/pdf
+WARNING:RichContext:no embedded PDF: 3519f2665128f8589e19 http://onlinelibrary.wiley.com/doi/10.1002/pop4.171/pdf
+WARNING:RichContext:failed: 86ac8d47e706be6c8219 https://doi.org/10.17000/kspr.25.4.201812.199
+WARNING:RichContext:failed: 0ff3b036d813af980976 https://doi.org/10.1093/erae/jby026
+WARNING:RichContext:failed: 0587976b2f92b0e9868f https://content.iospress.com:443/download/journal-of-vocational-rehabilitation/jvr191017?id=journal-of-vocational-rehabilitation%2Fjvr191017
+WARNING:RichContext:0587976b2f92b0e9868f https://content.iospress.com:443/download/journal-of-vocational-rehabilitation/jvr191017?id=journal-of-vocational-rehabilitation%2Fjvr191017 request exception HTTPSConnectionPool(host='content.iospress.com', port=443): Read timed out. (read timeout=20)
+WARNING:RichContext:failed: 251fb8b407821b95d6f7 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/he.20336
+WARNING:RichContext:no embedded PDF: 251fb8b407821b95d6f7 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/he.20336
+WARNING:RichContext:failed: 1af374454453aa5d5825 https://manuscript.elsevier.com/S1570677X16300326/pdf/S1570677X16300326.pdf
+WARNING:RichContext:1af374454453aa5d5825 https://manuscript.elsevier.com/S1570677X16300326/pdf/S1570677X16300326.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S1570677X16300326/pdf/S1570677X16300326.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 6bc42ef8479d897dd5b8 https://manuscript.elsevier.com/S0195666316300952/pdf/S0195666316300952.pdf
+WARNING:RichContext:6bc42ef8479d897dd5b8 https://manuscript.elsevier.com/S0195666316300952/pdf/S0195666316300952.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S0195666316300952/pdf/S0195666316300952.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: cd9eed5e481bb49e8ada http://pdfs.journals.lww.com/academicmedicine/1997/09000/Profile_of_the_graduate_student_population_in_U_S_.20.pdf?token=method|ExpireAbsolute;source|Journals;ttl|1506389721225;payload|mY8D3u1TCCsNvP5E421JYK6N6XICDamxByyYpaNzk7FKjTaa1Yz22MivkHZqjGP4kdS2v0J76WGAnHACH69s21Csk0OpQi3YbjEMdSoz2UhVybFqQxA7lKwSUlA502zQZr96TQRwhVlocEp/sJ586aVbcBFlltKNKo+tbuMfL73hiPqJliudqs17cHeLcLbV/CqjlP3IO0jGHlHQtJWcICDdAyGJMnpi6RlbEJaRheGeh5z5uvqz3FLHgPKVXJzd++Xw1xrBvVGm3URNugOVtYfrjQcCVLgbjq4J7SGuNkd0xVDWMKnPVPA0AC2fd0y7;hash|Ze5loqJ0DcYD9lPI8UJDcw==
+WARNING:RichContext:failed: 847facc16baf543ccece https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cdev.12753
+WARNING:RichContext:no embedded PDF: 847facc16baf543ccece https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cdev.12753
+WARNING:RichContext:failed: fdc935f99d70620d2a6f https://pediatrics.aappublications.org/content/pediatrics/135/1/e109.full.pdf
+WARNING:RichContext:failed: 3a9f49659008444cd656 http://europepmc.org/articles/PMC2690384?pdf=render
+WARNING:RichContext:failed: 81c8c68f70538befd0f4 https://esajournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ecy.2600
+WARNING:RichContext:no embedded PDF: 81c8c68f70538befd0f4 https://esajournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ecy.2600
+WARNING:RichContext:failed: a1d317452d59817cd6ff https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/oby.22540
+WARNING:RichContext:no embedded PDF: a1d317452d59817cd6ff https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/oby.22540
+WARNING:RichContext:failed: 61a59fa620c7a33304a7 https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/j.2379-3988.2015.tb00082.x
+WARNING:RichContext:no embedded PDF: 61a59fa620c7a33304a7 https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/j.2379-3988.2015.tb00082.x
+WARNING:RichContext:failed: c1863bb4c766796ef81e http://hdl.handle.net/10.1111/agec.12222
+WARNING:RichContext:failed: 3baebd7472bc23445521 https://manuscript.elsevier.com/S0964569115001076/pdf/S0964569115001076.pdf
+WARNING:RichContext:3baebd7472bc23445521 https://manuscript.elsevier.com/S0964569115001076/pdf/S0964569115001076.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S0964569115001076/pdf/S0964569115001076.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: a4f9bb4fd4330c60a42d https://onlinelibrary.wiley.com/doi/pdf/10.1111/bjir.12469
+WARNING:RichContext:no embedded PDF: a4f9bb4fd4330c60a42d https://onlinelibrary.wiley.com/doi/pdf/10.1111/bjir.12469
+WARNING:RichContext:failed: d2207b8ab7654cac902c https://doi.org/10.7554/elife.32822
+WARNING:RichContext:failed: 8b66f7ad41758568afed http://respec.tamu.edu/zervoufirmsfinance.pdf
+WARNING:RichContext:8b66f7ad41758568afed http://respec.tamu.edu/zervoufirmsfinance.pdf request exception HTTPConnectionPool(host='respec.tamu.edu', port=80): Max retries exceeded with url: /zervoufirmsfinance.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x17de7a150>, 'Connection to respec.tamu.edu timed out. (connect timeout=10)'))
+WARNING:RichContext:failed: 118d90c6757823a66d60 https://doi.org/10.1093/aepp/ppy018
+WARNING:RichContext:failed: d1f47b6efca463251268 https://nyaspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/nyas.12594
+WARNING:RichContext:no embedded PDF: d1f47b6efca463251268 https://nyaspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/nyas.12594
+WARNING:RichContext:failed: 2ec045c11fcb726c4675 https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3274&context=soe_research
+WARNING:RichContext:failed: 8f616ddb80faace26d72 https://doi.org/10.3982/qe564
+WARNING:RichContext:failed: 9c5d244917fe12f7be8d https://doi.org/10.1093/scipol/scz039
+WARNING:RichContext:failed: 70a5a100bf7301a203bf https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/oby.21862
+WARNING:RichContext:no embedded PDF: 70a5a100bf7301a203bf https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/oby.21862
+WARNING:RichContext:failed: d670e19e556e0a43fa05 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/coep.12266
+WARNING:RichContext:no embedded PDF: d670e19e556e0a43fa05 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/coep.12266
+WARNING:RichContext:failed: 0b29b6675fc51a1cc47d https://doi.org/10.1016/j.ijlp.2018.10.004
+WARNING:RichContext:failed: 64d397e1e2a4c4b7ca7a https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pam.22093
+WARNING:RichContext:no embedded PDF: 64d397e1e2a4c4b7ca7a https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pam.22093
+WARNING:RichContext:failed: 1c94ef1e2f327d388feb https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=2056045
+WARNING:RichContext:failed: a14d6bc056bd36399bef https://doi.org/10.1016/j.crm.2018.03.005
+WARNING:RichContext:failed: 95cd3d20b62594528334 http://hdl.handle.net/20.500.11794/10748
+WARNING:RichContext:failed: 9aa50a5f06b9166f4715 https://doi.org/10.1016/j.jbusvent.2018.10.005
+WARNING:RichContext:failed: 0522d4cdb559dd0b03ee https://doi.org/10.21105/joss.01462
+WARNING:RichContext:failed: 0de2b787b9fbf0067276 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijpo.12562
+WARNING:RichContext:no embedded PDF: 0de2b787b9fbf0067276 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijpo.12562
+WARNING:RichContext:failed: df4879004c5f8b41da49 https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecoj.12415
+WARNING:RichContext:no embedded PDF: df4879004c5f8b41da49 https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecoj.12415
+WARNING:RichContext:failed: 948ccb64c9b6a83d9784 https://pdfs.journals.lww.com/topicsinclinicalnutrition/2004/01000/Child_Nutrition_Programs_Legislation__Past_and.3.pdf?token=method|ExpireAbsolute;source|Journals;ttl|1545548711867;payload|mY8D3u1TCCsNvP5E421JYK6N6XICDamxByyYpaNzk7FKjTaa1Yz22MivkHZqjGP4kdS2v0J76WGAnHACH69s21Csk0OpQi3YbjEMdSoz2UhVybFqQxA7lKwSUlA502zQZr96TQRwhVlocEp/sJ586aVbcBFlltKNKo+tbuMfL73hiPqJliudqs17cHeLcLbV/CqjlP3IO0jGHlHQtJWcICDdAyGJMnpi6RlbEJaRheGeh5z5uvqz3FLHgPKVXJzdjMrFmUeNGda7afeiVO1Pd1ATOUOd1u0sL/wUiMcn9MnKKnFNjYZHw94sfJcYNY6Y;hash|N5oAa31wWF2UlO119Unaug==
+WARNING:RichContext:failed: 87699b623cea5b299453 https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=966252
+WARNING:RichContext:failed: 6d4a21c9f74b2ba41094 https://manuscript.elsevier.com/S1570677X1500060X/pdf/S1570677X1500060X.pdf
+WARNING:RichContext:6d4a21c9f74b2ba41094 https://manuscript.elsevier.com/S1570677X1500060X/pdf/S1570677X1500060X.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S1570677X1500060X/pdf/S1570677X1500060X.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 756a33253efcecd3b9e5 https://onlinelibrary.wiley.com/doi/pdf/10.1111/mcn.12488
+WARNING:RichContext:no embedded PDF: 756a33253efcecd3b9e5 https://onlinelibrary.wiley.com/doi/pdf/10.1111/mcn.12488
+WARNING:RichContext:failed: 618e73b7a15fbdd9f814 https://pdfs.journals.lww.com/jaids/2015/07010/The_Association_Between_Food_Insufficiency_and_HIV.11.pdf?token=method|ExpireAbsolute;source|Journals;ttl|1542048624015;payload|mY8D3u1TCCsNvP5E421JYK6N6XICDamxByyYpaNzk7FKjTaa1Yz22MivkHZqjGP4kdS2v0J76WGAnHACH69s21Csk0OpQi3YbjEMdSoz2UhVybFqQxA7lKwSUlA502zQZr96TQRwhVlocEp/sJ586aVbcBFlltKNKo+tbuMfL73hiPqJliudqs17cHeLcLbV/CqjlP3IO0jGHlHQtJWcICDdAyGJMnpi6RlbEJaRheGeh5z5uvqz3FLHgPKVXJzdmXWu5dPlhDubainwsnRl16RkxGril9arViLOJfOXddA=;hash|jfKu6Iv3RW2TNcA9hXUj8A==
+WARNING:RichContext:failed: 3e1934281bcca346b4fb https://doi.org/10.4103/jfmpc.jfmpc_185_17
+WARNING:RichContext:failed: c6cbfb4533f33f1f895d https://doi.org/10.1016/j.marpol.2016.04.030
+WARNING:RichContext:failed: efba7abdb9ccd597a997 https://doi.org/10.1016/j.appet.2014.12.003
+WARNING:RichContext:failed: 47e1bc82160141ce0352 https://doi.org/10.1093/jssam/smz024
+WARNING:RichContext:failed: 34145fa79f5a21c001cd http://rcin.org.pl/Content/42386
+WARNING:RichContext:34145fa79f5a21c001cd http://rcin.org.pl/Content/42386 request exception HTTPConnectionPool(host='rcin.org.pl', port=80): Max retries exceeded with url: /Content/42386 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x17ed77650>, 'Connection to rcin.org.pl timed out. (connect timeout=10)'))
+WARNING:RichContext:failed: 436d4a380504abf1cb3c https://doi.org/10.5993/ajhb.42.1.3
+WARNING:RichContext:failed: 144fa5560b013a344936 http://repositorio.ul.pt/bitstream/10451/38733/1/ICS_SGCardoso_et_al_School.pdf
+WARNING:RichContext:144fa5560b013a344936 http://repositorio.ul.pt/bitstream/10451/38733/1/ICS_SGCardoso_et_al_School.pdf request exception HTTPSConnectionPool(host='repositorio.ul.pt', port=443): Max retries exceeded with url: /bitstream/10451/38733/1/ICS_SGCardoso_et_al_School.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: f79ecf6625b4ccc56110 http://dial.uclouvain.be/downloader/downloader.php?pid=boreal:4782&datastream=PDF_01&disclaimer=df50ed0a34d0b3ca8b86486b4678373724fa397c8c4d606c5bbb9bc35f06aaf3
+WARNING:RichContext:failed: 590c800055988048ae2c https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pam.22104
+WARNING:RichContext:no embedded PDF: 590c800055988048ae2c https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pam.22104
+WARNING:RichContext:failed: bab9c37e1d71bc2d046a https://onlinelibrary.wiley.com/doi/pdf/10.1111/1745-9133.12359
+WARNING:RichContext:no embedded PDF: bab9c37e1d71bc2d046a https://onlinelibrary.wiley.com/doi/pdf/10.1111/1745-9133.12359
+WARNING:RichContext:failed: aad7a5f99885cfa59d83 https://onlinelibrary.wiley.com/doi/pdf/10.1111/jora.12272
+WARNING:RichContext:no embedded PDF: aad7a5f99885cfa59d83 https://onlinelibrary.wiley.com/doi/pdf/10.1111/jora.12272
+WARNING:RichContext:failed: 050f7524a00fccc84e03 https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cdev.12764
+WARNING:RichContext:no embedded PDF: 050f7524a00fccc84e03 https://srcd.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cdev.12764
+WARNING:RichContext:failed: 42660e147ce2722ca8c0 https://onlinelibrary.wiley.com/doi/pdf/10.1002/ajpa.22161
+WARNING:RichContext:no embedded PDF: 42660e147ce2722ca8c0 https://onlinelibrary.wiley.com/doi/pdf/10.1002/ajpa.22161
+WARNING:RichContext:failed: 30f40b6634264fc34af1 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6179934
+WARNING:RichContext:failed: 77f7e285b82c924fd01d https://manuscript.elsevier.com/S030691921600018X/pdf/S030691921600018X.pdf
+WARNING:RichContext:77f7e285b82c924fd01d https://manuscript.elsevier.com/S030691921600018X/pdf/S030691921600018X.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S030691921600018X/pdf/S030691921600018X.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: f74c7adc3a94432f1535 https://onlinelibrary.wiley.com/doi/pdf/10.1111/phn.12375
+WARNING:RichContext:no embedded PDF: f74c7adc3a94432f1535 https://onlinelibrary.wiley.com/doi/pdf/10.1111/phn.12375
+WARNING:RichContext:failed: e26969208ccf52d42846 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jftr.12302
+WARNING:RichContext:no embedded PDF: e26969208ccf52d42846 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jftr.12302
+WARNING:RichContext:failed: 2dad560eb70b1ed8f114 https://onlinelibrary.wiley.com/doi/pdf/10.1002/agr.21537
+WARNING:RichContext:no embedded PDF: 2dad560eb70b1ed8f114 https://onlinelibrary.wiley.com/doi/pdf/10.1002/agr.21537
+WARNING:RichContext:failed: a9ca248fe2f8bdb1d751 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1745-9125.12199
+WARNING:RichContext:no embedded PDF: a9ca248fe2f8bdb1d751 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1745-9125.12199
+WARNING:RichContext:failed: 646197a01f532c943874 https://manuscript.elsevier.com/S027795361530280X/pdf/S027795361530280X.pdf
+WARNING:RichContext:646197a01f532c943874 https://manuscript.elsevier.com/S027795361530280X/pdf/S027795361530280X.pdf request exception HTTPSConnectionPool(host='manuscript.elsevier.com', port=443): Max retries exceeded with url: /S027795361530280X/pdf/S027795361530280X.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 8175cb931990b98a72d8 http://dataspace.princeton.edu/jspui/bitstream/88435/dsp01zw12z530b/1/441.pdf
+WARNING:RichContext:failed: 1900641de6b8065588ac https://content.sciendo.com/downloadpdf/journals/jos/33/2/article-p427.xml
+WARNING:RichContext:1900641de6b8065588ac https://content.sciendo.com/downloadpdf/journals/jos/33/2/article-p427.xml request exception HTTPSConnectionPool(host='content.sciendo.com', port=443): Read timed out. (read timeout=20)
+WARNING:RichContext:failed: 578e5c1bf1b8a2f93347 https://onlinelibrary.wiley.com/doi/pdf/10.1111/rurd.12057
+WARNING:RichContext:no embedded PDF: 578e5c1bf1b8a2f93347 https://onlinelibrary.wiley.com/doi/pdf/10.1111/rurd.12057
+WARNING:RichContext:failed: 034349cf00da5e130480 http://archive.nyu.edu/bitstream/2451/31847/2/Wachtel_ProCyclicalCapital_Jul2013.pdf
+WARNING:RichContext:034349cf00da5e130480 http://archive.nyu.edu/bitstream/2451/31847/2/Wachtel_ProCyclicalCapital_Jul2013.pdf request exception HTTPSConnectionPool(host='archive.nyu.edu', port=443): Max retries exceeded with url: /bitstream/2451/31847/2/Wachtel_ProCyclicalCapital_Jul2013.pdf (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 0b8c73a4cc256431bd0d https://onlinelibrary.wiley.com/doi/pdf/10.1111/joes.12122
+WARNING:RichContext:no embedded PDF: 0b8c73a4cc256431bd0d https://onlinelibrary.wiley.com/doi/pdf/10.1111/joes.12122
+WARNING:RichContext:failed: 835616fa5075a00a4948 https://doi.org/10.5530/ami.2015.1.10
+WARNING:RichContext:failed: 08a045baa4fd84c47ddb http://europepmc.org/articles/PMC1497475?pdf=render
+WARNING:RichContext:failed: ef8f24963245a184e40f http://crc.nv.gov/docs/forecst_wksp/developmentspaper.pdf
+WARNING:RichContext:failed: e3c089f9a76fa109516a http://policy.rutgers.edu/faculty/hetling/Hetling_Diversion_JPP.pdf
+WARNING:RichContext:failed: d1b427e76cad5fdac247 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/padr.12227
+WARNING:RichContext:no embedded PDF: d1b427e76cad5fdac247 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/padr.12227
+WARNING:RichContext:failed: 1df1bb6a76cf596bccf8 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecin.12837
+WARNING:RichContext:no embedded PDF: 1df1bb6a76cf596bccf8 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecin.12837
+WARNING:RichContext:failed: 9d2897d8e568f46e0472 https://onlinelibrary.wiley.com/doi/pdfdirect/10.4073/csr.2015.2
+WARNING:RichContext:no embedded PDF: 9d2897d8e568f46e0472 https://onlinelibrary.wiley.com/doi/pdfdirect/10.4073/csr.2015.2
+WARNING:RichContext:failed: 0a54d3ff7a70f775f98c https://onlinelibrary.wiley.com/doi/pdf/10.1111/fare.12310
+WARNING:RichContext:no embedded PDF: 0a54d3ff7a70f775f98c https://onlinelibrary.wiley.com/doi/pdf/10.1111/fare.12310
+WARNING:RichContext:failed: 4f84b0f40e7664f53590 http://hdl.handle.net/10.1002/pam.21842
+WARNING:RichContext:failed: fe2001372b6842192771 https://onlinelibrary.wiley.com/doi/pdf/10.1111/birt.12394
+WARNING:RichContext:no embedded PDF: fe2001372b6842192771 https://onlinelibrary.wiley.com/doi/pdf/10.1111/birt.12394
+WARNING:RichContext:failed: 8c9ccf399eebc2338418 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jia2.25306
+WARNING:RichContext:no embedded PDF: 8c9ccf399eebc2338418 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jia2.25306
+WARNING:RichContext:failed: f4a39744928ec6a912bb https://doi.org/10.3168/jds.s0022-0302(78)94422-3
+WARNING:RichContext:failed: 94f7e2a4bb7a663c358b http://pdfs.semanticscholar.org/01cf/d33f38b51a55a75ffd59b30c5813850a77cc.pdf
+WARNING:RichContext:failed: ae027bea3fce790000b1 https://dew.sc.gov/tools-resources/data-statistics
+WARNING:RichContext:ae027bea3fce790000b1 https://dew.sc.gov/tools-resources/data-statistics request exception HTTPSConnectionPool(host='dew.sc.gov', port=443): Max retries exceeded with url: /tools-resources/data-statistics (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: 722701806b8efd709030 https://www.edd.ca.gov/unemployment/
+WARNING:RichContext:722701806b8efd709030 https://www.edd.ca.gov/unemployment/ request exception HTTPSConnectionPool(host='www.edd.ca.gov', port=443): Max retries exceeded with url: /unemployment/ (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: fddf252c8b7f7ab55e69 https://www.dllr.state.md.us/employment/unemployment.shtml
+WARNING:RichContext:fddf252c8b7f7ab55e69 https://www.dllr.state.md.us/employment/unemployment.shtml request exception HTTPSConnectionPool(host='www.dllr.state.md.us', port=443): Max retries exceeded with url: /employment/unemployment.shtml (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:failed: e84ccf3e64a9f10a03a5 https://otda.ny.gov/resources/caseload/
+WARNING:RichContext:e84ccf3e64a9f10a03a5 https://otda.ny.gov/resources/caseload/ request exception HTTPSConnectionPool(host='otda.ny.gov', port=443): Max retries exceeded with url: /resources/caseload/ (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+WARNING:RichContext:number of research publications: 1491
+WARNING:RichContext:successfully downloaded 1389 PDF files
+WARNING:RichContext:number of datasets: 175
+WARNING:RichContext:successfully downloaded 167 resource files
