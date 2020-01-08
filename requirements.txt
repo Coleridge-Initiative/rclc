@@ -1,5 +1,6 @@
 GitPython >= 3.0.5
 awscli >= 1.16.302
+beautifulsoup4 >= 4.8.0
 boto3 >= 1.10.38
 html5lib >= 1.0.1
 mypy >= 0.730
