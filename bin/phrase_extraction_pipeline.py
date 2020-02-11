@@ -6,16 +6,10 @@ from pathlib import Path
 import codecs
 import json
 import logging
-import math
-import networkx as nx
-import operator
 import os
 import pytextrank
 import spacy
 import sys
-import warnings
-
-#warnings.filterwarnings("ignore")
 
 
 def Setup ():
@@ -30,12 +24,11 @@ def Setup ():
     nlp.add_pipe(tr.PipelineComponent, name="textrank", last=True)
 
 
-def PhraseExtraction (current_path):
+def PhraseExtraction (resource_path):
     """
     run PyTextRank on Parsr output to extract and rank key phrases
     """
-    rsrc_dir = Path(current_path) / "resources/pub"
-    json_dir = rsrc_dir / "json"
+    json_dir = resource_path / "json"
 
     for parse_file in list(json_dir.glob("*.json")):
         with codecs.open(parse_file, "r", encoding="utf8") as f:
@@ -66,7 +59,7 @@ def PhraseExtraction (current_path):
         print("Job Done!")
         
         # output the rank results to JSON 
-        tr_path = rsrc_dir / "tr"
+        tr_path = resource_path / "tr"
         mkdir(tr_path)
 
         tr_file = parse_file.stem + ".json"
@@ -79,5 +72,8 @@ def PhraseExtraction (current_path):
 if __name__ == "__main__":
     Setup()
 
-    #current_path = os.path.dirname(os.path.dirname(__file__))
-    PhraseExtraction(".")
+    # can point to different directories:
+    #resource_path = Path(".") / "example/pub"		# test environment
+    resource_path = Path(".") / "resources/pub"		# production use
+
+    PhraseExtraction(resource_path)
