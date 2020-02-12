@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
 #
 # Copyright 2019 AXA Group Operations S.A.
 #
