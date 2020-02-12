@@ -1,6 +1,7 @@
 *~
-.DS_STORE
+.DS_Store
 
+example/pub/tr
 tmp.ttl
 tmp.jsonld
 todo.tsv
