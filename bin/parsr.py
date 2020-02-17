@@ -19,8 +19,8 @@ def Convert (base_path=".", force=False):
     json_dir = pub_dir / "json"
     mkdir(json_dir)
 
-    text_dir = pub_dir  / "text"
-    mkdir(text_dir)
+    txt_dir = pub_dir  / "txt"
+    mkdir(txt_dir)
 
     pdf_dir = pub_dir / "pdf"
 
@@ -48,8 +48,8 @@ def Convert (base_path=".", force=False):
                 json.dump(parsr.get_json(), f, indent=2, ensure_ascii=False)
             
             # output the raw text
-            text_file = pdf_file.stem + ".txt"
-            text_path = text_dir / text_file
+            txt_file = pdf_file.stem + ".txt"
+            txt_path = txt_dir / txt_file
 
             with codecs.open(text_path, "wb", encoding="utf8") as f:
                 f.write(parsr.get_text())

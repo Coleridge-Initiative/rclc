@@ -2,113 +2,137 @@
 # encoding: utf-8
 
 from git import Repo
+from pathlib import Path
 import boto3
 import datetime
 import json
 import os
 import sys
 
+BUCKET_NAME = "richcontext"
+
 
 def access_bucket (handle):
     """
     initialize access to the bucket
     """
-    bucket_name = "richcontext"
-    bucket = handle.Bucket(bucket_name)
+    bucket = handle.Bucket(BUCKET_NAME)
     return bucket
 
 
-def format_file_path (file_path):
-    if file_path.endswith("/"):
-        return file_path
-    elif not file_path.endswith("/"):
-        return file_path + "/"
-
-
-def gen_files (pdf_file_path, json_file_path, bucket):
-    pdfs = [p for p in os.listdir(pdf_file_path) if p.endswith(".pdf")]
-    jsons = [j.split(".pdf.json")[0] for j in os.listdir(json_file_path) if j.endswith(".json")]
-
-    # list docs that we have locally but not in bucket
-    prefix = "corpus_docs"
-    existing_json = [obj.key.split("/")[2].split(".json")[0] for obj in bucket.objects.filter(Prefix=prefix + "/json") if obj.key.endswith(".json")]
-    existing_pdfs = [obj.key.split("corpus_docs/pdf/")[1] for obj in bucket.objects.filter(Prefix=prefix + "/pdf") if obj.key.endswith(".pdf")]
-    
-    new_json = [j for j in jsons if j not in existing_json]
-    new_pdf = [j for j in pdfs if j not in existing_pdfs]
-    
-    print("there are {} JSON files in the bucket, uploading {} more".format(len(existing_json), len(new_json)))
-    print("there are {} PDF files in the bucket, uploading {} more".format(len(existing_pdfs), len(new_pdf)))
-    return new_json, new_pdf
-
-
 def upload_file (handle, local_path, s3_path):
-    handle.meta.client.upload_file(local_path, "richcontext", s3_path)
+    """
+    upload a local file to the bucket
+    """
+    handle.meta.client.upload_file(local_path, BUCKET_NAME, s3_path)
 
 
-def upload_pdf_files (handle, pdf_file_path, new_pdf):
-    for n in new_pdf:
-        local_pdf_path = pdf_file_path + n
-        s3_pdf_path = "corpus_docs/pdf/" + n
-        upload_file(handle, local_pdf_path, s3_pdf_path)
-        print("uploading {} to {}".format(local_pdf_path, s3_pdf_path))
+def list_uploaded_files (bucket, prefix, kind):
+    """
+    list the files of a particular kind which have already been
+    uploaded to the bucket
+    """
+    done = set([])
+    extension = f".{kind}"
 
-    print("Uploaded {} files to corpus_docs/pdf/ in the bucket".format(len(new_pdf)))
+    for obj in bucket.objects.filter(Prefix=prefix + "/" + kind):
+        if obj.key.endswith(extension):
+            uuid = obj.key.split("/")[2].split(extension)[0]
+            done.add(uuid)
+
+    return done
 
 
-def upload_json_files (handle, json_file_path, new_json):
-    for n in new_json:
-        local_json_path = json_file_path + n + ".pdf.json"
-        s3_json_path = "corpus_docs/json/" + n.split(".pdf.json")[0] + ".json"
-        upload_file(handle, local_json_path, s3_json_path)
-        print("uploading {} to {}".format(local_json_path, s3_json_path))
+def iter_needed_files (dir_path, kind, done):
+    """
+    iterator for the local files of a particular kind which 
+    haven't been uploaded yet
+    """
+    for file_name in list(dir_path.glob(f"*.{kind}")):
+        uuid = file_name.stem
 
-    print("uploaded {} files to corpus_docs/json/ in the bucket".format(len(new_json)))
+        if uuid not in done:
+            yield uuid
+
+
+def upload_needed_files (handle, bucket, prefix, dir_path, kind, iter):
+    """
+    upload the needed local files of a particular kind
+    """
+    extension = f".{kind}"
+    count = 0
+
+    for uuid in iter:
+        file_name = uuid + extension
+        local_path = dir_path / file_name
+        s3_path = prefix + "/" + kind + "/"
+
+        print("uploading {} to {}".format(local_path, s3_path))
+        upload_file(handle, local_path.as_posix(), s3_path)
+        count += 1
+
+    return count
     
 
-def write_manifest (new_json, new_pdf, git_path="."):
+def manage_upload (handle, bucket, prefix, pub_dir, kind):
     """
-    summarize upload details to MANIFEST.txt
+    manage the upload for a particular kind of file
     """
-    #git_path = pdf_file_path[0:pdf_file_path.find("rclc")+4]
+    dir_path = pub_dir / kind
+    done = list_uploaded_files(bucket, prefix, kind)
+    iter = iter_needed_files(dir_path, kind, done)  
+    count = upload_needed_files(handle, bucket, prefix, dir_path, kind, iter)
 
-    repo = Repo(git_path)
-    tags = sorted(repo.tags, key=lambda t: t.commit.committed_datetime)
+    return len(done), count
 
-    filename = "MANIFEST.txt"
-    manifest_data = {}
 
-    manifest_data["date"] = datetime.date.today().strftime("%Y-%m-%d")
-    manifest_data["uploaded"] = len(new_json) + len(new_pdf)
-    manifest_data["release"] = tags[-1]
-
+def write_manifest (handle, prefix, manifest_data, filename="MANIFEST.txt"):
+    """
+    summarize details about the upload to a `MANIFEST.txt` 
+    file in the bucket
+    """
     with open(filename, "w") as f:
         for key, val in manifest_data.items():
             f.write("{}: {}\n".format(key, str(val)))
 
-    s3_path = "corpus_docs/" + filename
+    s3_path = prefix + "/" + filename
     upload_file(handle, filename, s3_path)
 
 
-if __name__ == "__main__":
-    # connect to bucket
+def main ():
+    # locate the Git tag info
+    git_path=Path.cwd().as_posix()
+    repo = Repo(git_path)
+    tags = sorted(repo.tags, key=lambda t: t.commit.committed_datetime)
+
+    # set up the manifest
+    manifest_data = {}
+    manifest_data["date"] = datetime.date.today().strftime("%Y-%m-%d")
+    manifest_data["release"] = tags[-1]
+
+    # connect to the storage grid bucket
     handle = boto3.resource("s3")
     bucket = access_bucket(handle)
+    prefix = "corpus_docs"
 
-    # retrieve and format file paths
-    pdf_file_path = "resources/pub/pdf/"
-    #input("Enter path where your PDF files are stored locally: ")
-
-    json_file_path = "resources/pub/json/"
-    #input("Enter path where your JSON files are stored locally: ")
+    # set up the local paths
+    pub_dir = Path.cwd() / "resources/pub"
     
-    pdf_file_path = format_file_path(pdf_file_path)
-    json_file_path = format_file_path(json_file_path)
+    # which PDF files do we need to upload?
+    count, prev_count = manage_upload(handle, bucket, prefix, pub_dir, "pdf")
+    manifest_data["uploaded_pdf"] = count + prev_count
 
-    # upload files
-    new_json, new_pdf = gen_files(pdf_file_path, json_file_path, bucket)
-    upload_pdf_files(handle, pdf_file_path, new_pdf)
-    upload_json_files(handle, json_file_path, new_json)
+    # which JSON files do we need to upload?
+    count, prev_count = manage_upload(handle, bucket, prefix, pub_dir, "json")
+    manifest_data["uploaded_json"] = count + prev_count
+
+    # which TXT files do we need to upload?
+    count, prev_count = manage_upload(handle, bucket, prefix, pub_dir, "txt")
+    manifest_data["uploaded_txt"] = count + prev_count
 
     # write upload details to manifest
-    write_manifest(new_json, new_pdf)
+    write_manifest(handle, prefix, manifest_data)
+
+
+if __name__ == "__main__":
+    main()
