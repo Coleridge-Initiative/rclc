@@ -59,10 +59,13 @@ class ParserClient():
 			'file': (file, open(file, 'rb'), 'application/pdf'),
 			'config': (config, open(config, 'rb'), 'application/json'),
 		}
+
 		r = requests.post('http://'+server+'/api/v1/document', files=packet)
 		jobId = r.text
+
 		if not document_name:
 			document_name = os.path.splitext(os.path.basename(file))[0]
+
 		if document_name not in self.version_history:
 			self.version_history[document_name] = [jobId]
 		else:

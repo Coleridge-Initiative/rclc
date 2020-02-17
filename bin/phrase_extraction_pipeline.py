@@ -5,7 +5,6 @@ from parsed_json_interpreter import ParsedJsonInterpreter, mkdir
 from pathlib import Path
 import codecs
 import json
-import os
 import pytextrank
 import spacy
 import sys
