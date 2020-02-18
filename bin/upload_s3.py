@@ -3,6 +3,7 @@
 
 from git import Repo
 from pathlib import Path
+from tqdm import tqdm
 import boto3
 import datetime
 import json
@@ -20,11 +21,11 @@ def access_bucket (handle):
     return bucket
 
 
-def upload_file (handle, local_path, s3_path):
+def upload_file (handle, local_path, grid_path):
     """
     upload a local file to the bucket
     """
-    handle.meta.client.upload_file(local_path, BUCKET_NAME, s3_path)
+    handle.meta.client.upload_file(local_path, BUCKET_NAME, grid_path)
 
 
 def list_uploaded_files (bucket, prefix, kind):
@@ -35,11 +36,11 @@ def list_uploaded_files (bucket, prefix, kind):
     done = set([])
     extension = f".{kind}"
 
-    for obj in bucket.objects.filter(Prefix=prefix + "/" + kind):
+    for obj in bucket.objects.filter(Prefix=prefix + "/pub/" + kind):
         if obj.key.endswith(extension):
-            uuid = obj.key.split("/")[2].split(extension)[0]
+            uuid = obj.key.split("/")[3].split(extension)[0]
             done.add(uuid)
-
+    
     return done
 
 
@@ -48,7 +49,7 @@ def iter_needed_files (dir_path, kind, done):
     iterator for the local files of a particular kind which 
     haven't been uploaded yet
     """
-    for file_name in list(dir_path.glob(f"*.{kind}")):
+    for file_name in tqdm(list(dir_path.glob(f"*.{kind}")), ascii=True, desc=f"{kind} files"):
         uuid = file_name.stem
 
         if uuid not in done:
@@ -65,10 +66,11 @@ def upload_needed_files (handle, bucket, prefix, dir_path, kind, iter):
     for uuid in iter:
         file_name = uuid + extension
         local_path = dir_path / file_name
-        s3_path = prefix + "/" + kind + "/"
+        grid_path = prefix + "/pub/" + kind + "/"
 
-        print("uploading {} to {}".format(local_path, s3_path))
-        upload_file(handle, local_path.as_posix(), s3_path)
+        #print("uploading {} to {}".format(local_path, grid_path))
+
+        upload_file(handle, local_path.as_posix(), grid_path + file_name)
         count += 1
 
     return count
@@ -86,22 +88,22 @@ def manage_upload (handle, bucket, prefix, pub_dir, kind):
     return len(done), count
 
 
-def write_manifest (handle, prefix, manifest_data, filename="MANIFEST.txt"):
+def write_manifest (handle, prefix, manifest_data, file_name="MANIFEST.txt"):
     """
     summarize details about the upload to a `MANIFEST.txt` 
     file in the bucket
     """
-    with open(filename, "w") as f:
+    with open(file_name, "w") as f:
         for key, val in manifest_data.items():
             f.write("{}: {}\n".format(key, str(val)))
 
-    s3_path = prefix + "/" + filename
-    upload_file(handle, filename, s3_path)
+    grid_path = prefix + "/" + file_name
+    upload_file(handle, file_name, grid_path)
 
 
 def main ():
     # locate the Git tag info
-    git_path=Path.cwd().as_posix()
+    git_path = Path.cwd().as_posix()
     repo = Repo(git_path)
     tags = sorted(repo.tags, key=lambda t: t.commit.committed_datetime)
 
