@@ -1,3 +1,5 @@
-date: 2020-01-03
-uploaded: 0
-release: v0.1.8
+date: 2020-02-18
+release: v1.0.8
+uploaded_pdf: 1452
+uploaded_json: 47
+uploaded_txt: 46
