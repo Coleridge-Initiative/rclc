@@ -51,7 +51,7 @@ def Convert (base_path=".", force=False):
             txt_file = pdf_file.stem + ".txt"
             txt_path = txt_dir / txt_file
 
-            with codecs.open(text_path, "wb", encoding="utf8") as f:
+            with codecs.open(txt_path, "wb", encoding="utf8") as f:
                 f.write(parsr.get_text())
 
         except:
